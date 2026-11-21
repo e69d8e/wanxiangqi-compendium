@@ -2,6 +2,7 @@
 
 > **在线访问**：<https://wanxiangqi-compendium.netlify.app> · **源码仓库**：<https://github.com/e69d8e/wanxiangqi-compendium>
 > 正式服 S1 · v1.11.1 · 资料核验至 2026-11-21 · 603 条结构化条目
+> [![Deploy to Netlify](https://github.com/e69d8e/wanxiangqi-compendium/actions/workflows/deploy.yml/badge.svg)](https://github.com/e69d8e/wanxiangqi-compendium/actions/workflows/deploy.yml)
 
 一个可离线部署、可全文检索的《王者万象棋》资料站：英雄、棋手、天赋、装备、效果牌、玩法机制与版本公告修订，全部结构化整理，并逐条标注来源与核验状态。
 
@@ -55,6 +56,19 @@ npm run preview  # 本地预览构建产物
 > export PATH="/opt/homebrew/bin:$PATH"
 > npm run build
 > ```
+
+## 持续部署（push 即上线）
+
+仓库已通过 **GitHub Actions** 与 Netlify 站点连通：推送到 `main` 或手动触发 `.github/workflows/deploy.yml` 时，CI 依次执行 `npm ci` → `npm test`（13 条断言）→ `npm run validate:data` → `npm run build`，再用 Netlify CLI 做生产部署；任何一步失败都不会覆盖线上版本。
+
+需要两个仓库机密（已配置）：
+
+| Secret | 说明 |
+| --- | --- |
+| `NETLIFY_AUTH_TOKEN` | Netlify 个人访问令牌，用于 CLI 认证 |
+| `NETLIFY_SITE_ID` | 站点 ID `20d9a79f-37e0-4ac1-a58d-e511d7486c7f` |
+
+> 说明：Netlify 开放 API 没有“绑定 Git 仓库”的方法（只有 `unlinkSiteRepo`），原生 Git 集成必须走 GitHub App 的 OAuth 授权流程；因此这里用 CLI + Actions 完成等效的持续部署，效果是推送即上线，Netlify 后台的 Deploys 列表会显示由 API/CLI 触发的生产部署。
 
 ## 部署到 Netlify
 
