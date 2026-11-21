@@ -1,5 +1,8 @@
 # 万象棋谱 · 王者万象棋资料库
 
+> **在线访问**：<https://wanxiangqi-compendium.netlify.app> · **源码仓库**：<https://github.com/e69d8e/wanxiangqi-compendium>
+> 正式服 S1 · v1.11.1 · 资料核验至 2026-11-21 · 603 条结构化条目
+
 一个可离线部署、可全文检索的《王者万象棋》资料站：英雄、棋手、天赋、装备、效果牌、玩法机制与版本公告修订，全部结构化整理，并逐条标注来源与核验状态。
 
 ![风格](https://img.shields.io/badge/风格-棋盘档案馆-0D211C) ![数据](https://img.shields.io/badge/收录-603_条-brightgreen) ![版本](https://img.shields.io/badge/正式服_S1-v1.11.1-D6B878)
@@ -54,6 +57,16 @@ npm run preview  # 本地预览构建产物
 > ```
 
 ## 部署到 Netlify
+
+线上站点：<https://wanxiangqi-compendium.netlify.app>（Netlify 项目 `wanxiangqi-compendium`，站点 ID `20d9a79f-37e0-4ac1-a58d-e511d7486c7f`），当前部署由 Netlify CLI 完成：
+
+```bash
+npm install -g netlify-cli
+netlify login                 # 或 NETLIFY_AUTH_TOKEN=... 免交互
+netlify link                  # 关联已有站点 wanxiangqi-compendium
+netlify deploy --prod --dir=dist --message "..."   # 生产部署
+# 或者让 Netlify 远程构建：netlify deploy --build --prod
+```
 
 仓库已包含 `netlify.toml`，无需额外配置：
 
