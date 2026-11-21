@@ -1,0 +1,412 @@
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const rootDir = fileURLToPath(new URL("../", import.meta.url));
+const outputDir = path.join(rootDir, "src", "data");
+
+const OFFICIAL_GUIDE_URL = "https://wxq.qq.com/cp/a202609xszy/";
+const OFFICIAL_CARD_URL = "https://wxq.qq.com/cp/a20260707sfgw/index.html";
+const KNOWLEDGE_SITE_URL = "https://wzwxq.com";
+// 公告修订层：官方卡面快照可能落后于正式服公告，以下条目按公告“调整后”原文覆盖。
+const SOURCE_V191 = { id: "18940994", date: "2026-11-05" };
+const SOURCE_V194 = { id: "18943094", date: "2026-11-06" };
+const SOURCE_V1111 = { id: "18956191", date: "2026-11-19" };
+const PATCH_DESCRIPTION =
+  "合成英雄时，获得1能量，每回合限3次。单回合内合成第4次时随机获得1张场上英雄的复制。";
+const PATCH_SOURCE = SOURCE_V1111;
+// v1.9.4（18943094）将乔汐秘技牌“潮汐的交响”由触发 3 次 / 额外 +5 改为 2 次 / 额外 +3。
+const QIAOXI_TIDE_CARD_ID = 92210;
+const QIAOXI_TIDE_DESCRIPTION =
+  "场上随机英雄等级+5，触发2次，若对象为温柔呼唤的英雄则额外等级+3，每次使用后，触发次数+2。";
+const QIAOXI_TIDE_SOURCE = SOURCE_V194;
+
+const CARD_OVERRIDES = [
+  {
+    player: "嬴律",
+    cardId: 94352,
+    text: PATCH_DESCRIPTION,
+    source: PATCH_SOURCE,
+    reason: "v1.11.1 将复制条件由“每回合能量达到上限”改为“单回合内合成第4次”。",
+  },
+  {
+    player: "乔汐",
+    cardId: QIAOXI_TIDE_CARD_ID,
+    text: QIAOXI_TIDE_DESCRIPTION,
+    source: QIAOXI_TIDE_SOURCE,
+    reason: "v1.9.4 将触发次数 3→2、额外等级 +5→+3。",
+  },
+  {
+    player: "乔汐",
+    cardId: 92299,
+    text: "使用技能，随机获得1张3-5阶的转瞬英雄牌。",
+    source: SOURCE_V191,
+    reason: "v1.9.1 将召唤范围由 2-5 阶提升为 3-5 阶。",
+  },
+  {
+    player: "嬴律",
+    cardId: 94302,
+    text: "棋手升级时获得3能量，满级后每回合获得2次临时刷新。",
+    source: SOURCE_V191,
+    reason: "v1.9.1 将升级返能由 2 能量提升为 3 能量。",
+  },
+  {
+    player: "嬴律",
+    cardId: 94362,
+    text: "能量可用至-15。回合结束时若能量为负，则下回合获得的能量-2。决策颁布者额外特权：不受到惩罚，回合结束时每有1名其他玩家能量为负，则下回合获得2能量。",
+    source: SOURCE_V191,
+    reason:
+      "v1.9.1 将结算点由“回合开始时/本回合”改为“回合结束时/下回合”，并重写颁布者特权。",
+  },
+  {
+    player: "安琪拉",
+    cardId: 95153,
+    text: "飞行器继承连接英雄30%的攻击速度。",
+    source: SOURCE_V191,
+    reason: "v1.9.1 将继承攻速由 25% 提升为 30%。",
+  },
+  {
+    player: "安琪拉",
+    cardId: 95163,
+    text: "开战后15秒内，飞行器继承连接英雄125%的法术攻击力。",
+    source: SOURCE_V191,
+    reason: "v1.9.1 将继承法攻由 100% 提升为 125%。",
+  },
+];
+const OMITTED_METADATA_KEYS = new Set([
+  "posterSource",
+  "avatarSource",
+  "sourceCollection",
+]);
+
+async function readJson(relativePath) {
+  return JSON.parse(await readFile(path.join(rootDir, relativePath), "utf8"));
+}
+
+function withoutOmittedMetadata(value) {
+  if (Array.isArray(value)) {
+    return value.map(withoutOmittedMetadata);
+  }
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.entries(value)
+        .filter(([key]) => !OMITTED_METADATA_KEYS.has(key))
+        .map(([key, nested]) => [key, withoutOmittedMetadata(nested)]),
+    );
+  }
+  return value;
+}
+
+function collectSearchText(value, parts) {
+  if (value == null || typeof value === "boolean") return;
+  if (Array.isArray(value)) {
+    for (const entry of value) collectSearchText(entry, parts);
+    return;
+  }
+  if (typeof value === "object") {
+    for (const nested of Object.values(value)) collectSearchText(nested, parts);
+    return;
+  }
+  const text = String(value)
+    .replace(/<[^>]*>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (text) parts.push(text);
+}
+
+function makeSearchText(item) {
+  const parts = [];
+  const directKeys = [
+    "id",
+    "rawId",
+    "name",
+    "type",
+    "explorerType",
+    "faction",
+    "quality",
+    "original",
+    "description",
+    "rawDescription",
+    "formal",
+    "awakening",
+    "acquisition",
+    "subtype",
+    "equipmentType",
+    "combatCategory",
+    "talentGroup",
+    "talentStage",
+    "officialKeywords",
+    "resource",
+    "trigger",
+    "related",
+    "receivers",
+    "axis",
+    "economy",
+    "start",
+  ];
+
+  for (const key of directKeys) collectSearchText(item[key], parts);
+  collectSearchText(item.officialSkill, parts);
+
+  for (const key of ["relatedCards", "derivedCards"]) {
+    for (const card of item[key] ?? []) {
+      collectSearchText(
+        [card.name, card.descriptionPlain, card.description, card.rawDescription],
+        parts,
+      );
+    }
+  }
+
+  for (const section of item.skillSections ?? []) {
+    collectSearchText(
+      [section.type, section.name, section.text, section.cardId],
+      parts,
+    );
+  }
+  for (const card of item.cards ?? []) {
+    collectSearchText(
+      [card.id, card.name, card.description, card.rawDescription],
+      parts,
+    );
+  }
+
+  return [...new Set(parts)].join(" ").toLocaleLowerCase("zh-CN");
+}
+
+function withCommonFields(item, kind) {
+  if (!item.id) throw new Error(`${kind} 条目缺少 id：${item.name ?? "未知"}`);
+  const sourceUrl =
+    kind === "player"
+      ? `${KNOWLEDGE_SITE_URL}/players`
+      : `${KNOWLEDGE_SITE_URL}/explore/${encodeURIComponent(item.id)}`;
+
+  return {
+    ...item,
+    kind,
+    searchText: makeSearchText(item),
+    localImage: `/images/${kind}/${item.id}.webp`,
+    sourceUrl,
+    officialUrl: `${OFFICIAL_CARD_URL}#${kind === "player" ? "page3" : "page4"}`,
+  };
+}
+
+function normalizeCatalog(catalog, kind) {
+  return catalog.items.map((sourceItem) => {
+    const merged = withoutOmittedMetadata({
+      ...(catalog.itemDefaults ?? {}),
+      ...sourceItem,
+    });
+    return withCommonFields(merged, kind);
+  });
+}
+
+const PLAYER_CARD_KEYS = [
+  "id",
+  "name",
+  "description",
+  "rawDescription",
+  "path",
+  "sourceUrl",
+  "shopBuyCost",
+  "previewCardIDs",
+  "sourceCardIDs",
+];
+
+function normalizePlayer(sourcePlayer) {
+  const player = withoutOmittedMetadata(sourcePlayer);
+  const id = player.id ?? `player-${player.lordId}`;
+  if (!player.lordId && !player.id) {
+    throw new Error(`棋手缺少 id/lordId：${player.name ?? "未知"}`);
+  }
+
+  const normalized = {
+    ...player,
+    id,
+    ...(player.rawId == null && player.lordId != null
+      ? { rawId: String(player.lordId) }
+      : {}),
+    versionStatus: player.versionStatus ?? "current_official",
+  };
+
+  if (Array.isArray(player.cards)) {
+    normalized.cards = player.cards.map((sourceCard) => {
+      const card = Object.fromEntries(
+        PLAYER_CARD_KEYS.filter((key) => key in sourceCard).map((key) => [
+          key,
+          sourceCard[key],
+        ]),
+      );
+      const override = CARD_OVERRIDES.find(
+        (entry) =>
+          entry.player === player.name && entry.cardId === Number(card.id),
+      );
+      if (override) {
+        card.description = override.text;
+        card.rawDescription = override.text;
+        card.sourceUpdate = { ...override.source };
+        card.imageStatus = "已按公告修订；卡面图片保留官网原件";
+      }
+      return card;
+    });
+  }
+
+  if (Array.isArray(normalized.skillSections)) {
+    normalized.skillSections = normalized.skillSections.map((section) => {
+      const override = CARD_OVERRIDES.find(
+        (entry) =>
+          entry.player === player.name &&
+          entry.cardId === Number(section.cardId),
+      );
+      if (!override) return section;
+      return {
+        ...section,
+        text: override.text,
+        sourceUpdate: { ...override.source },
+        imageStatus: "已按公告修订；卡面图片保留官网原件",
+      };
+    });
+  }
+
+  if (player.name === "乔汐" && Array.isArray(normalized.skillSections)) {
+    if (!normalized.skillSections.some((section) => section.name === "潮汐的交响")) {
+      normalized.skillSections = [
+        ...normalized.skillSections,
+        {
+          type: "秘技牌",
+          name: "潮汐的交响",
+          text: QIAOXI_TIDE_DESCRIPTION,
+          cardId: QIAOXI_TIDE_CARD_ID,
+          currentOfficial: true,
+          sourceUpdate: { ...QIAOXI_TIDE_SOURCE },
+        },
+      ];
+    }
+  }
+
+  return withCommonFields(normalized, "player");
+}
+
+function countCurrent(items) {
+  return items.filter((item) => item.versionStatus !== "historical_pending").length;
+}
+
+function assertUniqueIds(items, label) {
+  const ids = new Set();
+  for (const item of items) {
+    if (ids.has(item.id)) throw new Error(`${label} 存在重复 id：${item.id}`);
+    ids.add(item.id);
+  }
+}
+
+async function writeJson(filename, value) {
+  await writeFile(path.join(outputDir, filename), `${JSON.stringify(value, null, 2)}\n`);
+}
+
+const ITEM_CAVEATS = {
+  "hero-sunbin":
+    "技能基础数值存在来源分歧：镜像图鉴写作“100+100% 法术攻击力”，多家第三方攻略写作“50+100% 法术攻击力（总伤害 90）”。本站按镜像数据展示并保留此提示，实战以端内技能说明为准。",
+};
+
+const catalogDefinitions = [
+  { kind: "hero", input: "hero.json", output: "heroes.json" },
+  { kind: "equipment", input: "equipment.json", output: "equipment.json" },
+  { kind: "talent", input: "talent.json", output: "talents.json" },
+  { kind: "effect", input: "effect.json", output: "effects.json" },
+];
+
+const datasets = {};
+for (const definition of catalogDefinitions) {
+  const catalog = await readJson(`.research/catalogs/${definition.input}`);
+  const items = normalizeCatalog(catalog, definition.kind);
+  for (const item of items) {
+    if (ITEM_CAVEATS[item.id]) item.caveat = ITEM_CAVEATS[item.id];
+  }
+  assertUniqueIds(items, definition.kind);
+  datasets[definition.kind] = items;
+  await writeJson(definition.output, items);
+}
+
+const playerArray = await readJson(".research/player-array-1.json");
+const wufeng = await readJson(".research/player-wufeng.json");
+const players = [...playerArray, wufeng].map(normalizePlayer);
+assertUniqueIds(players, "player");
+datasets.player = players;
+await writeJson("players.json", players);
+
+for (const override of CARD_OVERRIDES) {
+  const player = players.find((entry) => entry.name === override.player);
+  const card = player?.cards?.find(
+    (entry) => Number(entry.id) === override.cardId,
+  );
+  if (card?.description !== override.text || card?.rawDescription !== override.text) {
+    throw new Error(
+      `${override.player} 关联卡 ${override.cardId} 的公告修订文案未正确写入`,
+    );
+  }
+  if (
+    card?.sourceUpdate?.id !== override.source.id ||
+    card?.sourceUpdate?.date !== override.source.date
+  ) {
+    throw new Error(
+      `${override.player} 关联卡 ${override.cardId} 的公告来源未正确写入`,
+    );
+  }
+  const section = player?.skillSections?.find(
+    (entry) => Number(entry.cardId) === override.cardId,
+  );
+  if (section && section.text !== override.text) {
+    throw new Error(
+      `${override.player} 技能段 ${override.cardId} 的公告修订文案未同步`,
+    );
+  }
+}
+
+const categories = Object.fromEntries(
+  ["hero", "equipment", "talent", "effect", "player"].map((kind) => [
+    kind,
+    {
+      totalCount: datasets[kind].length,
+      currentCount: countCurrent(datasets[kind]),
+    },
+  ]),
+);
+const allItems = Object.values(datasets).flat();
+const counts = Object.fromEntries(
+  Object.entries(categories).map(([kind, count]) => [
+    kind,
+    { total: count.totalCount, current: count.currentCount },
+  ]),
+);
+const meta = {
+  currentPatch: "v1.11.1",
+  patchDate: "2026-11-19",
+  verifiedAt: "2026-11-21",
+  season: "S1 正式服",
+  totalCount: allItems.length,
+  currentCount: countCurrent(allItems),
+  currentDefinition: "versionStatus !== 'historical_pending'",
+  categories,
+  // Keep the compact aliases used by the existing CatalogMeta type as well.
+  counts,
+  officialUrl: "https://wxq.qq.com/",
+  officialGuideUrl: OFFICIAL_GUIDE_URL,
+  sourceUrl: `${KNOWLEDGE_SITE_URL}/`,
+  knowledgeSiteUrl: `${KNOWLEDGE_SITE_URL}/`,
+};
+await writeJson("meta.json", meta);
+
+console.log(
+  `数据构建完成：总计 ${meta.totalCount}，当前 ${meta.currentCount}\n` +
+    Object.entries(categories)
+      .map(
+        ([kind, count]) =>
+          `${kind}: total=${count.totalCount}, current=${count.currentCount}`,
+      )
+      .join("\n"),
+);
+
+const caveated = [...datasets.hero, ...datasets.player].filter((item) => item.caveat);
+if (caveated.length !== Object.keys(ITEM_CAVEATS).length) {
+  throw new Error("ITEM_CAVEATS 未被完整写入条目");
+}
+console.log(`数值分歧提示：${caveated.map((item) => item.name).join("、")}`);

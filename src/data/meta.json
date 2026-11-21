@@ -1,0 +1,57 @@
+{
+  "currentPatch": "v1.11.1",
+  "patchDate": "2026-11-19",
+  "verifiedAt": "2026-11-21",
+  "season": "S1 正式服",
+  "totalCount": 603,
+  "currentCount": 581,
+  "currentDefinition": "versionStatus !== 'historical_pending'",
+  "categories": {
+    "hero": {
+      "totalCount": 86,
+      "currentCount": 86
+    },
+    "equipment": {
+      "totalCount": 95,
+      "currentCount": 77
+    },
+    "talent": {
+      "totalCount": 300,
+      "currentCount": 299
+    },
+    "effect": {
+      "totalCount": 101,
+      "currentCount": 98
+    },
+    "player": {
+      "totalCount": 21,
+      "currentCount": 21
+    }
+  },
+  "counts": {
+    "hero": {
+      "total": 86,
+      "current": 86
+    },
+    "equipment": {
+      "total": 95,
+      "current": 77
+    },
+    "talent": {
+      "total": 300,
+      "current": 299
+    },
+    "effect": {
+      "total": 101,
+      "current": 98
+    },
+    "player": {
+      "total": 21,
+      "current": 21
+    }
+  },
+  "officialUrl": "https://wxq.qq.com/",
+  "officialGuideUrl": "https://wxq.qq.com/cp/a202609xszy/",
+  "sourceUrl": "https://wzwxq.com/",
+  "knowledgeSiteUrl": "https://wzwxq.com/"
+}

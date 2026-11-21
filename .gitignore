@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.research/
+.npm-cache/
+.pnpm-store/
+*.log
+.DS_Store
+*.tsbuildinfo
