@@ -11,7 +11,7 @@ import {
   seasons,
 } from '../src/data';
 import { isCurrent, statusLabel } from '../src/lib/catalog';
-import { coreRules, glossary, upgradeCosts } from '../src/data/mechanics';
+import { coreRules, glossary, keywordGlossary, triggerKeywordGlossary, upgradeCosts } from '../src/data/mechanics';
 
 describe('数据集完整性', () => {
   it('分类数量与 meta 一致', () => {
@@ -122,8 +122,18 @@ describe('玩法机制数据', () => {
     expect(upgradeCosts.reduce((sum, step) => sum + step.cost, 0)).toBe(87);
   });
 
-  it('核心规则与关键词数量', () => {
+  it('核心规则与关键词覆盖', () => {
     expect(coreRules.length).toBeGreaterThanOrEqual(9);
     expect(glossary.length).toBeGreaterThanOrEqual(18);
+    expect(triggerKeywordGlossary.length).toBe(11);
+    expect(keywordGlossary.length).toBe(18);
+    expect(keywordGlossary.map((entry) => entry.term)).toEqual(expect.arrayContaining([
+      '登场', '夺取', '牺牲', '整备', '开团', '闪现', '复生', '退场', '凯旋', '败阵', '图腾',
+      '完美复生', '觉醒', '临时等级', '永久等级', '阿科米亚核心', '转瞬', '古币',
+    ]));
+    for (const entry of keywordGlossary) {
+      expect(entry.timing, entry.term).toBeTruthy();
+      expect(entry.definition.length, entry.term).toBeGreaterThan(12);
+    }
   });
 });

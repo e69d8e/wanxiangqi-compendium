@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { AlertTriangle, ArrowRight, Calculator, ExternalLink, ScrollText } from 'lucide-react';
-import { coreRules, glossary, officialGuideUrl, upgradeCosts } from '../data/mechanics';
+import { coreRules, glossary, keywordSourceLinks, officialGuideUrl, relatedMechanicGlossary, triggerKeywordGlossary, upgradeCosts } from '../data/mechanics';
 import type { SeasonDataset } from '../types';
 
 export function Mechanics({ season }: { season: SeasonDataset }) {
@@ -29,6 +29,67 @@ export function Mechanics({ season }: { season: SeasonDataset }) {
 
     {latestPatch && <section className="patch-mechanics"><div><span className="eyebrow">LATEST OFFICIAL PATCH / {latestPatch.date}</span><h2>{latestPatch.version} · {latestPatch.title}</h2><p>最新正式服公告中与图鉴直接相关的修订：</p></div><div className="before-after"><article><span>调整前</span><p>{latestPatch.before ?? '公告未提供调整前原文'}</p></article><ArrowRight size={22} /><article><span>{latestPatch.changes[0]?.label ?? '调整后'}</span><p>{latestPatch.changes[0]?.description ?? '公告未提供调整后文本'}</p></article></div><a href={`https://wxq.qq.com/cp/a20260707sfgw/newsdetail.html?newsid=${latestPatch.sourceUpdate.id}`} target="_blank" rel="noreferrer">查看官方公告 {latestPatch.sourceUpdate.id} <ExternalLink size={14} /></a></section>}
 
-    <section className="glossary-section"><div className="section-heading"><div><span className="eyebrow">KEYWORD DICTIONARY</span><h2>关键词词典</h2></div><p>只收录能从官方规则或卡牌原文明确解释的术语，<br />不把推测写成机制。</p></div><div className="glossary-grid">{glossary.map((entry, index) => <article key={entry.term}><span>{String(index + 1).padStart(2, '0')}</span><ScrollText size={18} /><h3>{entry.term}</h3><p>{entry.definition}</p></article>)}</div></section>
+    <section className="glossary-section">
+      <div className="section-heading">
+        <div><span className="eyebrow">KEYWORD DICTIONARY</span><h2>关键词词典</h2></div>
+        <p>从「登场」到「转瞬」，<br />把卡面里最常被略过的规则一次讲清。</p>
+      </div>
+
+      <div className="glossary-groups">
+        <div className="glossary-group">
+          <div className="glossary-group-head">
+            <div><span className="eyebrow">BASIC TERMS</span><h3>基础术语<span>{glossary.length} 条</span></h3></div>
+            <p>只列官方指引或卡牌原文可直接解释的术语，不把推测写成机制。</p>
+          </div>
+          <div className="glossary-grid">{glossary.map((entry, index) => <article key={entry.term}><span>{String(index + 1).padStart(2, '0')}</span><ScrollText size={18} /><h4>{entry.term}</h4><p>{entry.definition}</p></article>)}</div>
+        </div>
+
+        <KeywordGroup
+          eyebrow="CARD TRIGGER KEYWORDS"
+          title="触发关键词"
+          description="英雄牌面直接标注的触发词；「合成」已归入基础术语。"
+          entries={triggerKeywordGlossary}
+        />
+
+        <KeywordGroup
+          eyebrow="RELATED MECHANICS"
+          title="相关机制术语"
+          description="卡面与攻略中频繁出现、影响等级与结算的机制。"
+          entries={relatedMechanicGlossary}
+        />
+      </div>
+
+      <div className="glossary-note">
+        <AlertTriangle size={17} />
+        <div>
+          <p><strong>证据说明：</strong>关键词名称与牌面效果可在官方卡牌原文中核对；官方尚未发布统一关键词释义，触发时机与结算细节由多篇社区攻略交叉归纳，统一标记为「待端内复核」。</p>
+          <div className="glossary-sources">{keywordSourceLinks.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.label} <ExternalLink size={11} /></a>)}</div>
+        </div>
+      </div>
+    </section>
   </main>;
+}
+
+function KeywordGroup({ eyebrow, title, description, entries }: {
+  eyebrow: string;
+  title: string;
+  description: string;
+  entries: readonly { term: string; timing: string; definition: string; note?: string }[];
+}) {
+  return <div className="glossary-group">
+    <div className="glossary-group-head">
+      <div><span className="eyebrow">{eyebrow}</span><h3>{title}<span>{entries.length} 条</span></h3></div>
+      <p>{description}</p>
+    </div>
+    <div className="glossary-grid keyword-grid">
+      {entries.map((entry, index) => <article key={entry.term}>
+        <span>{String(index + 1).padStart(2, '0')}</span>
+        <ScrollText size={18} />
+        <small className="keyword-timing">{entry.timing}</small>
+        <h4>{entry.term}</h4>
+        <p>{entry.definition}</p>
+        {entry.note && <p className="keyword-note">{entry.note}</p>}
+      </article>)}
+    </div>
+  </div>;
 }
