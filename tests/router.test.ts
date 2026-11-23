@@ -15,4 +15,10 @@ describe('hash 路由', () => {
   it('接受 URLSearchParams', () => {
     expect(makeHash('players', new URLSearchParams({ item: 'player-22' }))).toBe('#/players?item=player-22');
   });
+
+  it('保留赛季查询参数', () => {
+    expect(makeHash('heroes', { season: 's1', filter: '河洛' })).toBe(
+      '#/heroes?season=s1&filter=%E6%B2%B3%E6%B4%9B',
+    );
+  });
 });

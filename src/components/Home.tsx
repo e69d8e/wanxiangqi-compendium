@@ -1,19 +1,26 @@
 import { ArrowRight, BookOpen, Boxes, Search, ShieldCheck, Sparkles, Swords, Users, WandSparkles } from 'lucide-react';
-import { effects, equipment, heroes, meta, players, talents } from '../data';
-import type { CatalogItem, View } from '../types';
+import type { CatalogItem, SeasonDataset, View } from '../types';
 import { CardImage } from './CardImage';
 
 const featuredNames = ['吕布', '安琪拉', '敖隐', '百里玄策', '蒙犽'];
-const factions = ['河洛', '逐鹿', '三分之地', '日落海', '大河流域', '无阵营'];
+const preferredFactions = ['河洛', '逐鹿', '三分之地', '日落海', '大河流域', '无阵营'];
 
 interface Props {
+  season: SeasonDataset;
   onNavigate: (view: View, params?: Record<string, string>) => void;
   onSelect: (item: CatalogItem) => void;
   onSearch: () => void;
 }
 
-export function Home({ onNavigate, onSelect, onSearch }: Props) {
-  const featured = featuredNames.map((name) => heroes.find((hero) => hero.name === name)).filter((item): item is CatalogItem => Boolean(item));
+export function Home({ season, onNavigate, onSelect, onSearch }: Props) {
+  const { effects, equipment, heroes, meta, players, talents } = season;
+  const named = featuredNames.map((name) => heroes.find((hero) => hero.name === name)).filter((item): item is CatalogItem => Boolean(item));
+  const featured = [...named, ...heroes.filter((hero) => !named.includes(hero)).slice(0, Math.max(0, 5 - named.length))];
+  const availableFactions = [...new Set(heroes.map((hero) => hero.faction).filter((faction): faction is string => Boolean(faction)))];
+  const factions = [...preferredFactions.filter((faction) => availableFactions.includes(faction)), ...availableFactions.filter((faction) => !preferredFactions.includes(faction))].slice(0, 6);
+  const maxFactionCount = Math.max(1, ...factions.map((faction) => heroes.filter((hero) => hero.faction === faction).length));
+  const patch = meta.latestPatch;
+  const patchPlayer = patch?.playerName ? players.find((player) => player.name === patch.playerName) : undefined;
   const categories = [
     { view: 'heroes' as View, icon: Swords, index: '01', title: '英雄棋谱', count: heroes.length, note: '阵营 · 技能 · 觉醒 · 成长' },
     { view: 'players' as View, icon: Users, index: '02', title: '棋手档案', count: players.length, note: '技能 · 秘技 · 专属 · 关联卡' },
@@ -48,18 +55,18 @@ export function Home({ onNavigate, onSelect, onSearch }: Props) {
     </section>
 
     <section className="home-section page-shell faction-section">
-      <div className="section-heading"><div><span className="eyebrow">SIX FACTIONS / S1</span><h2>六方势力，一局万象</h2></div><p>阵营是英雄分类与机制线索，<br />不直接等同于传统自走棋的羁绊总表。</p></div>
-      <div className="faction-ledger">{factions.map((faction, index) => {
+      <div className="section-heading"><div><span className="eyebrow">{factions.length === 6 ? 'SIX' : 'MULTI'} FACTIONS / {meta.shortLabel}</span><h2>{factions.length === 6 ? '六方势力，一局万象' : '各方势力，一局万象'}</h2></div><p>阵营是英雄分类与机制线索，<br />不直接等同于传统自走棋的羁绊总表。</p></div>
+      <div className="faction-ledger">{factions.map((faction) => {
         const count = heroes.filter((hero) => hero.faction === faction).length;
-        return <button key={faction} onClick={() => onNavigate('heroes', { filter: faction })}><span className="faction-mark">{['河', '逐', '三', '日', '河', '无'][index]}</span><div><h3>{faction}</h3><span>{count} 名英雄</span></div><div className="faction-bar"><i style={{ width: `${Math.max(8, count / Math.max(...factions.map((name) => heroes.filter((hero) => hero.faction === name).length)) * 100)}%` }} /></div><ArrowRight size={17} /></button>;
+        return <button key={faction} onClick={() => onNavigate('heroes', { filter: faction })}><span className="faction-mark">{faction.replace('阵营', '').slice(0, 1)}</span><div><h3>{faction}</h3><span>{count} 名英雄</span></div><div className="faction-bar"><i style={{ width: `${Math.max(8, count / maxFactionCount * 100)}%` }} /></div><ArrowRight size={17} /></button>;
       })}</div>
     </section>
 
-    <section className="page-shell patch-section">
+    {patch && <section className="page-shell patch-section">
       <div className="patch-label"><span>最新校勘</span><strong>PATCH<br />{meta.currentPatch}</strong><small>{meta.patchDate}</small></div>
-      <div className="patch-copy"><span className="eyebrow">OFFICIAL UPDATE / 18956191</span><h2>嬴律 · 并购红利</h2><p>每回合前 3 次合成英雄仍各获得 1 能量；复制效果改为“单回合内合成第 4 次时，随机获得 1 张场上英雄的复制”。</p><button onClick={() => { const ying = players.find((player) => player.name === '嬴律'); if (ying) onSelect(ying); }}>查看棋手修订档案 <ArrowRight size={16} /></button></div>
+      <div className="patch-copy"><span className="eyebrow">OFFICIAL UPDATE / {patch.sourceUpdate.id}</span><h2>{patch.title}</h2><p>{patch.changes[0]?.description}</p>{patchPlayer && <button onClick={() => onSelect(patchPlayer)}>查看棋手修订档案 <ArrowRight size={16} /></button>}</div>
       <div className="patch-aside"><ShieldCheck size={24} /><strong>公告优先于旧卡面</strong><p>静态图鉴可能尚未同步热更。所有公告修订均保留来源编号与日期。</p></div>
-    </section>
+    </section>}
 
     <section className="home-section page-shell tools-section">
       <button className="energy-teaser" onClick={() => onNavigate('mechanics')}><div><span className="eyebrow">RULES & ENERGY</span><h2>每一步升级，<br />都算得明白。</h2><p>基础规则、关键词词典、升级能量阶梯与目标等级计算器。</p><span className="text-link">翻阅玩法机制 <ArrowRight size={16} /></span></div><div className="energy-steps">{[7, 13, 17, 23, 27].map((cost, index) => <div key={cost} style={{ height: `${38 + index * 18}px` }}><span>LV.{index + 2}</span><strong>{cost}</strong><small>能量</small></div>)}<em>社区汇总 · 待端内复核</em></div></button>

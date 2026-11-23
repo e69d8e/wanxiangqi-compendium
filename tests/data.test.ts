@@ -1,5 +1,15 @@
 import { describe, expect, it } from 'vitest';
-import { allItems, dataByKind, heroes, itemById, meta, players } from '../src/data';
+import {
+  allItems,
+  dataByKind,
+  defaultSeason,
+  getSeason,
+  heroes,
+  itemById,
+  meta,
+  players,
+  seasons,
+} from '../src/data';
 import { isCurrent, statusLabel } from '../src/lib/catalog';
 import { coreRules, glossary, upgradeCosts } from '../src/data/mechanics';
 
@@ -39,6 +49,39 @@ describe('数据集完整性', () => {
       expect(hero.officialSkill?.name, hero.id).toBeTruthy();
       expect(hero.officialSkill?.enhancements?.length, hero.id).toBe(3);
       expect(hero.rawBaseStats?.hp, hero.id).toBeGreaterThan(0);
+    }
+  });
+});
+
+
+describe('多赛季数据', () => {
+  it('至少加载一个赛季，默认赛季有效', () => {
+    expect(seasons.length).toBeGreaterThanOrEqual(1);
+    expect(defaultSeason.meta.id).toBe('s1');
+    expect(getSeason('s1').meta.id).toBe('s1');
+    expect(getSeason('not-a-season')).toBe(defaultSeason);
+  });
+
+  it('每个赛季的分类、计数与索引互相一致', () => {
+    for (const season of seasons) {
+      expect(season.allItems.length).toBe(season.meta.totalCount);
+      expect(season.allItems.filter(isCurrent).length).toBe(season.meta.currentCount);
+      expect(season.itemById.size).toBe(season.allItems.length);
+      for (const [kind, counts] of Object.entries(season.meta.counts)) {
+        const items = season.dataByKind[kind as keyof typeof season.dataByKind];
+        expect(items.length, `${season.meta.id}/${kind}`).toBe(counts.total);
+        expect(items.filter(isCurrent).length, `${season.meta.id}/${kind}`).toBe(counts.current);
+      }
+    }
+  });
+
+  it('每个赛季的图片路径带自己的赛季前缀，不串赛季', () => {
+    for (const season of seasons) {
+      for (const item of season.allItems) {
+        expect(item.localImage, `${season.meta.id}/${item.id}`).toMatch(
+          new RegExp(`^/images/${season.meta.id}/`),
+        );
+      }
     }
   });
 });

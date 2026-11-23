@@ -297,6 +297,32 @@ kbd {
   background: var(--jade);
   box-shadow: 0 0 0 3px #69d6b52e;
 }
+.season-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+}
+.season-switcher button {
+  padding: 4px 7px;
+  color: var(--muted);
+  font-family: var(--font-num);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  border-radius: 1px;
+}
+.season-switcher button:hover { color: var(--paper); }
+.season-switcher button.active { color: var(--ink); background: var(--jade); }
+.season-patch {
+  padding-inline: 6px 4px;
+  color: var(--muted);
+  font-family: var(--font-num);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
 .header-search {
   display: inline-flex;
   align-items: center;
@@ -2134,7 +2160,7 @@ kbd {
   .main-nav.open button::after { display: none; }
   .header-inner { position: relative; }
   .mobile-menu { display: inline-flex; }
-  .header-version { display: none; }
+  .header-version, .season-patch { display: none; }
   .header-search span { display: none; }
   .header-search kbd { display: none; }
 

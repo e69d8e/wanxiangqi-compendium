@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Grid2X2, List, RotateCcw, Search, SlidersHorizontal } from 'lucide-react';
-import type { CatalogItem, Kind } from '../types';
+import type { CatalogItem, Kind, SeasonDataset } from '../types';
 import { isCurrent, itemSubtitle, uniqueValues } from '../lib/catalog';
 import { makeHash } from '../lib/router';
 import type { View } from '../types';
@@ -18,14 +18,16 @@ const configs = {
 type FilterKey = 'faction' | 'subtype' | 'equipmentType' | 'talentGroup' | 'talentStage';
 
 interface Props {
+  season: SeasonDataset;
   view: keyof typeof configs;
   items: CatalogItem[];
   params: URLSearchParams;
   onSelect: (item: CatalogItem) => void;
 }
 
-export function CatalogView({ view, items, params, onSelect }: Props) {
+export function CatalogView({ season, view, items, params, onSelect }: Props) {
   const config = configs[view];
+  const { meta } = season;
   const [query, setQuery] = useState(params.get('q') ?? '');
   const [primary, setPrimary] = useState(params.get('filter') ?? 'all');
   const [secondary, setSecondary] = useState(params.get('filter2') ?? 'all');
@@ -63,18 +65,19 @@ export function CatalogView({ view, items, params, onSelect }: Props) {
     if (quality !== 'all') next.set('quality', quality);
     if (status !== 'current') next.set('status', status);
     if (layout !== 'cards') next.set('layout', layout);
+    next.set('season', meta.id);
     const selected = new URLSearchParams(window.location.hash.split('?')[1]).get('item');
     if (selected) next.set('item', selected);
     window.history.replaceState(null, '', makeHash(view as View, next));
-  }, [query, primary, secondary, quality, status, layout, view]);
+  }, [query, primary, secondary, quality, status, layout, view, meta.id]);
 
   const reset = () => { setQuery(''); setPrimary('all'); setSecondary('all'); setQuality('all'); setStatus('current'); };
 
   return (
     <main className="catalog-page page-shell">
       <header className="catalog-heading">
-        <div><span className="chapter-number">{config.index}</span><div><span className="eyebrow">S1 ARCHIVE / {config.kind.toUpperCase()}</span><h1>{config.title}</h1></div></div>
-        <p>{config.description}</p>
+        <div><span className="chapter-number">{config.index}</span><div><span className="eyebrow">{meta.shortLabel} ARCHIVE / {config.kind.toUpperCase()}</span><h1>{config.title}</h1></div></div>
+        <p>{config.description}<br /><small className="catalog-season-note">{meta.label} · {meta.currentPatch}</small></p>
       </header>
 
       <section className="filter-panel" aria-label="资料筛选">

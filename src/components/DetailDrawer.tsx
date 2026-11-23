@@ -11,7 +11,7 @@ const statLabels: Record<string, string> = {
   magicResistance: '法防', attackSpeed: '攻速', initialMana: '初始能量', maxMana: '能量上限',
 };
 
-export function DetailDrawer({ item, onClose }: { item: CatalogItem; onClose: () => void }) {
+export function DetailDrawer({ item, verifiedAt, onClose }: { item: CatalogItem; verifiedAt: string; onClose: () => void }) {
   const closeRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
@@ -134,7 +134,7 @@ export function DetailDrawer({ item, onClose }: { item: CatalogItem; onClose: ()
 
           <section className="source-card">
             <ShieldCheck size={20} />
-            <div><strong>资料与版本</strong><p>{item.version ?? item.skillEvidence ?? '官网图鉴整理'} · 本站核验至 2026-11-21</p>
+            <div><strong>资料与版本</strong><p>{item.version ?? item.skillEvidence ?? '官网图鉴整理'} · 本站核验至 {verifiedAt}</p>
               {item.imageStatus && <p className="revision-copy">{item.imageStatus}</p>}
               <div className="source-links">
                 <a href={item.officialUrl} target="_blank" rel="noreferrer">官方图鉴 <ExternalLink size={13} /></a>

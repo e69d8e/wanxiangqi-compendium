@@ -9,22 +9,39 @@ const CONCURRENCY = 8;
 const REQUEST_TIMEOUT_MS = 30_000;
 const MAX_ATTEMPTS = 2;
 
+const requestedSeason = process.argv.find((arg) => arg.startsWith("--season="))?.split("=")[1];
+const config = JSON.parse(await readFile(path.join(rootDir, "seasons.config.json"), "utf8"));
+const seasonIds = requestedSeason
+  ? config.seasons.filter((season) => season.id === requestedSeason).map((season) => season.id)
+  : config.seasons.map((season) => season.id);
+if (requestedSeason && seasonIds.length === 0) {
+  throw new Error(`未知赛季：${requestedSeason}`);
+}
+
 const sources = [
   { file: "heroes.json", kind: "hero", remote: (item) => item.thumbnail || item.image },
   { file: "equipment.json", kind: "equipment", remote: (item) => item.thumbnail || item.image },
   { file: "talents.json", kind: "talent", remote: (item) => item.thumbnail || item.image },
   { file: "effects.json", kind: "effect", remote: (item) => item.thumbnail || item.image },
-  { file: "players.json", kind: "player", remote: (item) => item.avatar },
+  { file: "players.json", kind: "player", remote: (item) => item.avatar || item.portrait },
 ];
 
-async function readJson(filename) {
-  return JSON.parse(await readFile(path.join(dataDir, filename), "utf8"));
+async function readSeasonJson(seasonId, filename) {
+  return JSON.parse(
+    await readFile(path.join(dataDir, "seasons", seasonId, filename), "utf8"),
+  );
 }
 
-function resolveTarget(item) {
+function remoteUrl(value, season) {
+  if (!value || typeof value !== "string") return null;
+  if (/^https?:\/\//.test(value)) return value;
+  return new URL(value, season.sourceUrl).href;
+}
+
+function resolveTarget(item, seasonId) {
   if (
     typeof item.localImage !== "string" ||
-    !item.localImage.startsWith(`/images/${item.kind}/`) ||
+    !item.localImage.startsWith(`/images/${seasonId}/`) ||
     !item.localImage.endsWith(".webp")
   ) {
     throw new Error(`非法 localImage：${item.localImage ?? "缺失"}`);
@@ -75,19 +92,22 @@ async function fetchImage(url) {
 }
 
 const jobs = [];
-for (const source of sources) {
-  const items = await readJson(source.file);
-  for (const item of items) {
-    if (item.kind !== source.kind) {
-      throw new Error(`${source.file} 中 ${item.id} 的 kind 应为 ${source.kind}`);
+for (const season of config.seasons.filter((entry) => seasonIds.includes(entry.id))) {
+  for (const source of sources) {
+    const items = await readSeasonJson(season.id, source.file);
+    for (const item of items) {
+      if (item.kind !== source.kind) {
+        throw new Error(`${season.id}/${source.file} 中 ${item.id} 的 kind 应为 ${source.kind}`);
+      }
+      jobs.push({
+        season: season.id,
+        id: item.id,
+        name: item.name,
+        kind: item.kind,
+        url: remoteUrl(source.remote(item), season),
+        target: resolveTarget(item, season.id),
+      });
     }
-    jobs.push({
-      id: item.id,
-      name: item.name,
-      kind: item.kind,
-      url: source.remote(item),
-      target: resolveTarget(item),
-    });
   }
 }
 
@@ -99,12 +119,10 @@ let completed = 0;
 let cursor = 0;
 
 async function processJob(job, index) {
-  const label = `${job.kind}/${job.id}（${job.name}）`;
+  const label = `${job.season}/${job.kind}/${job.id}（${job.name}）`;
   let temporaryTarget;
   try {
-    if (!job.url || typeof job.url !== "string") {
-      throw new Error("缺少远程图片 URL");
-    }
+    if (!job.url) throw new Error("缺少远程图片 URL");
     if (await fileExists(job.target)) {
       skipped += 1;
       return;
@@ -119,10 +137,11 @@ async function processJob(job, index) {
     downloaded += 1;
   } catch (error) {
     failures.push({
+      season: job.season,
       id: job.id,
       name: job.name,
       kind: job.kind,
-      url: job.url ?? null,
+      url: job.url,
       error: error instanceof Error ? error.message : String(error),
     });
     if (temporaryTarget) {
@@ -133,9 +152,7 @@ async function processJob(job, index) {
   } finally {
     completed += 1;
     if (completed % 50 === 0 || completed === jobs.length) {
-      console.log(
-        `进度 ${completed}/${jobs.length}：新下载 ${downloaded}，跳过 ${skipped}，失败 ${failures.length}`,
-      );
+      console.log(`进度 ${completed}/${jobs.length}：新下载 ${downloaded}，跳过 ${skipped}，失败 ${failures.length}`);
     }
   }
 }
@@ -149,7 +166,7 @@ async function worker() {
   }
 }
 
-console.log(`准备处理 ${jobs.length} 张主条目图片，并发 ${CONCURRENCY}。`);
+console.log(`准备处理 ${jobs.length} 张主条目图片（赛季：${seasonIds.join("、")}），并发 ${CONCURRENCY}。`);
 await Promise.all(Array.from({ length: CONCURRENCY }, () => worker()));
 
 console.log("\n图片处理完成");
@@ -161,8 +178,6 @@ console.log(`失败：${failures.length}`);
 if (failures.length > 0) {
   console.log("失败清单：");
   for (const failure of failures) {
-    console.log(
-      `- ${failure.kind}/${failure.id}（${failure.name}）\n  URL: ${failure.url ?? "缺失"}\n  原因: ${failure.error}`,
-    );
+    console.log(`- ${failure.season}/${failure.kind}/${failure.id}（${failure.name}）\n  URL: ${failure.url ?? "缺失"}\n  原因: ${failure.error}`);
   }
 }

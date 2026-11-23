@@ -61,7 +61,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643100 643100 风暴巨剑 装备牌 equipment 无阵营 1 穿戴给英雄，可以铸造成1件输出型普通装备。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 基础装备 物理装备 纯净苍穹 唯一。每2秒获得10点法术攻击力，同时清除自身负面状态。 铸梦·逐风 唯一。战斗开始及之后每过8秒，快速进行4次普通攻击。 无尽巨剑 暴击率+30%，暴击效果+60%。暴击效果不可叠加。 制裁之剑 唯一。造成伤害时降低目标30%生命恢复及护盾效果，持续10秒，不可叠加。若为普通攻击，效果提升至70%。",
-    "localImage": "/images/equipment/equipment-643100.webp",
+    "localImage": "/images/s1/equipment/equipment-643100.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643100",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -127,7 +127,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643800 643800 圣者法典 装备牌 equipment 无阵营 1 穿戴给英雄，可以铸造成1件法术型普通装备。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 基础装备 法术装备 贤者之书 唯一。法力值上限-10。释放技能后获得20%基础法术攻击力，最多叠加6层。 炽热支配者 唯一。首次受到控制效果时，获得300点护盾并在接下来的15秒内免疫控制效果（压制除外）。 生命魔典 唯一。受到伤害时会为自身和周围1格的己方单位恢复5%最大生命值，冷却2秒。 御灵之纱 唯一。战斗开始时，获得等级×15点护盾。护盾被击破时对周围1格敌人造成1秒眩晕，击破者翻倍。",
-    "localImage": "/images/equipment/equipment-643800.webp",
+    "localImage": "/images/s1/equipment/equipment-643800.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643800",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -193,7 +193,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643700 643700 雷鸣刃 装备牌 equipment 无阵营 1 穿戴给英雄，可以铸造成1件输出型普通装备。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 基础装备 物理装备 冥王 唯一。穿戴者周围1格每有1个敌方单位，获得10点物理防御和15%基础物理攻击力。 名刀·司命 唯一。穿戴者首次受到致命伤害时会进入无敌和不可选中状态，持续1.5秒。 红魔 唯一。周围1格没有友军时，获得25%伤害加成。每承受3%最大生命值的伤害，获得1%伤害加成，上限100%。 魔律之刃 唯一。释放技能时，35%概率重复释放一次。每有7级，额外提升1%概率。近战英雄总上限70%。",
-    "localImage": "/images/equipment/equipment-643700.webp",
+    "localImage": "/images/s1/equipment/equipment-643700.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643700",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -259,7 +259,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643600 643600 守护者之铠 装备牌 equipment 无阵营 1 穿戴给英雄，可以铸造成1件防御型普通装备。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 基础装备 通用装备 不祥征兆 唯一。战斗前15秒，格挡50%普通攻击伤害，若攻击者攻速不低于1.5，则格挡70%普通攻击伤害。 极寒风暴 唯一。受到普攻时，降低目标20%攻击速度，持续2秒。被单一目标普攻5次后，远程目标将被冻结1秒，近战目标减半。 近卫荣耀 唯一。战斗开始时，周围1格己方单位获得10点物理和法术防御，穿戴者获得双倍效果，不可叠加。 反伤重甲 唯一。将受到伤害的30%以真实伤害回敬给目标。",
-    "localImage": "/images/equipment/equipment-643600.webp",
+    "localImage": "/images/s1/equipment/equipment-643600.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643600",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -335,7 +335,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-belt 643500 力量腰带 装备牌 equipment 无阵营 1 穿戴给英雄，可以铸造成1件防御型普通装备。 把装备栏位转换成血量、续航、抗法或灼烧反打路线的选择权。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 基础装备 通用装备 生命 装备路线 穿戴 霸者重铠 唯一。生命值高于70%时获得40%伤害减免。 不死鸟之眼 唯一。增加15%基础生命值，生命恢复和护盾效果提升30%。 魔女斗篷 法术防御力+30。战斗开始时，获得等级x5点法术护盾。 红莲炎甲 唯一。每2秒对周围1格敌人造成20（+5%穿戴者最大生命值）点法术伤害，并降低目标50%生命恢复和护盾效果，持续3秒。",
-    "localImage": "/images/equipment/equip-belt.webp",
+    "localImage": "/images/s1/equipment/equip-belt.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-belt",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -410,7 +410,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-cup 643400 破碎圣杯 装备牌 equipment 无阵营 1 穿戴给英雄，可以铸造成1件功能型普通装备。 把装备栏位转换成回蓝、法伤环境与法系容错路线。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 基础装备 法术装备 法力 装备 控制 穿戴 痛苦面具 唯一。单次魔法伤害超过目标最大生命值的8%时会使目标点燃：每秒造成75%法术攻击力的真实伤害，持续3秒。 法源之杯 唯一。每秒回复5点法力值。 破茧之衣 唯一。战斗开始时，法力值+15，同时眩晕敌方等级最高3名英雄中的随机1名，持续1秒。目标每有10级，眩晕时间增加0.5秒，上限5秒。 聚灵水晶 唯一。受击时额外获得10点法力值，最多100点。达到上限后恢复20%最大生命值。",
-    "localImage": "/images/equipment/equip-cup.webp",
+    "localImage": "/images/s1/equipment/equip-cup.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-cup",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -484,7 +484,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-spear 643300 速击之枪 装备牌 equipment 无阵营 1 穿戴给英雄，可以铸造成1件输出型普通装备。 把装备栏位转换成普攻频率、穿透、aoe 与暴击终端选择。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 基础装备 物理装备 攻速 普攻事件 普通攻击 凝渊 唯一。暴击率+20%。每次受击时提升1%暴击率，暴击率达到100%时提升100%移动速度。 影牙 攻击速度+50%。 破晓 每次普通攻击降低目标3点物防，持续5秒。目标物防首次降为0时，附加1次目标15%最大生命值的物理伤害。 日渊 唯一，限定远程英雄。普通攻击会释放飞箭，对生命值最低的2名敌人造成55%物理攻击力的物理伤害。",
-    "localImage": "/images/equipment/equip-spear.webp",
+    "localImage": "/images/s1/equipment/equip-spear.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-spear",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -550,7 +550,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643200 643200 大棒 装备牌 equipment 无阵营 1 穿戴给英雄，可以铸造成1件输出型普通装备。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 基础装备 法术装备 虚无法杖 唯一。获得15点法术防御穿透。 寒霜侵袭 唯一。普通攻击减少目标15%移速，持续5秒，最多叠加5层。叠满后目标受到的伤害提高20%，持续5秒，冷却时间10秒。 自然法杖 唯一。法术攻击力+20%，远程穿戴者每消耗40点法力值（近战80点法力值）会将随机1名敌人变成小猪，持续2秒。 金色圣剑 唯一。获得30%（+15%法术攻击力）攻击速度。每次普通攻击附带20（+30%法术攻击力）点法术伤害。",
-    "localImage": "/images/equipment/equipment-643200.webp",
+    "localImage": "/images/s1/equipment/equipment-643200.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643200",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -596,7 +596,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643503 643503 魔女斗篷 装备牌 equipment 无阵营 2 法术防御力+30。战斗开始时，获得等级x5点法术护盾。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 防御装备 防御 力量腰带 穿戴给英雄，可以铸造成1件防御型普通装备。",
-    "localImage": "/images/equipment/equipment-643503.webp",
+    "localImage": "/images/s1/equipment/equipment-643503.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643503",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -643,7 +643,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-643602 643602 极寒风暴 装备牌 equipment 无阵营 2 唯一。受到普攻时，降低目标20%攻击速度，持续2秒。被单一目标普攻5次后，远程目标将被冻结1秒，近战目标减半。 当前资料未收录正式理解。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 防御装备 防御 守护者之铠 穿戴给英雄，可以铸造成1件防御型普通装备。",
-    "localImage": "/images/equipment/equip-643602.webp",
+    "localImage": "/images/s1/equipment/equip-643602.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-643602",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -689,7 +689,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643805 643805 御灵之纱 装备牌 equipment 无阵营 2 唯一。战斗开始时，获得等级×15点护盾。护盾被击破时对周围1格敌人造成1秒眩晕，击破者翻倍。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 法术装备 攻击 圣者法典 穿戴给英雄，可以铸造成1件法术型普通装备。",
-    "localImage": "/images/equipment/equipment-643805.webp",
+    "localImage": "/images/s1/equipment/equipment-643805.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643805",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -735,7 +735,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643804 643804 生命魔典 装备牌 equipment 无阵营 2 唯一。受到伤害时会为自身和周围1格的己方单位恢复5%最大生命值，冷却2秒。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 通用装备 功能 圣者法典 穿戴给英雄，可以铸造成1件法术型普通装备。",
-    "localImage": "/images/equipment/equipment-643804.webp",
+    "localImage": "/images/s1/equipment/equipment-643804.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643804",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -781,7 +781,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643803 643803 炽热支配者 装备牌 equipment 无阵营 2 唯一。首次受到控制效果时，获得300点护盾并在接下来的15秒内免疫控制效果（压制除外）。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 通用装备 功能 圣者法典 穿戴给英雄，可以铸造成1件法术型普通装备。",
-    "localImage": "/images/equipment/equipment-643803.webp",
+    "localImage": "/images/s1/equipment/equipment-643803.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643803",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -835,7 +835,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-book 643802 贤者之书 装备牌 equipment 无阵营 2 唯一。法力值上限-10。释放技能后获得20%基础法术攻击力，最多叠加6层。 同时压缩施法循环并让多次施法沉淀为法术面板。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 法术装备 攻击 法力上限 法术攻击 释放技能 圣者法典 穿戴给英雄，可以铸造成1件法术型普通装备。",
-    "localImage": "/images/equipment/equip-book.webp",
+    "localImage": "/images/s1/equipment/equip-book.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-book",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -881,7 +881,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643304 643304 铸梦·逐风 装备牌 equipment 无阵营 2 唯一。战斗开始及之后每过8秒，快速进行4次普通攻击。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 物理装备 攻击 风暴巨剑 穿戴给英雄，可以铸造成1件输出型普通装备。",
-    "localImage": "/images/equipment/equipment-643304.webp",
+    "localImage": "/images/s1/equipment/equipment-643304.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643304",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -928,7 +928,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-643103 643103 无尽巨剑 装备牌 equipment 无阵营 2 暴击率+30%，暴击效果+60%。暴击效果不可叠加。 当前资料未收录正式理解。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 物理装备 攻击 风暴巨剑 穿戴给英雄，可以铸造成1件输出型普通装备。",
-    "localImage": "/images/equipment/equip-643103.webp",
+    "localImage": "/images/s1/equipment/equip-643103.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-643103",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -975,7 +975,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-643104 643104 制裁之剑 装备牌 equipment 无阵营 2 唯一。造成伤害时降低目标30%生命恢复及护盾效果，持续10秒，不可叠加。若为普通攻击，效果提升至70%。 当前资料未收录正式理解。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 通用装备 功能 风暴巨剑 穿戴给英雄，可以铸造成1件输出型普通装备。",
-    "localImage": "/images/equipment/equip-643104.webp",
+    "localImage": "/images/s1/equipment/equip-643104.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-643104",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1021,7 +1021,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643105 643105 纯净苍穹 装备牌 equipment 无阵营 2 唯一。每2秒获得10点法术攻击力，同时清除自身负面状态。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 法术装备 攻击 风暴巨剑 穿戴给英雄，可以铸造成1件输出型普通装备。",
-    "localImage": "/images/equipment/equipment-643105.webp",
+    "localImage": "/images/s1/equipment/equipment-643105.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643105",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1067,7 +1067,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643705 643705 魔律之刃 装备牌 equipment 无阵营 2 唯一。释放技能时，35%概率重复释放一次。每有7级，额外提升1%概率。近战英雄总上限70%。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 通用装备 功能 雷鸣刃 穿戴给英雄，可以铸造成1件输出型普通装备。",
-    "localImage": "/images/equipment/equipment-643705.webp",
+    "localImage": "/images/s1/equipment/equipment-643705.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643705",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1113,7 +1113,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643202 643202 虚无法杖 装备牌 equipment 无阵营 2 唯一。获得15点法术防御穿透。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 法术装备 攻击 大棒 穿戴给英雄，可以铸造成1件输出型普通装备。",
-    "localImage": "/images/equipment/equipment-643202.webp",
+    "localImage": "/images/s1/equipment/equipment-643202.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643202",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1160,7 +1160,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-643205 643205 寒霜侵袭 装备牌 equipment 无阵营 2 唯一。普通攻击减少目标15%移速，持续5秒，最多叠加5层。叠满后目标受到的伤害提高20%，持续5秒，冷却时间10秒。 当前资料未收录正式理解。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 物理装备 攻击 大棒 穿戴给英雄，可以铸造成1件输出型普通装备。",
-    "localImage": "/images/equipment/equip-643205.webp",
+    "localImage": "/images/s1/equipment/equip-643205.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-643205",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1207,7 +1207,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-643208 643208 自然法杖 装备牌 equipment 无阵营 2 唯一。法术攻击力+20%，远程穿戴者每消耗40点法力值（近战80点法力值）会将随机1名敌人变成小猪，持续2秒。 当前资料未收录正式理解。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 法术装备 攻击 大棒 穿戴给英雄，可以铸造成1件输出型普通装备。",
-    "localImage": "/images/equipment/equip-643208.webp",
+    "localImage": "/images/s1/equipment/equip-643208.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-643208",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1254,7 +1254,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-643207 643207 金色圣剑 装备牌 equipment 无阵营 2 唯一。获得30%（+15%法术攻击力）攻击速度。每次普通攻击附带20（+30%法术攻击力）点法术伤害。 当前资料未收录正式理解。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 法术装备 攻击 大棒 穿戴给英雄，可以铸造成1件输出型普通装备。",
-    "localImage": "/images/equipment/equip-643207.webp",
+    "localImage": "/images/s1/equipment/equip-643207.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-643207",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1300,7 +1300,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643704 643704 红魔 装备牌 equipment 无阵营 2 唯一。周围1格没有友军时，获得25%伤害加成。每承受3%最大生命值的伤害，获得1%伤害加成，上限100%。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 通用装备 功能 雷鸣刃 穿戴给英雄，可以铸造成1件输出型普通装备。",
-    "localImage": "/images/equipment/equipment-643704.webp",
+    "localImage": "/images/s1/equipment/equipment-643704.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643704",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1347,7 +1347,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-643301 643301 影牙 装备牌 equipment 无阵营 2 攻击速度+50%。 当前资料未收录正式理解。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 物理装备 攻击 速击之枪 穿戴给英雄，可以铸造成1件输出型普通装备。",
-    "localImage": "/images/equipment/equip-643301.webp",
+    "localImage": "/images/s1/equipment/equip-643301.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-643301",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1393,7 +1393,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643302 643302 破晓 装备牌 equipment 无阵营 2 每次普通攻击降低目标3点物防，持续5秒。目标物防首次降为0时，附加1次目标15%最大生命值的物理伤害。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 物理装备 攻击 速击之枪 穿戴给英雄，可以铸造成1件输出型普通装备。",
-    "localImage": "/images/equipment/equipment-643302.webp",
+    "localImage": "/images/s1/equipment/equipment-643302.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643302",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1439,7 +1439,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-641010 641010 凝渊 装备牌 equipment 无阵营 2 唯一。暴击率+20%。每次受击时提升1%暴击率，暴击率达到100%时提升100%移动速度。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 通用装备 功能 速击之枪 穿戴给英雄，可以铸造成1件输出型普通装备。",
-    "localImage": "/images/equipment/equipment-641010.webp",
+    "localImage": "/images/s1/equipment/equipment-641010.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-641010",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1485,7 +1485,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-641015 641015 日渊 装备牌 equipment 无阵营 2 唯一，限定远程英雄。普通攻击会释放飞箭，对生命值最低的2名敌人造成55%物理攻击力的物理伤害。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 物理装备 攻击 速击之枪 穿戴给英雄，可以铸造成1件输出型普通装备。",
-    "localImage": "/images/equipment/equipment-641015.webp",
+    "localImage": "/images/s1/equipment/equipment-641015.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-641015",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1541,7 +1541,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-643703 643703 名刀·司命 装备牌 equipment 无阵营 2 唯一。穿戴者首次受到致命伤害时会进入无敌和不可选中状态，持续1.5秒。 当前资料未收录正式理解。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 通用装备 功能 一线生机 获得2张名刀·司命。你的棋手生命值本局第一次降至0时，不会被淘汰，并保留1棋手生命值。 雷鸣刃 穿戴给英雄，可以铸造成1件输出型普通装备。",
-    "localImage": "/images/equipment/equip-643703.webp",
+    "localImage": "/images/s1/equipment/equip-643703.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-643703",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1587,7 +1587,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643401 643401 痛苦面具 装备牌 equipment 无阵营 2 唯一。单次魔法伤害超过目标最大生命值的8%时会使目标点燃：每秒造成75%法术攻击力的真实伤害，持续3秒。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 法术装备 攻击 破碎圣杯 穿戴给英雄，可以铸造成1件功能型普通装备。",
-    "localImage": "/images/equipment/equipment-643401.webp",
+    "localImage": "/images/s1/equipment/equipment-643401.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643401",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1634,7 +1634,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-643402 643402 法源之杯 装备牌 equipment 无阵营 2 唯一。每秒回复5点法力值。 当前资料未收录正式理解。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 通用装备 功能 破碎圣杯 穿戴给英雄，可以铸造成1件功能型普通装备。",
-    "localImage": "/images/equipment/equip-643402.webp",
+    "localImage": "/images/s1/equipment/equip-643402.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-643402",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1680,7 +1680,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643403 643403 破茧之衣 装备牌 equipment 无阵营 2 唯一。战斗开始时，法力值+15，同时眩晕敌方等级最高3名英雄中的随机1名，持续1秒。目标每有10级，眩晕时间增加0.5秒，上限5秒。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 通用装备 功能 破碎圣杯 穿戴给英雄，可以铸造成1件功能型普通装备。",
-    "localImage": "/images/equipment/equipment-643403.webp",
+    "localImage": "/images/s1/equipment/equipment-643403.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643403",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1726,7 +1726,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643404 643404 聚灵水晶 装备牌 equipment 无阵营 2 唯一。受击时额外获得10点法力值，最多100点。达到上限后恢复20%最大生命值。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 通用装备 功能 破碎圣杯 穿戴给英雄，可以铸造成1件功能型普通装备。",
-    "localImage": "/images/equipment/equipment-643404.webp",
+    "localImage": "/images/s1/equipment/equipment-643404.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643404",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1772,7 +1772,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643702 643702 冥王 装备牌 equipment 无阵营 2 唯一。穿戴者周围1格每有1个敌方单位，获得10点物理防御和15%基础物理攻击力。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 物理装备 攻击 雷鸣刃 穿戴给英雄，可以铸造成1件输出型普通装备。",
-    "localImage": "/images/equipment/equipment-643702.webp",
+    "localImage": "/images/s1/equipment/equipment-643702.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643702",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1830,7 +1830,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-overlord 643501 霸者重铠 装备牌 equipment 无阵营 2 唯一。生命值高于70%时获得40%伤害减免。 把高生命值区间转换成明确的条件减伤窗口，跌破阈值后不再提供该项减伤。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 防御装备 防御 伤害减免 生命阈值 生命值高于70% 力量腰带 穿戴给英雄，可以铸造成1件防御型普通装备。",
-    "localImage": "/images/equipment/equip-overlord.webp",
+    "localImage": "/images/s1/equipment/equip-overlord.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-overlord",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1877,7 +1877,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-643502 643502 不死鸟之眼 装备牌 equipment 无阵营 2 唯一。增加15%基础生命值，生命恢复和护盾效果提升30%。 当前资料未收录正式理解。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 防御装备 防御 力量腰带 穿戴给英雄，可以铸造成1件防御型普通装备。",
-    "localImage": "/images/equipment/equip-643502.webp",
+    "localImage": "/images/s1/equipment/equip-643502.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-643502",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1923,7 +1923,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643604 643604 反伤重甲 装备牌 equipment 无阵营 2 唯一。将受到伤害的30%以真实伤害回敬给目标。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 防御装备 防御 守护者之铠 穿戴给英雄，可以铸造成1件防御型普通装备。",
-    "localImage": "/images/equipment/equipment-643604.webp",
+    "localImage": "/images/s1/equipment/equipment-643604.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643604",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1973,7 +1973,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643504 643504 红莲炎甲 装备牌 equipment 无阵营 2 唯一。每2秒对周围1格敌人造成20（+5%穿戴者最大生命值）点法术伤害，并降低目标50%生命恢复和护盾效果，持续3秒。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 防御装备 防御 力量腰带 穿戴给英雄，可以铸造成1件防御型普通装备。",
-    "localImage": "/images/equipment/equipment-643504.webp",
+    "localImage": "/images/s1/equipment/equipment-643504.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643504",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2019,7 +2019,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643603 643603 近卫荣耀 装备牌 equipment 无阵营 2 唯一。战斗开始时，周围1格己方单位获得10点物理和法术防御，穿戴者获得双倍效果，不可叠加。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 防御装备 防御 守护者之铠 穿戴给英雄，可以铸造成1件防御型普通装备。",
-    "localImage": "/images/equipment/equipment-643603.webp",
+    "localImage": "/images/s1/equipment/equipment-643603.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643603",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2066,7 +2066,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-643601 643601 不祥征兆 装备牌 equipment 无阵营 2 唯一。战斗前15秒，格挡50%普通攻击伤害，若攻击者攻速不低于1.5，则格挡70%普通攻击伤害。 当前资料未收录正式理解。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 防御装备 防御 守护者之铠 穿戴给英雄，可以铸造成1件防御型普通装备。",
-    "localImage": "/images/equipment/equip-643601.webp",
+    "localImage": "/images/s1/equipment/equip-643601.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-643601",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2111,7 +2111,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644103 644103 断念 装备牌 equipment 无阵营 3 唯一。造成伤害时，本场战斗降低敌方单位20%最大生命值上限（不可叠加）。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备 获得断念：造成伤害时降低敌方最大生命值。",
-    "localImage": "/images/equipment/equipment-644103.webp",
+    "localImage": "/images/s1/equipment/equipment-644103.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644103",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2156,7 +2156,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-641006 641006 鼓舞之戒 装备牌 equipment 无阵营 3 唯一。战斗开始时，与穿戴者同阵营的英雄，提升30%最大生命值。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备 获得鼓舞之戒：与穿戴者同阵营的英雄提升最大生命值。",
-    "localImage": "/images/equipment/equipment-641006.webp",
+    "localImage": "/images/s1/equipment/equipment-641006.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-641006",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2201,7 +2201,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643206 643206 梦魇之牙 装备牌 equipment 无阵营 3 唯一。法术攻击力+35%。造成法术伤害时添加梦魇印记，持续5秒。带有印记的单位阵亡时，对周围1格敌方单位造成穿戴者法术攻击力×2的法术伤害。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 法术装备 获得梦魇之牙：魔法伤害击败敌方造成范围伤害。",
-    "localImage": "/images/equipment/equipment-643206.webp",
+    "localImage": "/images/s1/equipment/equipment-643206.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643206",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2237,7 +2237,7 @@
     },
     "kind": "equipment",
     "searchText": "equipment-6363182 6363182 三分旗帜 装备牌 equipment 无阵营 3 仅三分英雄穿戴。将造成伤害的40%转化为治疗量，平摊给所有【三分】英雄。 治疗分摊时会排除满血的【三分】英雄。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备",
-    "localImage": "/images/equipment/equipment-6363182.webp",
+    "localImage": "/images/s1/equipment/equipment-6363182.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-6363182",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2282,7 +2282,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644111 644111 怒神项链 装备牌 equipment 无阵营 3 唯一。暴击率+50%，法术伤害可以暴击。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备 获得怒神项链：增加暴击率以及法术伤害可以暴击。",
-    "localImage": "/images/equipment/equipment-644111.webp",
+    "localImage": "/images/s1/equipment/equipment-644111.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644111",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2327,7 +2327,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644110 644110 魂灭灵冠 装备牌 equipment 无阵营 3 唯一。阵亡时，对周围1格敌人造成目标35%最大生命值的真实伤害。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备 获得魂灭灵冠：穿戴者阵亡时基于敌人最大生命值造成真实伤害。",
-    "localImage": "/images/equipment/equipment-644110.webp",
+    "localImage": "/images/s1/equipment/equipment-644110.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644110",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2372,7 +2372,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644109 644109 灵泉项链 装备牌 equipment 无阵营 3 唯一。战斗开始时，周围1格的单位每秒回复4点法力值。穿戴者法力值上限-10。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备 获得灵泉项链：法力值上限-10，自身及周围1格友军每秒获得法力值。",
-    "localImage": "/images/equipment/equipment-644109.webp",
+    "localImage": "/images/s1/equipment/equipment-644109.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644109",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2417,7 +2417,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644107 644107 魂祭绝刃 装备牌 equipment 无阵营 3 唯一。攻击速度+50%，物理和法术吸血+30%。战斗开始时，扣除50%最大生命值。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备 获得魂祭绝刃：增加攻速与吸血，但每次战斗以50%生命值开始。",
-    "localImage": "/images/equipment/equipment-644107.webp",
+    "localImage": "/images/s1/equipment/equipment-644107.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644107",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2462,7 +2462,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644102 644102 破阵战芒 装备牌 equipment 无阵营 3 唯一。仅1-3阶英雄可穿戴。战斗开始时，获得等级×1%的伤害加成和攻速，上限50%。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备 获得破阵战芒：增加攻速及伤害提升（1-3阶英雄限定）。",
-    "localImage": "/images/equipment/equipment-644102.webp",
+    "localImage": "/images/s1/equipment/equipment-644102.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644102",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2507,7 +2507,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644104 644104 法潮灵杖 装备牌 equipment 无阵营 3 唯一。法术攻击力+25%。战斗开始，会获得左右1格的英雄的100%法术攻击力。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备 获得法潮灵杖：获取左右1格英雄法术攻击力。",
-    "localImage": "/images/equipment/equipment-644104.webp",
+    "localImage": "/images/s1/equipment/equipment-644104.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644104",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2552,7 +2552,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643303 643303 末世 装备牌 equipment 无阵营 3 唯一。普通攻击会减少目标2%最大生命值并恢复等量生命值。穿戴者为近战英雄时，效果翻倍。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 物理装备 获得末世：普通攻击偷取敌方生命值。",
-    "localImage": "/images/equipment/equipment-643303.webp",
+    "localImage": "/images/s1/equipment/equipment-643303.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643303",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2597,7 +2597,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644106 644106 光辉圣铠 装备牌 equipment 无阵营 3 唯一。每秒恢复50+4%最大生命值。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备 获得光辉圣铠：每秒获得生命恢复。",
-    "localImage": "/images/equipment/equipment-644106.webp",
+    "localImage": "/images/s1/equipment/equipment-644106.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644106",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2655,7 +2655,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equip-life-orb 644105 护命灵珠 装备牌 equipment 无阵营 3 唯一。每4秒获得基础生命值25%的护盾。拥有护盾时伤害提升25%，护盾被击破则移除。 把周期护盾转化为条件伤害窗口；护盾被击破后，伤害提升同步失效。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备 护盾 伤害提升 每4秒 拥有护盾 获得护命灵珠：增加护盾，护盾存在期间造成伤害提升。",
-    "localImage": "/images/equipment/equip-life-orb.webp",
+    "localImage": "/images/s1/equipment/equip-life-orb.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-life-orb",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2700,7 +2700,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644004 644004 灵泉法杖 装备牌 equipment 无阵营 3 唯一。获得闪现，每次闪现后普攻附带一次重击：造成300%伤害并且眩晕敌方1秒，每次击败敌方单位再次触发闪现。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备 获得灵泉法杖：获得闪现，闪现后重击敌人。",
-    "localImage": "/images/equipment/equipment-644004.webp",
+    "localImage": "/images/s1/equipment/equipment-644004.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644004",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2745,7 +2745,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644101 644101 破妄之刃 装备牌 equipment 无阵营 3 唯一。移动速度提升60%，造成伤害的50%会转化为真实伤害。免疫减速效果。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备 获得破妄之刃：获得真实伤害能力并提升移速且免疫减速效果。",
-    "localImage": "/images/equipment/equipment-644101.webp",
+    "localImage": "/images/s1/equipment/equipment-644101.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644101",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2780,7 +2780,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-641023 641023 不屈意志 装备牌 equipment 无阵营 3 唯一。战斗开始及之后每3秒获得场上友军穿戴不屈意志数量x2的临时等级。阵亡时，将自身等级的30%平均分配给穿戴不屈意志的友军。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备",
-    "localImage": "/images/equipment/equipment-641023.webp",
+    "localImage": "/images/s1/equipment/equipment-641023.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-641023",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2812,7 +2812,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-641001 641001 学识宝石 装备牌 equipment 无阵营 5 唯一 每回合开始时等级+8%（至少+3级）并减少2点法力值上限。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-641001.webp",
+    "localImage": "/images/s1/equipment/equipment-641001.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-641001",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2844,7 +2844,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644114 644114 怒莲之刺 装备牌 equipment 无阵营 5 唯一。提升100%攻速，受到的全部伤害转移给穿戴银莲庇佑的单位。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-644114.webp",
+    "localImage": "/images/s1/equipment/equipment-644114.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644114",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2876,7 +2876,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643801 643801 噬神之书 装备牌 equipment 无阵营 5 法术攻击力+100，法术吸血+60%。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 法术装备",
-    "localImage": "/images/equipment/equipment-643801.webp",
+    "localImage": "/images/s1/equipment/equipment-643801.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643801",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2908,7 +2908,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-643701 643701 征服之剑 装备牌 equipment 无阵营 5 物理吸血+30%。生命值低于50%时，此吸血效果翻倍。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 物理装备",
-    "localImage": "/images/equipment/equipment-643701.webp",
+    "localImage": "/images/s1/equipment/equipment-643701.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-643701",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2940,7 +2940,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-641014 641014 盛华 装备牌 equipment 无阵营 5 唯一，无法拆卸。每次战斗结束后永久增加200点生命值，战斗胜利翻倍。增加生命值超过2000时，额外增加15%生命值上限。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-641014.webp",
+    "localImage": "/images/s1/equipment/equipment-641014.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-641014",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2972,7 +2972,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-641009 641009 静谧之铃 装备牌 equipment 无阵营 5 唯一。敌方等级最高的两名英雄释放技能后5秒内无法恢复法力值，在此期间每0.5秒受到穿戴者20%法术攻击力的法术伤害。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-641009.webp",
+    "localImage": "/images/s1/equipment/equipment-641009.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-641009",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3004,7 +3004,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-641005 641005 捕能手套 装备牌 equipment 无阵营 5 唯一。每击败1名英雄，获得1能量。单回合击败不少于5名英雄时，获得能量转换。能量转换：消耗3能量，获得与棋手等级相对应的效果锦囊牌（不超过5阶）。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-641005.webp",
+    "localImage": "/images/s1/equipment/equipment-641005.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-641005",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3036,7 +3036,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-641004 641004 分身镜 装备牌 equipment 无阵营 5 唯一。战斗开始时，召唤1个承受350%伤害的复制体（无卡牌效果）。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-641004.webp",
+    "localImage": "/images/s1/equipment/equipment-641004.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-641004",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3068,7 +3068,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644113 644113 驱雷 装备牌 equipment 无阵营 5 唯一。每2秒召唤2道雷电轰击敌我双方任意2名单位（穿戴者除外）。造成目标30%最大生命值的法术伤害（命中友军不触发吸血）。若命中司空震则改为使其快速攻击4次。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-644113.webp",
+    "localImage": "/images/s1/equipment/equipment-644113.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644113",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3100,7 +3100,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-641021 641021 青莲剑谱 装备牌 equipment 无阵营 5 唯一，限定近战英雄。暴击率+40%。穿戴者释放的技能替换为青莲剑歌。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-641021.webp",
+    "localImage": "/images/s1/equipment/equipment-641021.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-641021",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3132,7 +3132,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644115 644115 银莲庇佑 装备牌 equipment 无阵营 5 唯一。提升10点物理及法术防御力，替穿戴怒莲之刺的英雄承担伤害。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-644115.webp",
+    "localImage": "/images/s1/equipment/equipment-644115.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644115",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3164,7 +3164,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644116 644116 机器头 装备牌 equipment 无阵营 5 唯一。战斗开始，英雄固定0.4的攻击速度，获得60%伤害加成。免疫负面效果。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-644116.webp",
+    "localImage": "/images/s1/equipment/equipment-644116.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644116",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3196,7 +3196,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644117 644117 阿科米亚之子 装备牌 equipment 无阵营 5 唯一。参与阿科米亚核心的等级分配。穿戴者及周围1格单位每秒恢复4法力值与2%最大生命值。友军经过时获得同等效果，持续8秒。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-644117.webp",
+    "localImage": "/images/s1/equipment/equipment-644117.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644117",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3228,7 +3228,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644119 644119 磐石之心 装备牌 equipment 无阵营 5 唯一。每次受到伤害不会超过15%最大生命值。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-644119.webp",
+    "localImage": "/images/s1/equipment/equipment-644119.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644119",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3260,7 +3260,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-641002 641002 百锻刀 装备牌 equipment 无阵营 5 唯一，无法拆卸。物理攻击力+30。每击败1名英雄，永久获得5点物理攻击力，战斗胜利翻倍（已击败：0）。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-641002.webp",
+    "localImage": "/images/s1/equipment/equipment-641002.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-641002",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3296,7 +3296,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-641008 641008 小鹿的庇护 装备牌 equipment 无阵营 5 唯一。穿戴者所受伤害的30%将转移到小鹿身上。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 巨型玩偶 小鹿等级+30，并获得1件小鹿的庇护。",
-    "localImage": "/images/equipment/equipment-641008.webp",
+    "localImage": "/images/s1/equipment/equipment-641008.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-641008",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3328,7 +3328,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-641003 641003 聚灵法杖 装备牌 equipment 无阵营 5 唯一，无法拆卸。法术攻击力+30，普攻附带自身70%法术攻击力。每击败1名英雄，永久获得5点法术攻击力，战斗胜利翻倍（已击败：0)。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-641003.webp",
+    "localImage": "/images/s1/equipment/equipment-641003.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-641003",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3362,7 +3362,7 @@
     "versionStatus": "historical_pending",
     "kind": "equipment",
     "searchText": "equipment-41124 41124 星源装甲 装备牌 equipment 无阵营 3 【日落海】专属装备 物理和法术吸血+20%。唯一被动：释放技能后的2秒内免疫控制。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-41124.webp",
+    "localImage": "/images/s1/equipment/equipment-41124.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-41124",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3396,7 +3396,7 @@
     "versionStatus": "historical_pending",
     "kind": "equipment",
     "searchText": "equipment-41125 41125 星源狩枪 装备牌 equipment 无阵营 3 【日落海】专属装备 物理和法术攻击力+20%。唯一被动：法力值上限-20，且技能会直接击败生命值10%以下的敌人。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-41125.webp",
+    "localImage": "/images/s1/equipment/equipment-41125.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-41125",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3429,7 +3429,7 @@
     "versionStatus": "historical_pending",
     "kind": "equipment",
     "searchText": "equipment-41126 41126 星源星徽 装备牌 equipment 无阵营 3 【日落海】专属装备 唯一被动：该英雄不会被阿科米亚核心分配等级。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-41126.webp",
+    "localImage": "/images/s1/equipment/equipment-41126.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-41126",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3463,7 +3463,7 @@
     "versionStatus": "historical_pending",
     "kind": "equipment",
     "searchText": "equipment-41127 41127 星源合金盾 装备牌 equipment 无阵营 3 【日落海】专属装备 物理和法术防御力+20。唯一被动：受到的伤害-20%。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-41127.webp",
+    "localImage": "/images/s1/equipment/equipment-41127.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-41127",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3497,7 +3497,7 @@
     "versionStatus": "historical_pending",
     "kind": "equipment",
     "searchText": "equipment-41128 41128 月影之力 装备牌 equipment 无阵营 3 【日落海】专属装备 生命值上限+15%。唯一被动：露娜释放2次技能后，将释放1次【月下无限连】（仅露娜穿戴时生效，每场战斗限1次）。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-41128.webp",
+    "localImage": "/images/s1/equipment/equipment-41128.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-41128",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3539,7 +3539,7 @@
     "formal": "把副承接位退场转换成对主承接位的一次定向续命。",
     "kind": "equipment",
     "searchText": "equip-seed 42101 玄微之种 装备牌 equipment 无阵营 1 穿戴者获得牺牲：生命值百分比最低的己方英雄恢复200（+20%最大生命值）点生命值。 把副承接位退场转换成对主承接位的一次定向续命。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 通用装备 退场 治疗 牺牲",
-    "localImage": "/images/equipment/equip-seed.webp",
+    "localImage": "/images/s1/equipment/equip-seed.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-seed",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3580,7 +3580,7 @@
     "formal": "把普通攻击次数转换成更短法力循环，是特定英雄的专属放大器。",
     "kind": "equipment",
     "searchText": "equip-sword 42102 双剑·雄 装备牌 equipment 无阵营 1 攻击速度+30%。若穿戴者为干将莫邪，其法力值上限降低至10。 把普通攻击次数转换成更短法力循环，是特定英雄的专属放大器。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 通用装备 攻速 法力 普通攻击",
-    "localImage": "/images/equipment/equip-sword.webp",
+    "localImage": "/images/s1/equipment/equip-sword.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-sword",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3614,7 +3614,7 @@
     "formal": "当前资料未收录正式理解。",
     "kind": "equipment",
     "searchText": "equip-42103 42103 双剑·雌 装备牌 equipment 无阵营 1 法术攻击力+15%，穿戴者击败敌方英雄时，自身等级永久+1，若穿戴者为干将莫邪，等级额外+1。 当前资料未收录正式理解。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 普通装备 通用装备",
-    "localImage": "/images/equipment/equip-42103.webp",
+    "localImage": "/images/s1/equipment/equip-42103.webp",
     "sourceUrl": "https://wzwxq.com/explore/equip-42103",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3647,7 +3647,7 @@
     "versionStatus": "historical_pending",
     "kind": "equipment",
     "searchText": "equipment-6365172 6365172 流云之刺 装备牌 equipment 无阵营 3 唯一。攻击速度+30%。每对目标进行3次普通攻击，会召唤云中君灵体对其造成4%最大生命值的物理伤害并降低其5点护甲。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备",
-    "localImage": "/images/equipment/equipment-6365172.webp",
+    "localImage": "/images/s1/equipment/equipment-6365172.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-6365172",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3680,7 +3680,7 @@
     "versionStatus": "historical_pending",
     "kind": "equipment",
     "searchText": "equipment-6365173 6365173 翼苍穹盾 装备牌 equipment 无阵营 3 唯一。物理和法术防御力+10。敌方每阵亡1个单位，再各提升10点，上限100点。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备",
-    "localImage": "/images/equipment/equipment-6365173.webp",
+    "localImage": "/images/s1/equipment/equipment-6365173.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-6365173",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3713,7 +3713,7 @@
     "versionStatus": "historical_pending",
     "kind": "equipment",
     "searchText": "equipment-6365174 6365174 掠魂爪 装备牌 equipment 无阵营 3 唯一。物理和法术吸血+50%。普通攻击额外造成目标8%当前生命值的物理伤害。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备",
-    "localImage": "/images/equipment/equipment-6365174.webp",
+    "localImage": "/images/s1/equipment/equipment-6365174.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-6365174",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3746,7 +3746,7 @@
     "versionStatus": "historical_pending",
     "kind": "equipment",
     "searchText": "equipment-6365175 6365175 永冻霜羽 装备牌 equipment 无阵营 3 唯一。法术攻击力+100 。对每个目标首次造成法术伤害时，将冻结目标2秒。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备",
-    "localImage": "/images/equipment/equipment-6365175.webp",
+    "localImage": "/images/s1/equipment/equipment-6365175.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-6365175",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3779,7 +3779,7 @@
     "versionStatus": "historical_pending",
     "kind": "equipment",
     "searchText": "equipment-6365176 6365176 苍穹王权 装备牌 equipment 无阵营 3 唯一。受到致命伤害时，免疫此次伤害，持续1秒。并对全部敌人造成100+其已损失30%生命值的法术伤害。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备",
-    "localImage": "/images/equipment/equipment-6365176.webp",
+    "localImage": "/images/s1/equipment/equipment-6365176.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-6365176",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3812,7 +3812,7 @@
     "versionStatus": "historical_pending",
     "kind": "equipment",
     "searchText": "equipment-6365177 6365177 唤鹰骨笛 装备牌 equipment 无阵营 3 战斗开始后每8秒，召唤一名等级为自身一半的云中君，迅速冲向最远处的敌人。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备",
-    "localImage": "/images/equipment/equipment-6365177.webp",
+    "localImage": "/images/s1/equipment/equipment-6365177.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-6365177",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3843,7 +3843,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-641007 641007 热血拳套 装备牌 equipment 无阵营 5 唯一。攻击速度+30%。攻速上限改为5.0。战斗期间，每获得2点法力值，提升1%攻击速度。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-641007.webp",
+    "localImage": "/images/s1/equipment/equipment-641007.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-641007",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3876,7 +3876,7 @@
     "versionStatus": "historical_pending",
     "kind": "equipment",
     "searchText": "equipment-641016 641016 贤者的庇护 装备牌 equipment 无阵营 5 可穿戴给【河洛】英雄，穿戴者会在首次被击败的2秒后复生，仅恢复30%生命值。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-641016.webp",
+    "localImage": "/images/s1/equipment/equipment-641016.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-641016",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3910,7 +3910,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644108 644108 根源之力 装备牌 equipment 无阵营 3 唯一。每4秒对生命值最低的敌方单位造成600%法术攻击力的法术伤害。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备",
-    "localImage": "/images/equipment/equipment-644108.webp",
+    "localImage": "/images/s1/equipment/equipment-644108.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644108",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3944,7 +3944,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644112 644112 强敌克星 装备牌 equipment 无阵营 3 唯一。造成伤害的15%转化为真实伤害。对目标每普通攻击4次，会眩晕目标1秒。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 天赋装备 通用装备",
-    "localImage": "/images/equipment/equipment-644112.webp",
+    "localImage": "/images/s1/equipment/equipment-644112.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644112",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3975,7 +3975,7 @@
     "temporarilyOffShelf": false,
     "kind": "equipment",
     "searchText": "equipment-644118 644118 套娃枪 装备牌 equipment 无阵营 5 唯一。每次普攻30%概率产生1个无法释放技能的分身，持续2秒。造成50%伤害，承受500%的伤害（分身继承此效果）。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-644118.webp",
+    "localImage": "/images/s1/equipment/equipment-644118.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644118",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4005,7 +4005,7 @@
     "versionStatus": "historical_pending",
     "kind": "equipment",
     "searchText": "equipment-644120 644120 停滞漩涡 装备牌 equipment 无阵营 5 唯一。敌方单位被控制时，每0.2秒偷取其1+1%物理与法术攻击力，持续到战斗结束。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-644120.webp",
+    "localImage": "/images/s1/equipment/equipment-644120.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644120",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4035,7 +4035,7 @@
     "versionStatus": "historical_pending",
     "kind": "equipment",
     "searchText": "equipment-644121 644121 百变魔法书 装备牌 equipment 无阵营 5 击败敌方时，在其阵位上召唤魔法书（根据穿戴者的阵营和等级召唤）对随机敌人释放1道炽热光辉，持续3秒。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-644121.webp",
+    "localImage": "/images/s1/equipment/equipment-644121.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-644121",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4073,7 +4073,7 @@
     "imageStatus": "文字已按v1.9.1正式服公告核对；卡面保留官网原件，图中文字可能尚未同步。",
     "kind": "equipment",
     "searchText": "equipment-7542 7542 机关匣 装备牌 equipment 无阵营 5 可叠穿。可穿戴给【逐鹿】英雄，使其获得效果：战斗开始时，召唤2个拥有你等级最高英雄一半等级的“故障机器人”。 来源: 该卡通过商店购买、效果锦囊、拍卖等渠道获得。 特殊装备 通用装备",
-    "localImage": "/images/equipment/equipment-7542.webp",
+    "localImage": "/images/s1/equipment/equipment-7542.webp",
     "sourceUrl": "https://wzwxq.com/explore/equipment-7542",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   }

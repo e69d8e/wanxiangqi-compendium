@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { Menu, Search, X } from 'lucide-react';
-import { dataByKind, itemById } from './data';
+import { getSeason, seasons } from './data';
 import type { CatalogItem, Kind, View } from './types';
 import { makeHash, readHash } from './lib/router';
 import { Home } from './components/Home';
@@ -8,6 +8,7 @@ import { CatalogView } from './components/CatalogView';
 import { DetailDrawer } from './components/DetailDrawer';
 import { GlobalSearch } from './components/GlobalSearch';
 import { Mechanics } from './components/Mechanics';
+import { SeasonSwitcher } from './components/SeasonSwitcher';
 import { Sources } from './components/Sources';
 
 const navItems: { view: View; label: string }[] = [
@@ -21,7 +22,8 @@ export default function App() {
   const [location, setLocation] = useState(readHash);
   const [searchOpen, setSearchOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const selected = location.params.get('item') ? itemById.get(location.params.get('item')!) : undefined;
+  const season = getSeason(location.params.get('season'));
+  const selected = location.params.get('item') ? season.itemById.get(location.params.get('item')!) : undefined;
 
   useEffect(() => {
     const onHash = () => { setLocation(readHash()); setMenuOpen(false); setSearchOpen(false); window.scrollTo({ top: 0, behavior: 'instant' }); };
@@ -29,6 +31,14 @@ export default function App() {
     if (!window.location.hash) window.history.replaceState(null, '', '#/');
     return () => window.removeEventListener('hashchange', onHash);
   }, []);
+
+  useEffect(() => {
+    const current = readHash();
+    if (!current.params.get('season')) {
+      current.params.set('season', season.meta.id);
+      window.history.replaceState(null, '', makeHash(current.view, current.params));
+    }
+  }, [season.meta.id]);
 
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
@@ -41,14 +51,26 @@ export default function App() {
     return () => window.removeEventListener('keydown', onKey);
   }, [selected]);
 
-  const navigate = useCallback((view: View, params?: Record<string, string>) => {
-    window.location.hash = makeHash(view, params);
+  const go = useCallback((view: View, params: Record<string, string> = {}, seasonId: string) => {
+    const next = new URLSearchParams(params);
+    next.set('season', seasonId);
+    window.location.hash = makeHash(view, next);
   }, []);
+
+  const navigate = useCallback((view: View, params?: Record<string, string>) => {
+    go(view, params, season.meta.id);
+  }, [go, season.meta.id]);
+
+  const switchSeason = useCallback((seasonId: string) => {
+    go(location.view, {}, seasonId);
+  }, [go, location.view]);
 
   const openItem = useCallback((item: CatalogItem) => {
     const current = readHash();
+    const activeSeason = getSeason(current.params.get('season'));
     const view = kindViews[item.kind];
     const params = current.view === view ? current.params : new URLSearchParams();
+    params.set('season', activeSeason.meta.id);
     params.set('item', item.id);
     setSearchOpen(false);
     window.location.hash = makeHash(view, params);
@@ -68,19 +90,19 @@ export default function App() {
     <header className="site-header"><div className="header-inner">
       <button className="brand" onClick={() => navigate('home')} aria-label="万象棋谱首页"><span className="brand-mark"><i /><b>万</b></span><span><strong>万象棋谱</strong><small>WANXIANG ARCHIVE</small></span></button>
       <nav className={menuOpen ? 'main-nav open' : 'main-nav'} aria-label="主要导航">{navItems.map((item) => <button key={item.view} className={location.view === item.view ? 'active' : ''} aria-current={location.view === item.view ? 'page' : undefined} onClick={() => navigate(item.view)}>{item.label}</button>)}<button className={location.view === 'sources' ? 'active' : ''} aria-current={location.view === 'sources' ? 'page' : undefined} onClick={() => navigate('sources')}>来源说明</button></nav>
-      <div className="header-actions"><span className="header-version"><i /> S1 · v1.11.1</span><button className="header-search" onClick={() => setSearchOpen(true)}><Search size={17} /><span>搜索档案</span><kbd>⌘ K</kbd></button><button className="mobile-menu icon-button" onClick={() => setMenuOpen((open) => !open)} aria-label={menuOpen ? '关闭导航' : '打开导航'}>{menuOpen ? <X /> : <Menu />}</button></div>
+      <div className="header-actions"><SeasonSwitcher seasons={seasons} currentId={season.meta.id} patch={season.meta.currentPatch} onSelect={switchSeason} /><button className="header-search" onClick={() => setSearchOpen(true)}><Search size={17} /><span>搜索档案</span><kbd>⌘ K</kbd></button><button className="mobile-menu icon-button" onClick={() => setMenuOpen((open) => !open)} aria-label={menuOpen ? '关闭导航' : '打开导航'}>{menuOpen ? <X /> : <Menu />}</button></div>
     </div></header>
 
     <div id="main-content" tabIndex={-1}>
-      {location.view === 'home' && <Home onNavigate={navigate} onSelect={openItem} onSearch={() => setSearchOpen(true)} />}
-      {isCatalog && <CatalogView key={location.view} view={location.view as 'heroes'} items={dataByKind[catalogKind[location.view]]} params={location.params} onSelect={openItem} />}
-      {location.view === 'mechanics' && <Mechanics />}
-      {location.view === 'sources' && <Sources onNavigate={navigate} />}
+      {location.view === 'home' && <Home season={season} onNavigate={navigate} onSelect={openItem} onSearch={() => setSearchOpen(true)} />}
+      {isCatalog && <CatalogView key={`${season.meta.id}-${location.view}`} season={season} view={location.view as 'heroes'} items={season.dataByKind[catalogKind[location.view]]} params={location.params} onSelect={openItem} />}
+      {location.view === 'mechanics' && <Mechanics season={season} />}
+      {location.view === 'sources' && <Sources season={season} onNavigate={navigate} />}
     </div>
 
-    <footer className="site-footer"><div className="page-shell"><div className="footer-brand"><span className="brand-mark"><i /><b>万</b></span><div><strong>万象棋谱</strong><p>非官方玩家资料站 · 游戏素材与名称权利归原权利人所有</p></div></div><div className="footer-links"><a href="https://wxq.qq.com/" target="_blank" rel="noreferrer">游戏官网</a><a href="https://wxq.qq.com/cp/a202609xszy/" target="_blank" rel="noreferrer">官方新手指引</a><button onClick={() => navigate('sources')}>来源与免责声明</button></div><div className="footer-bottom"><span>S1 正式服 · 核验至 2026-11-21</span><span>不收录 S2 体验服数据 · 不提供未证实概率</span></div></div></footer>
+    <footer className="site-footer"><div className="page-shell"><div className="footer-brand"><span className="brand-mark"><i /><b>万</b></span><div><strong>万象棋谱</strong><p>非官方玩家资料站 · 游戏素材与名称权利归原权利人所有</p></div></div><div className="footer-links"><a href="https://wxq.qq.com/" target="_blank" rel="noreferrer">游戏官网</a><a href="https://wxq.qq.com/cp/a202609xszy/" target="_blank" rel="noreferrer">官方新手指引</a><button onClick={() => navigate('sources')}>来源与免责声明</button></div><div className="footer-bottom"><span>{season.meta.label} · 核验至 {season.meta.verifiedAt}</span><span>正式服赛季独立归档 · 不收录体验服测试集</span></div></div></footer>
 
-    {searchOpen && <GlobalSearch onClose={() => setSearchOpen(false)} onSelect={openItem} />}
-    {selected && <DetailDrawer key={selected.id} item={selected} onClose={closeItem} />}
+    {searchOpen && <GlobalSearch season={season} onClose={() => setSearchOpen(false)} onSelect={openItem} />}
+    {selected && <DetailDrawer key={`${season.meta.id}-${selected.id}`} item={selected} verifiedAt={season.meta.verifiedAt} onClose={closeItem} />}
   </>;
 }

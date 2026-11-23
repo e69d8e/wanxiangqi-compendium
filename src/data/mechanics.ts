@@ -146,20 +146,3 @@ export const glossary = [
     definition: "允许同时部署到战场的英雄数量；棋手升至特定等级时可增加上阵人数。",
   },
 ] as const;
-
-export const latestPatch = {
-  version: "v1.11.1",
-  date: "2026-11-19",
-  sourceUpdate: { id: "18956191", date: "2026-11-19" },
-  changes: [
-    {
-      player: "嬴律",
-      cardId: 94352,
-      cardName: "并购红利",
-      description:
-        "合成英雄时，获得1能量，每回合限3次。单回合内合成第4次时随机获得1张场上英雄的复制。",
-      rawDescription:
-        "合成英雄时，获得1能量，每回合限3次。单回合内合成第4次时随机获得1张场上英雄的复制。",
-    },
-  ],
-} as const;

@@ -22,7 +22,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-623003 623003 兵行诡招 天赋牌 talent 无阵营 1 棋手生命值-10，战斗开始时，己方每名英雄+2临时等级。战斗胜利时，获得1棋手生命值，临时等级额外+1。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第一轮拍卖",
-    "localImage": "/images/talent/talent-623003.webp",
+    "localImage": "/images/s1/talent/talent-623003.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-623003",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -49,7 +49,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-613003 613003 里程碑 天赋牌 talent 无阵营 1 棋手到达5级时，获得6能量、1张装备箱。 来源: 棋手升级时概率选择获取天赋。 初始天赋 初始阵容",
-    "localImage": "/images/talent/talent-613003.webp",
+    "localImage": "/images/s1/talent/talent-613003.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-613003",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -76,7 +76,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635041 635041 三分新援 天赋牌 talent 无阵营 1 获得2能量，以及随机1张2-3阶【三分】英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第七轮拍卖",
-    "localImage": "/images/talent/talent-635041.webp",
+    "localImage": "/images/s1/talent/talent-635041.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635041",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -103,7 +103,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-613005 613005 整装待发 天赋牌 talent 无阵营 1 若回合内没有打出英雄牌，下回合开始时，获得2能量。 来源: 棋手升级时概率选择获取天赋。 天赋包三 初始阵容",
-    "localImage": "/images/talent/talent-613005.webp",
+    "localImage": "/images/s1/talent/talent-613005.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-613005",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -130,7 +130,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-613006 613006 先苦后甜 天赋牌 talent 无阵营 1 选取天赋后，当你输掉2场战斗时，获得6棋手经验。 来源: 棋手升级时概率选择获取天赋。 天赋包二 初始阵容",
-    "localImage": "/images/talent/talent-613006.webp",
+    "localImage": "/images/s1/talent/talent-613006.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-613006",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -157,7 +157,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-613007 613007 防御领域 天赋牌 talent 无阵营 1 棋手每次受到的伤害减少2点。 来源: 棋手升级时概率选择获取天赋。 初始天赋 初始阵容",
-    "localImage": "/images/talent/talent-613007.webp",
+    "localImage": "/images/s1/talent/talent-613007.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-613007",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -184,7 +184,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635036 635036 日落海新援 天赋牌 talent 无阵营 1 获得2能量，以及随机1张2-3阶【日落海】英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第七轮拍卖",
-    "localImage": "/images/talent/talent-635036.webp",
+    "localImage": "/images/s1/talent/talent-635036.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635036",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -211,7 +211,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-671003 671003 存款利息 天赋牌 talent 无阵营 1 获得3能量。回合结束时，你每有7能量，额外获得1能量。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖",
-    "localImage": "/images/talent/talent-671003.webp",
+    "localImage": "/images/s1/talent/talent-671003.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-671003",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -238,7 +238,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635031 635031 大河新援 天赋牌 talent 无阵营 1 获得2能量，以及随机1张2-3阶【大河流域】英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第六轮拍卖",
-    "localImage": "/images/talent/talent-635031.webp",
+    "localImage": "/images/s1/talent/talent-635031.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635031",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -265,7 +265,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681028 681028 破格 天赋牌 talent 无阵营 1 回合开始商店自动刷新时，会出现1个高1阶英雄牌。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖",
-    "localImage": "/images/talent/talent-681028.webp",
+    "localImage": "/images/s1/talent/talent-681028.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681028",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -292,7 +292,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635026 635026 逐鹿新援 天赋牌 talent 无阵营 1 获得2能量，以及随机1张2-3阶【逐鹿】英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第六轮拍卖",
-    "localImage": "/images/talent/talent-635026.webp",
+    "localImage": "/images/s1/talent/talent-635026.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635026",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -339,7 +339,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-671010 671010 二象性 天赋牌 talent 无阵营 1 获得1张天赋牌二象坍缩：随机生效1个获取英雄牌的效果（详情查看关联卡牌）。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖 二象坍缩 指定1名英雄，获得3张同阶英雄牌，或2张同阵营的当前最高阶英雄牌。",
-    "localImage": "/images/talent/talent-671010.webp",
+    "localImage": "/images/s1/talent/talent-671010.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-671010",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -366,7 +366,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635014 635014 河洛新援 天赋牌 talent 无阵营 1 获得2能量，以及随机1张2-3阶【河洛】英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第五轮拍卖",
-    "localImage": "/images/talent/talent-635014.webp",
+    "localImage": "/images/s1/talent/talent-635014.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635014",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -429,7 +429,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-671012 671012 预言家 天赋牌 talent 无阵营 1 分别获得1张天赋牌胜利预言与失败预言：预测战斗结果，正确可获得奖励。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 胜利预言 预测下场战斗胜利，预测成功，获得2张3阶英雄兑换券。 失败预言 预测下场战斗失败，预测成功，获得4能量。",
-    "localImage": "/images/talent/talent-671012.webp",
+    "localImage": "/images/s1/talent/talent-671012.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-671012",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -456,7 +456,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-614005 614005 三十而立 天赋牌 talent 无阵营 1 备战阶段中，英雄总等级到达30级时，获得6棋手经验。 来源: 棋手升级时概率选择获取天赋。 天赋包一 初始阵容",
-    "localImage": "/images/talent/talent-614005.webp",
+    "localImage": "/images/s1/talent/talent-614005.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-614005",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -511,7 +511,7 @@
     },
     "kind": "talent",
     "searchText": "talent-681026 681026 好聚好散 天赋牌 talent 无阵营 1 获得1张天赋牌体面离场：指定移除一名英雄，获得能量。此英雄0/1/2/3觉醒进度时，获得3/6/9/12能量。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 体面离场 指定移除一名英雄，获得能量。此英雄0/1/2/3觉醒进度时，获得3/6/9/12能量。",
-    "localImage": "/images/talent/talent-681026.webp",
+    "localImage": "/images/s1/talent/talent-681026.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681026",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -558,7 +558,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-681025 681025 瓶中人 天赋牌 talent 无阵营 1 获得1张天赋牌契约瓶：获胜时，累积3张随机英雄牌；失败时，损失所累积的一半英雄牌。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖 契约瓶 获胜时，累积3张随机英雄牌；失败时，损失一半。打出后获得累积的英雄牌（当前0张）。",
-    "localImage": "/images/talent/talent-681025.webp",
+    "localImage": "/images/s1/talent/talent-681025.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681025",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -593,7 +593,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635603 635603 狂铁·强化 天赋牌 talent 无阵营 1 狂铁触发卡牌效果时，自身+10%攻速。 来源: 棋手升级时概率选择获取天赋。 狂铁 整备：阿科米亚核心的等级+2。",
-    "localImage": "/images/talent/talent-635603.webp",
+    "localImage": "/images/s1/talent/talent-635603.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635603",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -620,7 +620,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681024 681024 战争头牌 天赋牌 talent 无阵营 1 每回合获得1个品阶数字，打出相同品阶的英雄牌时，额外+4等级。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖",
-    "localImage": "/images/talent/talent-681024.webp",
+    "localImage": "/images/s1/talent/talent-681024.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681024",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -647,7 +647,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681022 681022 节能商店 天赋牌 talent 无阵营 1 每次手动刷新商店后，总有1张商店卡牌所需能量-1。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-681022.webp",
+    "localImage": "/images/s1/talent/talent-681022.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681022",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -674,7 +674,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-634020 634020 随机成长 天赋牌 talent 无阵营 1 战斗开始时，你品阶最高的1名英雄等级永久+4。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第三轮拍卖",
-    "localImage": "/images/talent/talent-634020.webp",
+    "localImage": "/images/s1/talent/talent-634020.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634020",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -701,7 +701,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681021 681021 微弱优势 天赋牌 talent 无阵营 1 打出觉醒英雄牌时，其获得22%暴击率和11%物理及法术吸血（每名英雄仅1次）。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-681021.webp",
+    "localImage": "/images/s1/talent/talent-681021.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681021",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -728,7 +728,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-622001 622001 双人游 天赋牌 talent 无阵营 1 随机获得2张2-3阶英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第一轮拍卖",
-    "localImage": "/images/talent/talent-622001.webp",
+    "localImage": "/images/s1/talent/talent-622001.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-622001",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -775,7 +775,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-633003 633003 加速成长 天赋牌 talent 无阵营 1 获得2张天赋牌加速成长：指定1名英雄等级+5。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第二轮拍卖 指定1名英雄等级+5。",
-    "localImage": "/images/talent/talent-633003.webp",
+    "localImage": "/images/s1/talent/talent-633003.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-633003",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -802,7 +802,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681020 681020 刻舟减蓝 天赋牌 talent 无阵营 1 英雄20级后，法力值上限-10。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-681020.webp",
+    "localImage": "/images/s1/talent/talent-681020.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681020",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -829,7 +829,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681009 681009 猪猪 天赋牌 talent 无阵营 1 战斗开始时，敌方2名随机英雄变为小猪，持续3秒。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-681009.webp",
+    "localImage": "/images/s1/talent/talent-681009.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681009",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -856,7 +856,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-632008 632008 专注射击 天赋牌 talent 无阵营 1 战斗开始时，你后两排英雄每次普攻获得3%攻速和3点物理攻击力，上限10层。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第二轮拍卖",
-    "localImage": "/images/talent/talent-632008.webp",
+    "localImage": "/images/s1/talent/talent-632008.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-632008",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -903,7 +903,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-681018 681018 班叔的遗留物 天赋牌 talent 无阵营 1 获得2级电磁弹簧：在指定位置构筑1个2级电磁弹簧（敌方踩中时会被弹至战场后排）。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖 2级电磁弹簧 在指定位置构筑1个2级电磁弹簧。",
-    "localImage": "/images/talent/talent-681018.webp",
+    "localImage": "/images/s1/talent/talent-681018.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681018",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -930,7 +930,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-632006 632006 银算盘 天赋牌 talent 无阵营 1 出售场上英雄时，随机1名英雄等级+2。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第二轮拍卖",
-    "localImage": "/images/talent/talent-632006.webp",
+    "localImage": "/images/s1/talent/talent-632006.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-632006",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -977,7 +977,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-632002 632002 五福临门 天赋牌 talent 无阵营 1 获得1张天赋牌五福临门：随机获得5张英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第二轮拍卖 随机获得5张英雄牌。",
-    "localImage": "/images/talent/talent-632002.webp",
+    "localImage": "/images/s1/talent/talent-632002.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-632002",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1004,7 +1004,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-632001 632001 小电池包 天赋牌 talent 无阵营 1 获得5能量。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第二轮拍卖",
-    "localImage": "/images/talent/talent-632001.webp",
+    "localImage": "/images/s1/talent/talent-632001.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-632001",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1051,7 +1051,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-623002 623002 复印机 天赋牌 talent 无阵营 1 获得2张天赋牌复印机：指定1名1-3阶英雄，获得该英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第一轮拍卖 指定1名1-3阶英雄，获得该英雄牌。",
-    "localImage": "/images/talent/talent-623002.webp",
+    "localImage": "/images/s1/talent/talent-623002.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-623002",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1106,7 +1106,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-snap 671017 一个响指 天赋牌 talent 无阵营 2 获得1张天赋牌听天由命：消除等级最低的4个英雄，每名英雄会提供一定资源。 把低价值库存转换成一次资源重组，收益取决于被消除对象和当前缺口。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 消除 资源重组 打出天赋牌 听天由命 消除场上4名等级最低的英雄。每消除1名，获得3能量和1张同阶兑换券，1张简易协作。",
-    "localImage": "/images/talent/talent-snap.webp",
+    "localImage": "/images/s1/talent/talent-snap.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-snap",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1133,7 +1133,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-671006 671006 小小的助力 天赋牌 talent 无阵营 2 战斗开始时，你场上有不少于4名1-3阶英雄，则4-5阶英雄获得30%伤害加成和60%攻速。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第八轮拍卖",
-    "localImage": "/images/talent/talent-671006.webp",
+    "localImage": "/images/s1/talent/talent-671006.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-671006",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1180,7 +1180,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-623008 623008 终极复印机 天赋牌 talent 无阵营 2 获得2张天赋牌终极复印机：指定1名英雄，获得该英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第一轮拍卖 指定1名英雄，获得该英雄牌。",
-    "localImage": "/images/talent/talent-623008.webp",
+    "localImage": "/images/s1/talent/talent-623008.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-623008",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1207,7 +1207,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681010 681010 扩编名额 天赋牌 talent 无阵营 2 获得1个可购买天赋：花费8能量，可上阵人数+1。可购买2次。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-681010.webp",
+    "localImage": "/images/s1/talent/talent-681010.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681010",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1234,7 +1234,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681014 681014 补给线：开团 天赋牌 talent 无阵营 2 获得3张开团效果英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-681014.webp",
+    "localImage": "/images/s1/talent/talent-681014.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681014",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1261,7 +1261,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-622009 622009 常胜将军 天赋牌 talent 无阵营 2 若你至少2连胜，战斗胜利时获得2能量和4棋手生命值。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第一轮拍卖",
-    "localImage": "/images/talent/talent-622009.webp",
+    "localImage": "/images/s1/talent/talent-622009.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-622009",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1288,7 +1288,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-622006 622006 中坚力量 天赋牌 talent 无阵营 2 打出3阶英雄牌，额外+4级。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第一轮拍卖",
-    "localImage": "/images/talent/talent-622006.webp",
+    "localImage": "/images/s1/talent/talent-622006.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-622006",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1315,7 +1315,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-632009 632009 如法炮制 天赋牌 talent 无阵营 2 每回合首次打出英雄牌时，获得1张同阶的英雄牌（不可超过棋手等级）。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第二轮拍卖",
-    "localImage": "/images/talent/talent-632009.webp",
+    "localImage": "/images/s1/talent/talent-632009.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-632009",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1364,7 +1364,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-632010 632010 消费返利 天赋牌 talent 无阵营 2 每消耗15能量，获得1张加速成长：指定1名英雄等级+5。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第二轮拍卖 加速成长 指定1名英雄等级+5。 获得2张天赋牌加速成长：指定1名英雄等级+5。",
-    "localImage": "/images/talent/talent-632010.webp",
+    "localImage": "/images/s1/talent/talent-632010.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-632010",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1391,7 +1391,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-622005 622005 凯旋征召 天赋牌 talent 无阵营 2 战斗胜利时，获得1张你等级最高的英雄牌。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第一轮拍卖",
-    "localImage": "/images/talent/talent-622005.webp",
+    "localImage": "/images/s1/talent/talent-622005.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-622005",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1418,7 +1418,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-632013 632013 金算盘 天赋牌 talent 无阵营 2 出售场上英雄时，随机1名英雄等级+3。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第二轮拍卖",
-    "localImage": "/images/talent/talent-632013.webp",
+    "localImage": "/images/s1/talent/talent-632013.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-632013",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1445,7 +1445,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-632014 632014 超专注射击 天赋牌 talent 无阵营 2 战斗开始时，你后两排英雄每次普攻获得5%攻速和5点物理攻击力，上限10层。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第二轮拍卖",
-    "localImage": "/images/talent/talent-632014.webp",
+    "localImage": "/images/s1/talent/talent-632014.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-632014",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1472,7 +1472,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-633001 633001 电池包 天赋牌 talent 无阵营 2 获得8能量。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第二轮拍卖",
-    "localImage": "/images/talent/talent-633001.webp",
+    "localImage": "/images/s1/talent/talent-633001.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-633001",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1521,7 +1521,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-633002 633002 结伴 天赋牌 talent 无阵营 2 获得2能量以及2张3阶英雄兑换券。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第二轮拍卖 3阶英雄兑换券 卡牌3选1（3阶英雄牌）。",
-    "localImage": "/images/talent/talent-633002.webp",
+    "localImage": "/images/s1/talent/talent-633002.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-633002",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1568,7 +1568,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-622002 622002 人才市场 天赋牌 talent 无阵营 2 获得3张天赋牌人才搜寻。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第一轮拍卖 人才搜寻 卡牌3选1（商店可购的最高品阶英雄）。",
-    "localImage": "/images/talent/talent-622002.webp",
+    "localImage": "/images/s1/talent/talent-622002.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-622002",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1595,7 +1595,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-633013 633013 同路人 天赋牌 talent 无阵营 2 同一回合内，每打出4张同阵营英雄牌，随机获得1张该阵营英雄牌。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第二轮拍卖",
-    "localImage": "/images/talent/talent-633013.webp",
+    "localImage": "/images/s1/talent/talent-633013.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-633013",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1622,7 +1622,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681008 681008 战前叫阵 天赋牌 talent 无阵营 2 战斗开始时，敌我双方等级最高英雄比拼等级：我方胜利，其英雄获得1次完美复生；我方失败，其变为猪猪3秒，获得30%最大生命值护盾。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第八轮拍卖",
-    "localImage": "/images/talent/talent-681008.webp",
+    "localImage": "/images/s1/talent/talent-681008.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681008",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1649,7 +1649,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-633017 633017 重装上阵 天赋牌 talent 无阵营 2 战斗开始时，你至少穿戴2件装备的英雄获得15%伤害加成和15%伤害减免。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第三轮拍卖",
-    "localImage": "/images/talent/talent-633017.webp",
+    "localImage": "/images/s1/talent/talent-633017.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-633017",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1676,7 +1676,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-633018 633018 成年礼 天赋牌 talent 无阵营 2 己方英雄30级时，随机获得2张其阵营的英雄牌（已达30级的英雄，再升级1次可获得）。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第三轮拍卖",
-    "localImage": "/images/talent/talent-633018.webp",
+    "localImage": "/images/s1/talent/talent-633018.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-633018",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1703,7 +1703,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681006 681006 前线堡垒 天赋牌 talent 无阵营 2 战斗开始时，你第一排的英雄获得20点物理及法术防御。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-681006.webp",
+    "localImage": "/images/s1/talent/talent-681006.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681006",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1730,7 +1730,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-634001 634001 大电池包 天赋牌 talent 无阵营 2 获得10能量。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第三轮拍卖",
-    "localImage": "/images/talent/talent-634001.webp",
+    "localImage": "/images/s1/talent/talent-634001.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634001",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1777,7 +1777,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-634012 634012 限制性进化 天赋牌 talent 无阵营 2 获得3张天赋牌限制性进化：指定移除1名1~2阶英雄，获得高2阶的随机英雄牌，且上阵时为原等级+10。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第三轮拍卖 指定移除1名1~2阶英雄，获得高2阶的随机英雄牌，且上阵时为原等级+10。",
-    "localImage": "/images/talent/talent-634012.webp",
+    "localImage": "/images/s1/talent/talent-634012.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634012",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1824,7 +1824,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-634013 634013 援军 天赋牌 talent 无阵营 2 获得1张援军：指定1名英雄，随机获得4张同阵营的英雄牌。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第三轮拍卖 指定1名英雄，随机获得4张同阵营的英雄牌。",
-    "localImage": "/images/talent/talent-634013.webp",
+    "localImage": "/images/s1/talent/talent-634013.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634013",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1851,7 +1851,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681004 681004 群英荟萃 天赋牌 talent 无阵营 2 回合中每打出3张不同品阶的英雄牌，全体英雄等级+3。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖",
-    "localImage": "/images/talent/talent-681004.webp",
+    "localImage": "/images/s1/talent/talent-681004.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681004",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1898,7 +1898,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-634015 634015 自适应武装 天赋牌 talent 无阵营 2 获得1张天赋牌自适应武装：指定1名英雄，随机获得2张与其适配的普通装备牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第三轮拍卖 指定1名英雄，随机获得2张与其适配的普通装备牌。",
-    "localImage": "/images/talent/talent-634015.webp",
+    "localImage": "/images/s1/talent/talent-634015.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634015",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1925,7 +1925,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-634018 634018 虚构装备 天赋牌 talent 无阵营 2 战斗开始时，随机3名己方英雄临时获得1件普通装备及100点生命上限。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第三轮拍卖",
-    "localImage": "/images/talent/talent-634018.webp",
+    "localImage": "/images/s1/talent/talent-634018.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634018",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1952,7 +1952,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-634019 634019 战术模组 天赋牌 talent 无阵营 2 可上阵人数+1。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第三轮拍卖",
-    "localImage": "/images/talent/talent-634019.webp",
+    "localImage": "/images/s1/talent/talent-634019.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634019",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -1979,7 +1979,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-615005 615005 极限操作 天赋牌 talent 无阵营 2 棋手生命值-15，获得15能量。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第一轮拍卖",
-    "localImage": "/images/talent/talent-615005.webp",
+    "localImage": "/images/s1/talent/talent-615005.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-615005",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2006,7 +2006,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-634021 634021 控能达人 天赋牌 talent 无阵营 2 战斗开始时，若当前能量≤3，随机获得1张3-4阶英雄牌。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第四轮拍卖",
-    "localImage": "/images/talent/talent-634021.webp",
+    "localImage": "/images/s1/talent/talent-634021.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634021",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2033,7 +2033,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-634025 634025 强者自强 天赋牌 talent 无阵营 2 战斗开始时，已觉醒英雄获得40点物理攻击力和40点法术攻击力。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第四轮拍卖",
-    "localImage": "/images/talent/talent-634025.webp",
+    "localImage": "/images/s1/talent/talent-634025.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634025",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2060,7 +2060,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-634026 634026 破败之力 天赋牌 talent 无阵营 2 战斗开始时，你的英雄普攻附带敌人最大生命值2%的法术伤害。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第四轮拍卖",
-    "localImage": "/images/talent/talent-634026.webp",
+    "localImage": "/images/s1/talent/talent-634026.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634026",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2087,7 +2087,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681003 681003 抢攻 天赋牌 talent 无阵营 2 获得1张普通装备牌。之后5回合内，若对其他棋手累计造成20点伤害，获得10能量。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖",
-    "localImage": "/images/talent/talent-681003.webp",
+    "localImage": "/images/s1/talent/talent-681003.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681003",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2134,7 +2134,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-681002 681002 神秘英雄 天赋牌 talent 无阵营 2 获得2张神秘英雄牌。手动刷新时，随机变为不低于当前棋手对应品阶的英雄牌。每回合有15%概率自动销毁并获得3能量。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 每次手动刷新时，随机变为不低于当前棋手等级相应品阶的英雄牌。每回合有15%概率自动销毁并获得3能量。",
-    "localImage": "/images/talent/talent-681002.webp",
+    "localImage": "/images/s1/talent/talent-681002.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681002",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2161,7 +2161,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-634031 634031 随机进化 天赋牌 talent 无阵营 2 战斗开始时，你品阶最高的1名英雄等级永久+6。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第四轮拍卖",
-    "localImage": "/images/talent/talent-634031.webp",
+    "localImage": "/images/s1/talent/talent-634031.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634031",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2193,7 +2193,7 @@
     },
     "kind": "talent",
     "searchText": "talent-671020 671020 厉兵秣马 天赋牌 talent 无阵营 2 随机获得1张基础装备牌。接下来4个回合若你的棋手等级没有变化，再获得1个珍品宝箱。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-671020.webp",
+    "localImage": "/images/s1/talent/talent-671020.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-671020",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2240,7 +2240,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636312 636312 擂台猛虎 天赋牌 talent 无阵营 2 获得1个猛虎擂台，擂台中的【三分】英雄获得30点物攻和法攻。每当敌人于擂台范围内被击败时，擂台吸收其灵魂，永久额外提供10点物攻和法攻。每吸收5次，擂台范围永久扩大1格，最多扩大3次。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 猛虎擂台 为【三分】英雄增加物理和法术攻击力。",
-    "localImage": "/images/talent/talent-636312.webp",
+    "localImage": "/images/s1/talent/talent-636312.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636312",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2319,7 +2319,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-671016 671016 拍卖专家 天赋牌 talent 无阵营 2 每次拍卖后，获得1张天赋牌拍卖重现：选择获得1张拍卖中你未获得的卡牌。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖 拍卖重现：一 展示第一轮拍卖中你未获得的卡牌（最多5张），从中挑选1张。 拍卖重现：二 展示第二轮拍卖中你未获得的卡牌（最多5张），从中挑选1张。 拍卖重现：三 消耗4能量，展示第三轮拍卖中你未获得的卡牌（最多5张），从中挑选1张。",
-    "localImage": "/images/talent/talent-671016.webp",
+    "localImage": "/images/s1/talent/talent-671016.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-671016",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2346,7 +2346,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-614008 614008 三十而达 天赋牌 talent 无阵营 2 备战阶段中，英雄总等级到达30级时，获得9棋手经验。 来源: 棋手升级时概率选择获取天赋。 天赋包一 初始阵容",
-    "localImage": "/images/talent/talent-614008.webp",
+    "localImage": "/images/s1/talent/talent-614008.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-614008",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2373,7 +2373,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-671015 671015 透支 天赋牌 talent 无阵营 2 能量可用至-15。回合开始时，如果能量为负，本回合无法打出英雄牌。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖",
-    "localImage": "/images/talent/talent-671015.webp",
+    "localImage": "/images/s1/talent/talent-671015.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-671015",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2420,7 +2420,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-635002 635002 超速成长 天赋牌 talent 无阵营 2 获得1张天赋牌超速成长：指定1名英雄等级+15。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第五轮拍卖 指定1名英雄等级+15。",
-    "localImage": "/images/talent/talent-635002.webp",
+    "localImage": "/images/s1/talent/talent-635002.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635002",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2465,7 +2465,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-614004 614004 王牌认证 天赋牌 talent 无阵营 2 战斗开始时，若你至少有3名4-5阶英雄，获得1张2-3阶效果锦囊。 来源: 棋手升级时概率选择获取天赋。 天赋包二 初始阵容 2阶效果锦囊 3阶效果锦囊",
-    "localImage": "/images/talent/talent-614004.webp",
+    "localImage": "/images/s1/talent/talent-614004.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-614004",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2512,7 +2512,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-671011 671011 祝你好运 天赋牌 talent 无阵营 2 棋手升级时，获得1张天赋牌碰碰运气：指定1名英雄提升5-20等级，随机消耗1-5能量。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 碰碰运气 消耗0能量，指定英雄使其随机提升5-20级。",
-    "localImage": "/images/talent/talent-671011.webp",
+    "localImage": "/images/s1/talent/talent-671011.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-671011",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2539,7 +2539,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-614003 614003 临时增幅 天赋牌 talent 无阵营 2 战斗开始时，将20临时等级随机分配给己方英雄。每回合增加5临时等级。 来源: 棋手升级时概率选择获取天赋。 初始天赋 初始阵容",
-    "localImage": "/images/talent/talent-614003.webp",
+    "localImage": "/images/s1/talent/talent-614003.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-614003",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2588,7 +2588,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-635015 635015 河洛来客 天赋牌 talent 无阵营 2 获得3能量以及1张李信。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第五轮拍卖 李信 每当你拥有牺牲效果的英雄阵亡时，李信临时等级+7。",
-    "localImage": "/images/talent/talent-635015.webp",
+    "localImage": "/images/s1/talent/talent-635015.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635015",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2625,7 +2625,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-614002 614002 紧急行动 天赋牌 talent 无阵营 2 获得10点棋手生命值、1张装备箱。 来源: 棋手升级时概率选择获取天赋。 初始天赋 初始阵容 装备箱",
-    "localImage": "/images/talent/talent-614002.webp",
+    "localImage": "/images/s1/talent/talent-614002.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-614002",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2652,7 +2652,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635017 635017 河洛精兵 天赋牌 talent 无阵营 2 卡牌3选1（4阶或5阶的【河洛】英雄）。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第五轮拍卖",
-    "localImage": "/images/talent/talent-635017.webp",
+    "localImage": "/images/s1/talent/talent-635017.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635017",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2715,7 +2715,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-671009 671009 富贵险中求 天赋牌 talent 无阵营 2 获得1张天赋牌一刀穷一刀富：打出后，获得1张基础装备牌及1张险中求富（持有时获胜累积奖励，失败则消失）。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 一刀穷一刀富 获得1张基础装备牌及1张险中求富并开始记录胜场。 险中求富 获得基础装备牌（当前:0件）。战斗失败销毁此牌并获得2能量。",
-    "localImage": "/images/talent/talent-671009.webp",
+    "localImage": "/images/s1/talent/talent-671009.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-671009",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2762,7 +2762,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-635021 635021 前浪的荣光 天赋牌 talent 无阵营 2 获得2张天赋牌前浪的荣光：指定1名英雄，获得1张高1-2阶的同阵营英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第六轮拍卖 指定1名英雄，获得1张高1-2阶的同阵营英雄牌。",
-    "localImage": "/images/talent/talent-635021.webp",
+    "localImage": "/images/s1/talent/talent-635021.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635021",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2809,7 +2809,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-635024 635024 全军列阵 天赋牌 talent 无阵营 2 获得1张天赋牌全军列阵：指定1名英雄，召唤其同阵营英雄上场直到阵容人数上限（不超过商店可购品阶）。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第六轮拍卖 指定1名英雄，召唤其同阵营英雄上场直到阵容人数上限（不超过商店可购品阶）。",
-    "localImage": "/images/talent/talent-635024.webp",
+    "localImage": "/images/s1/talent/talent-635024.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635024",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2836,7 +2836,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681027 681027 大买卖 天赋牌 talent 无阵营 2 商店购买额外花费1能量，出售英雄牌额外获得1能量。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖",
-    "localImage": "/images/talent/talent-681027.webp",
+    "localImage": "/images/s1/talent/talent-681027.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681027",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2885,7 +2885,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-635027 635027 逐鹿来客 天赋牌 talent 无阵营 2 获得3能量以及1张蒙犽。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第六轮拍卖 蒙犽 登场：获得1张特训战术。",
-    "localImage": "/images/talent/talent-635027.webp",
+    "localImage": "/images/s1/talent/talent-635027.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635027",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2912,7 +2912,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-671007 671007 逆袭之路 天赋牌 talent 无阵营 2 当你排名不是第1或第2名时，你的所有单位伤害+10%，最大生命值+20%。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖",
-    "localImage": "/images/talent/talent-671007.webp",
+    "localImage": "/images/s1/talent/talent-671007.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-671007",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2939,7 +2939,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635029 635029 逐鹿精兵 天赋牌 talent 无阵营 2 卡牌3选1（4阶或5阶的【逐鹿】英雄）。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第六轮拍卖",
-    "localImage": "/images/talent/talent-635029.webp",
+    "localImage": "/images/s1/talent/talent-635029.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635029",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2966,7 +2966,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-623007 623007 伤害转化器 天赋牌 talent 无阵营 2 获得2能量。战斗胜利时，再获得2能量。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第一轮拍卖",
-    "localImage": "/images/talent/talent-623007.webp",
+    "localImage": "/images/s1/talent/talent-623007.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-623007",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -2993,7 +2993,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-613010 613010 绝对领域 天赋牌 talent 无阵营 2 棋手每次受到的伤害减少3点。 来源: 棋手升级时概率选择获取天赋。 初始天赋 初始阵容",
-    "localImage": "/images/talent/talent-613010.webp",
+    "localImage": "/images/s1/talent/talent-613010.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-613010",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3042,7 +3042,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-635032 635032 大河来客 天赋牌 talent 无阵营 2 获得3能量以及1张刘邦。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第七轮拍卖 刘邦 开团：摧毁你所有的图腾，每摧毁1个，刘邦等级永久+5。",
-    "localImage": "/images/talent/talent-635032.webp",
+    "localImage": "/images/s1/talent/talent-635032.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635032",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3069,7 +3069,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-613009 613009 卧薪尝胆 天赋牌 talent 无阵营 2 选取天赋后，当你输掉2场战斗时，获得9棋手经验。 来源: 棋手升级时概率选择获取天赋。 天赋包三 初始阵容",
-    "localImage": "/images/talent/talent-613009.webp",
+    "localImage": "/images/s1/talent/talent-613009.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-613009",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3096,7 +3096,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635034 635034 大河精兵 天赋牌 talent 无阵营 2 卡牌3选1（4阶或5阶的【大河流域】英雄）。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第七轮拍卖",
-    "localImage": "/images/talent/talent-635034.webp",
+    "localImage": "/images/s1/talent/talent-635034.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635034",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3123,7 +3123,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-671002 671002 小身体大能量 天赋牌 talent 无阵营 2 战斗开始时，英雄模型缩小，攻速+60%，暴击率+40%，生命值上限-20%。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖",
-    "localImage": "/images/talent/talent-671002.webp",
+    "localImage": "/images/s1/talent/talent-671002.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-671002",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3160,7 +3160,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-613008 613008 重大里程碑 天赋牌 talent 无阵营 2 棋手到达5级时，获得8能量、1张装备箱和1张高阶效果牌。 来源: 棋手升级时概率选择获取天赋。 天赋包一 初始阵容 装备箱",
-    "localImage": "/images/talent/talent-613008.webp",
+    "localImage": "/images/s1/talent/talent-613008.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-613008",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3209,7 +3209,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-635037 635037 日落海来客 天赋牌 talent 无阵营 2 获得3能量以及1张雅典娜。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第七轮拍卖 雅典娜 开团：随机触发2名【日落海】英雄的整备效果。",
-    "localImage": "/images/talent/talent-635037.webp",
+    "localImage": "/images/s1/talent/talent-635037.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635037",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3264,7 +3264,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-value 671001 一分钱一分货 天赋牌 talent 无阵营 2 获得1张天赋牌等价交换：扣除当前所有能量。根据扣除数量获得不同资源奖励。 把当前能量库存转换成分档奖励，是明确的预算闸门。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖 能量 分档奖励 等价交换 扣除所有能量：＜2，获得2张英雄牌；2-4，获得1张基础装备牌；≥5，获得1张5阶兑换券，2张效果锦囊牌。",
-    "localImage": "/images/talent/talent-value.webp",
+    "localImage": "/images/s1/talent/talent-value.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-value",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3291,7 +3291,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635039 635039 日落海精兵 天赋牌 talent 无阵营 2 卡牌3选1（4阶或5阶的【日落海】英雄）。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第七轮拍卖",
-    "localImage": "/images/talent/talent-635039.webp",
+    "localImage": "/images/s1/talent/talent-635039.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635039",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3338,7 +3338,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-646011 646011 怒神项链 天赋牌 talent 无阵营 2 获得怒神项链：增加暴击率以及法术伤害可以暴击。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 唯一。暴击率+50%，法术伤害可以暴击。",
-    "localImage": "/images/talent/talent-646011.webp",
+    "localImage": "/images/s1/talent/talent-646011.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-646011",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3385,7 +3385,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-613004 613004 人才济济 天赋牌 talent 无阵营 2 升级所需棋手经验-2，每次升级时获得1张天赋牌人才搜寻。 来源: 棋手升级时概率选择获取天赋。 天赋包一 初始阵容 人才搜寻 卡牌3选1（商店可购的最高品阶英雄）。",
-    "localImage": "/images/talent/talent-613004.webp",
+    "localImage": "/images/s1/talent/talent-613004.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-613004",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3434,7 +3434,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-635042 635042 三分来客 天赋牌 talent 无阵营 2 获得3能量以及1张小乔。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第七轮拍卖 小乔 每当你的英雄触发登场效果时，随机3名英雄等级+1。",
-    "localImage": "/images/talent/talent-635042.webp",
+    "localImage": "/images/s1/talent/talent-635042.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635042",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3481,7 +3481,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-646004 646004 法潮灵杖 天赋牌 talent 无阵营 2 获得法潮灵杖：获取左右1格英雄法术攻击力。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 唯一。法术攻击力+25%。战斗开始，会获得左右1格的英雄的100%法术攻击力。",
-    "localImage": "/images/talent/talent-646004.webp",
+    "localImage": "/images/s1/talent/talent-646004.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-646004",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3508,7 +3508,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635044 635044 三分精兵 天赋牌 talent 无阵营 2 卡牌3选1（4阶或5阶的【三分】英雄）。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第七轮拍卖",
-    "localImage": "/images/talent/talent-635044.webp",
+    "localImage": "/images/s1/talent/talent-635044.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635044",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3555,7 +3555,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-646003 646003 断念 天赋牌 talent 无阵营 2 获得断念：造成伤害时降低敌方最大生命值。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 唯一。造成伤害时，本场战斗降低敌方单位20%最大生命值上限（不可叠加）。",
-    "localImage": "/images/talent/talent-646003.webp",
+    "localImage": "/images/s1/talent/talent-646003.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-646003",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3602,7 +3602,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-646002 646002 破阵战芒 天赋牌 talent 无阵营 2 获得破阵战芒：增加攻速及伤害提升（1-3阶英雄限定）。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 唯一。仅1-3阶英雄可穿戴。战斗开始时，获得等级×1%的伤害加成和攻速，上限50%。",
-    "localImage": "/images/talent/talent-646002.webp",
+    "localImage": "/images/s1/talent/talent-646002.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-646002",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3629,7 +3629,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636101 636101 能量改造 天赋牌 talent 无阵营 2 阿科米亚核心不再分配等级。回合开始时，核心每拥有30级，将随机触发场上1名英雄的1次整备或登场效果（单回合最多触发100次）。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖",
-    "localImage": "/images/talent/talent-636101.webp",
+    "localImage": "/images/s1/talent/talent-636101.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636101",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3676,7 +3676,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-646001 646001 破妄之刃 天赋牌 talent 无阵营 2 获得破妄之刃：获得真实伤害能力并提升移速且免疫减速效果。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 唯一。移动速度提升60%，造成伤害的50%会转化为真实伤害。免疫减速效果。",
-    "localImage": "/images/talent/talent-646001.webp",
+    "localImage": "/images/s1/talent/talent-646001.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-646001",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3703,7 +3703,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636103 636103 光棱塔 天赋牌 talent 无阵营 2 阿科米亚核心不再分配等级。每秒对1个随机敌方单位造成6次核心等级×1的法术伤害。每击败1名敌方英雄，阿科米亚核心获得自身1%的等级成长。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖",
-    "localImage": "/images/talent/talent-636103.webp",
+    "localImage": "/images/s1/talent/talent-636103.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636103",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3730,7 +3730,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-638008 638008 瞬影连斩 天赋牌 talent 无阵营 2 闪现英雄击败敌方单位时，会立刻闪现至最近的敌人处，并无敌0.5秒。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖",
-    "localImage": "/images/talent/talent-638008.webp",
+    "localImage": "/images/s1/talent/talent-638008.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-638008",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3757,7 +3757,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636105 636105 场外供能 天赋牌 talent 无阵营 2 回合开始时，阿科米亚核心获得棋手等级×3的等级。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636105.webp",
+    "localImage": "/images/s1/talent/talent-636105.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636105",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3842,7 +3842,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636106 636106 积极整备 天赋牌 talent 无阵营 2 你的英雄每触发5次整备效果，随机获得1件日落海专属装备，上限3件。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第八轮拍卖 星源装甲 【日落海】专属装备 物理和法术吸血+20%。唯一被动：释放技能后的2秒内免疫控制。 星源狩枪 【日落海】专属装备 物理和法术攻击力+20%。唯一被动：法力值上限-20，且技能会直接击败生命值10%以下的敌人。 星源合金盾 【日落海】专属装备 物理和法术防御力+20。唯一被动：受到的伤害-20%。",
-    "localImage": "/images/talent/talent-636106.webp",
+    "localImage": "/images/s1/talent/talent-636106.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636106",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3889,7 +3889,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-638003 638003 胜之不武 天赋牌 talent 无阵营 2 获得3张天赋牌胜之不武：下场战斗你的英雄+20临时等级，但对敌方棋手造成的伤害-10。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖 下场战斗你的英雄+20临时等级，但对敌方棋手造成的伤害-10。",
-    "localImage": "/images/talent/talent-638003.webp",
+    "localImage": "/images/s1/talent/talent-638003.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-638003",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3966,7 +3966,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-63700801 63700801 崛起 天赋牌 talent 无阵营 2 获得1张马可波罗和1张百里守约。共战时，获得3临时等级。若战斗胜利，至多保留他们获得的20临时等级。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 百里守约 每当你拥有牺牲效果的英雄阵亡时，本回合百里守约的法力值上限-20。 马可波罗 登场：自身及阿科米亚核心等级+3。",
-    "localImage": "/images/talent/talent-63700801.webp",
+    "localImage": "/images/s1/talent/talent-63700801.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-63700801",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -3993,7 +3993,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636601 636601 协同一致 天赋牌 talent 无阵营 2 回合开始时，无阵营英雄获得等于当前棋手等级的等级。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636601.webp",
+    "localImage": "/images/s1/talent/talent-636601.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636601",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4018,7 +4018,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636516 636516 荆棘牢笼 天赋牌 talent 无阵营 2 先知图腾获得额外效果：每5秒眩晕最远的1个敌人，持续2秒。如果敌人在眩晕期间阵亡，召唤1只与其等级相同的熊灵。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-636516.webp",
+    "localImage": "/images/s1/talent/talent-636516.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636516",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4045,7 +4045,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636514 636514 因缘际会 天赋牌 talent 无阵营 2 召唤1个1级的因缘图腾。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636514.webp",
+    "localImage": "/images/s1/talent/talent-636514.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636514",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4072,7 +4072,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636115 636115 动能灌注 天赋牌 talent 无阵营 2 阿科米亚核心等级+10。你的英雄每合计攻击10次，核心等级+1。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636115.webp",
+    "localImage": "/images/s1/talent/talent-636115.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636115",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4149,7 +4149,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636117 636117 智能装甲 天赋牌 talent 无阵营 2 随机获得1件【日落海专属装备】。我方英雄每穿戴1件【日落海专属装备】，其整备效果会额外触发1次。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 星源合金盾 【日落海】专属装备 物理和法术防御力+20。唯一被动：受到的伤害-20%。 星源狩枪 【日落海】专属装备 物理和法术攻击力+20%。唯一被动：法力值上限-20，且技能会直接击败生命值10%以下的敌人。 星源星辉 星源装甲 【日落海】专属装备 物理和法术吸血+20%。唯一被动：释放技能后的2秒内免疫控制。 月影之力 【日落海】专属装备 生命值上限+15%。唯一被动：露娜释放2次技能后，将释放1次【月下无限连】（仅露娜穿戴时生效，每场战斗限1次）。",
-    "localImage": "/images/talent/talent-636117.webp",
+    "localImage": "/images/s1/talent/talent-636117.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636117",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4220,7 +4220,7 @@
     },
     "kind": "talent",
     "searchText": "talent-636201 636201 多彩古币 天赋牌 talent 无阵营 2 获得1张古币。古币只能对非【河洛】英雄主动使用：随机变成其他同阶非【河洛】英雄，等级额外+7。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 古币 转瞬 指定1名【河洛】英雄等级+2。 精致古币 转瞬 指定1名【河洛】英雄等级+4。",
-    "localImage": "/images/talent/talent-636201.webp",
+    "localImage": "/images/s1/talent/talent-636201.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636201",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4247,7 +4247,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636512 636512 坚不可摧 天赋牌 talent 无阵营 2 战斗开始时，我方先知图腾、因缘图腾和往生图腾获得回合数x100的护盾。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636512.webp",
+    "localImage": "/images/s1/talent/talent-636512.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636512",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4274,7 +4274,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636510 636510 图腾启灵 天赋牌 talent 无阵营 2 每回合随机召唤1个图腾，直到回合结束。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636510.webp",
+    "localImage": "/images/s1/talent/talent-636510.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636510",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4301,7 +4301,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636509 636509 化为熊灵 天赋牌 talent 无阵营 2 战斗中首名【大河】英雄阵亡时，召唤1只场上大河英雄等级之和的熊灵（不计算临时等级），并嘲讽周围2格敌人，持续4秒。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636509.webp",
+    "localImage": "/images/s1/talent/talent-636509.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636509",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4328,7 +4328,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636206 636206 传家宝 天赋牌 talent 无阵营 2 古币不再附带转瞬。每回合开始时，手牌中古币等级+1，若数量≥8张，则+2级。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第八轮拍卖",
-    "localImage": "/images/talent/talent-636206.webp",
+    "localImage": "/images/s1/talent/talent-636206.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636206",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4377,7 +4377,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636209 636209 古币翻新 天赋牌 talent 无阵营 2 获得1张古币。古币牌会额外提供2级。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 古币 转瞬 指定1名【河洛】英雄等级+2。",
-    "localImage": "/images/talent/talent-636209.webp",
+    "localImage": "/images/s1/talent/talent-636209.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636209",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4442,7 +4442,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636506 636506 生命绽放 天赋牌 talent 无阵营 2 获得1张鬼谷子，玄微之种获得额外效果：每秒回复穿戴者3%生命值。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 鬼谷子 在场时，召唤先知图腾。 先知图腾 开团：距离最近的2名己方英雄获得装备玄微之种。",
-    "localImage": "/images/talent/talent-636506.webp",
+    "localImage": "/images/s1/talent/talent-636506.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636506",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4491,7 +4491,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636213 636213 献祭之赐 天赋牌 talent 无阵营 2 获得1张李信，李信卡牌效果提供的临时等级额外+3。若李信觉醒，敌方英雄触发牺牲时，也会触发己方李信的卡牌效果。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 李信 每当你拥有牺牲效果的英雄阵亡时，李信临时等级+7。",
-    "localImage": "/images/talent/talent-636213.webp",
+    "localImage": "/images/s1/talent/talent-636213.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636213",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4518,7 +4518,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636415 636415 贤士登门 天赋牌 talent 无阵营 2 随机获得1张【逐鹿】英雄牌。回合开始时，再获得1张。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636415.webp",
+    "localImage": "/images/s1/talent/talent-636415.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636415",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4565,7 +4565,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636215 636215 零钱兑换 天赋牌 talent 无阵营 2 你获得的古币会自动兑换为2张无法提供等级的破损古币，精致古币则兑换为4张。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 破损古币 转瞬 指定1名【河洛】英雄使用，无法提供等级。",
-    "localImage": "/images/talent/talent-636215.webp",
+    "localImage": "/images/s1/talent/talent-636215.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636215",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4619,7 +4619,7 @@
     },
     "kind": "talent",
     "searchText": "talent-636413 636413 乘胜追击 天赋牌 talent 无阵营 2 回合开始时，获得1张推演战术。战斗胜利时，改为获得1张高阶推演战术。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 高阶推演战术 转瞬 指定1名【逐鹿】英雄，使其本回合法力值上限{推演高级战术:-10}（每次使用此牌都会提升效果，上限40点）。",
-    "localImage": "/images/talent/talent-636413.webp",
+    "localImage": "/images/s1/talent/talent-636413.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636413",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4646,7 +4646,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636217 636217 最终守卫 天赋牌 talent 无阵营 2 你最后1名【河洛】英雄受到致命伤害时进入无敌状态，并提升50%攻击速度，持续1秒。战斗中你的英雄每触发过1次牺牲效果，无敌时间增加0.25秒。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖",
-    "localImage": "/images/talent/talent-636217.webp",
+    "localImage": "/images/s1/talent/talent-636217.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636217",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4673,7 +4673,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636218 636218 古币契约 天赋牌 talent 无阵营 2 你的英雄每触发3次牺牲效果，获得1张古币。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第八轮拍卖",
-    "localImage": "/images/talent/talent-636218.webp",
+    "localImage": "/images/s1/talent/talent-636218.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636218",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4700,7 +4700,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-613002 613002 保持进步 天赋牌 talent 无阵营 2 获得1张3阶兑换券。回合开始时，获得1棋手经验。满级后，改为获得1能量。 来源: 棋手升级时概率选择获取天赋。 初始天赋 初始阵容",
-    "localImage": "/images/talent/talent-613002.webp",
+    "localImage": "/images/s1/talent/talent-613002.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-613002",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4749,7 +4749,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636412 636412 鲸吞 天赋牌 talent 无阵营 2 获得1张庄周，【逐鹿】英雄每释放6次技能，庄周会吞噬敌方等级最低的1名英雄，永久获得其30%的生命值上限（每场战斗最多吞噬1次）。若庄周觉醒，吞噬上限变为3次。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 庄周 登场：自身等级+2并获得1张招募战术。",
-    "localImage": "/images/talent/talent-636412.webp",
+    "localImage": "/images/s1/talent/talent-636412.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636412",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4776,7 +4776,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636221 636221 幸运硬币 天赋牌 talent 无阵营 2 打出古币时有概率额外触发1-3次。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636221.webp",
+    "localImage": "/images/s1/talent/talent-636221.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636221",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4811,7 +4811,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636224 636224 红豆之托 天赋牌 talent 无阵营 2 获得1张【河洛】英雄王维。备战阶段，场上英雄总等级分别达到100/200/400级时，再获得1张王维。 来源: 棋手升级时概率选择获取天赋。 王维 开团：获得空山人语和水穷云起各1张。",
-    "localImage": "/images/talent/talent-636224.webp",
+    "localImage": "/images/s1/talent/talent-636224.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636224",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4838,7 +4838,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636409 636409 强力小弟 天赋牌 talent 无阵营 2 你的召唤单位等级+6。每回合开始时，再+6。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636409.webp",
+    "localImage": "/images/s1/talent/talent-636409.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636409",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4865,7 +4865,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636401 636401 技高一筹 天赋牌 talent 无阵营 2 【逐鹿】英雄每释放6次技能，获得1能量，上限5能量。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636401.webp",
+    "localImage": "/images/s1/talent/talent-636401.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636401",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4892,7 +4892,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636304 636304 乐善好施 天赋牌 talent 无阵营 2 你的英雄触发登场效果时，随机2名【三分】英雄等级+2。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636304.webp",
+    "localImage": "/images/s1/talent/talent-636304.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636304",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4919,7 +4919,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636317 636317 膨化生命 天赋牌 talent 无阵营 2 战斗开始时，你的【三分】英雄额外获得100%生命值上限（仅提升上限），且生命恢复和护盾效果提升20%。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖",
-    "localImage": "/images/talent/talent-636317.webp",
+    "localImage": "/images/s1/talent/talent-636317.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636317",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -4986,7 +4986,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-zhaoyun 636306 一身是胆 天赋牌 talent 无阵营 2 获得1张赵云，赵云在释放技能前，会额外释放1个技能惊雷之龙，且赵云生命值每次经过70%/30%档位时，会恢复全部法力值。 改写赵云施法拓扑和回蓝窗口，不能当作泛用伤害天赋。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第八轮拍卖 额外施法 吸血 回蓝 释放技能 生命档位 赵云 登场：自身及随机2名其他英雄等级+1。 惊雷之龙 赵云向敌人冲锋，造成150%物攻的物理伤害，并获得50%物理吸血，持续2秒。",
-    "localImage": "/images/talent/talent-zhaoyun.webp",
+    "localImage": "/images/s1/talent/talent-zhaoyun.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-zhaoyun",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5035,7 +5035,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636307 636307 卧龙威势 天赋牌 talent 无阵营 2 获得1张诸葛亮，你的英雄释放技能时，诸葛亮周围1格的其他【三分】英雄获得10点法力值。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 诸葛亮 你的其他英雄释放技能时，诸葛亮获得15点法力值以及4临时等级。",
-    "localImage": "/images/talent/talent-636307.webp",
+    "localImage": "/images/s1/talent/talent-636307.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636307",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5082,7 +5082,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636314 636314 锦囊妙计 天赋牌 talent 无阵营 2 获得1张锦囊：使用后，本回合打出的登场英雄牌，会额外触发1次登场效果。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 锦囊 使用后，本回合打出的登场英雄牌，会额外触发1次登场效果。",
-    "localImage": "/images/talent/talent-636314.webp",
+    "localImage": "/images/s1/talent/talent-636314.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636314",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5109,7 +5109,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636219 636219 钱生战力 天赋牌 talent 无阵营 3 战斗开始时，随机4名【河洛】英雄获得累计使用古币数（选择此天赋后）的临时等级。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636219.webp",
+    "localImage": "/images/s1/talent/talent-636219.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636219",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5141,7 +5141,7 @@
     },
     "kind": "talent",
     "searchText": "talent-636313 636313 控制感应 天赋牌 talent 无阵营 3 你的英雄施加控制效果时，你的【三分】英雄获得20点法术攻击力且临时等级+1。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第八轮拍卖",
-    "localImage": "/images/talent/talent-636313.webp",
+    "localImage": "/images/s1/talent/talent-636313.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636313",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5168,7 +5168,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636309 636309 怒涛 天赋牌 talent 无阵营 3 【三分】英雄获得牺牲：大乔灵体现身，对敌人施加1次巨型海浪打击。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖",
-    "localImage": "/images/talent/talent-636309.webp",
+    "localImage": "/images/s1/talent/talent-636309.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636309",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5203,7 +5203,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-three 636315 三三得三 天赋牌 talent 无阵营 3 战斗开始时，若你场上【三分】英雄人数刚好是3的倍数，他们分别获得33临时等级。 用严格人数闸门换取三分英雄的战斗内临时等级。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 人数闸门 临时等级 战斗开始",
-    "localImage": "/images/talent/talent-three.webp",
+    "localImage": "/images/s1/talent/talent-three.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-three",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5230,7 +5230,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636316 636316 挂帅上阵 天赋牌 talent 无阵营 3 获得1张挂帅：指定1名【三分】英雄，使其等级等同于1名最近的【三分】英雄。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636316.webp",
+    "localImage": "/images/s1/talent/talent-636316.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636316",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5257,7 +5257,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636305 636305 搏战 天赋牌 talent 无阵营 3 你前两排的【三分】英雄生命值50%以下时，每秒恢复5%生命值，并提升50%攻速。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636305.webp",
+    "localImage": "/images/s1/talent/talent-636305.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636305",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5300,7 +5300,7 @@
     },
     "kind": "talent",
     "searchText": "talent-636318 636318 三分领袖 天赋牌 talent 无阵营 3 获得1张装备牌三分旗帜：造成伤害的40%平摊治疗所有【三分】英雄（仅【三分】英雄可穿戴）。 治疗分摊时会排除满血的【三分】英雄。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 三分旗帜 仅三分英雄穿戴。将造成伤害的40%转化为治疗量，平摊给所有【三分】英雄。",
-    "localImage": "/images/talent/talent-636318.webp",
+    "localImage": "/images/s1/talent/talent-636318.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636318",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5327,7 +5327,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636303 636303 四重奏 天赋牌 talent 无阵营 3 战斗开始时，若你场上有至少3个阵营，全体英雄获得5×棋手等级的临时等级。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636303.webp",
+    "localImage": "/images/s1/talent/talent-636303.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636303",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5354,7 +5354,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636402 636402 意外之财 天赋牌 talent 无阵营 3 每合成4次【逐鹿】英雄，获得1张随机1-5阶效果锦囊牌。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第八轮拍卖",
-    "localImage": "/images/talent/talent-636402.webp",
+    "localImage": "/images/s1/talent/talent-636402.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636402",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5381,7 +5381,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636403 636403 令行如流 天赋牌 talent 无阵营 3 获得1张战术牌。回合开始时，再获得1张（棋手等级达到5级后，必定是高阶战术）。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636403.webp",
+    "localImage": "/images/s1/talent/talent-636403.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636403",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5408,7 +5408,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636404 636404 穷兵黩武 天赋牌 talent 无阵营 3 【逐鹿】英雄释放技能时，召唤1个玄雍士兵，其等级与召唤英雄相同，最多同时存在3个。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636404.webp",
+    "localImage": "/images/s1/talent/talent-636404.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636404",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5435,7 +5435,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636406 636406 复现 天赋牌 talent 无阵营 3 每回合首次对【逐鹿】英雄使用的效果牌会返回手牌并附加转瞬。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖",
-    "localImage": "/images/talent/talent-636406.webp",
+    "localImage": "/images/s1/talent/talent-636406.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636406",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5462,7 +5462,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636301 636301 鬼神降临 天赋牌 talent 无阵营 3 你阵亡4名【三分】英雄后，召唤吕布，其等级为已阵亡【三分】英雄等级之和的一半。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636301.webp",
+    "localImage": "/images/s1/talent/talent-636301.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636301",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5489,7 +5489,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636410 636410 演武 天赋牌 talent 无阵营 3 棋手升到5级后，你获得的战术牌都会变为高阶战术。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第八轮拍卖",
-    "localImage": "/images/talent/talent-636410.webp",
+    "localImage": "/images/s1/talent/talent-636410.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636410",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5516,7 +5516,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636411 636411 罡气护体 天赋牌 talent 无阵营 3 【逐鹿】英雄在技能释放期间，每1秒获得自身最大生命值5%的护盾，护盾持续3秒。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636411.webp",
+    "localImage": "/images/s1/talent/talent-636411.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636411",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5543,7 +5543,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636220 636220 暴君归来 天赋牌 talent 无阵营 3 你在战斗过程中复生的英雄，获得200%攻速、100%暴击率和70%伤害减免，持续1.5秒。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636220.webp",
+    "localImage": "/images/s1/talent/talent-636220.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636220",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5592,7 +5592,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636216 636216 千金换酒 天赋牌 talent 无阵营 3 获得1张李白，李白每获得12次古币，释放技能时会永久额外释放1次。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第八轮拍卖 李白 闪现 古币牌会额外提供4临时等级。若目标为李白，该临时等级会额外+3。",
-    "localImage": "/images/talent/talent-636216.webp",
+    "localImage": "/images/s1/talent/talent-636216.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636216",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5637,7 +5637,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636214 636214 丝绸之路 天赋牌 talent 无阵营 3 每出售4名场上英雄获得1张古币，每出售1张古币获得1张【河洛】英雄牌。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖 古币 转瞬 指定1名【河洛】英雄等级+2。 精致古币 转瞬 指定1名【河洛】英雄等级+4。",
-    "localImage": "/images/talent/talent-636214.webp",
+    "localImage": "/images/s1/talent/talent-636214.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636214",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5668,7 +5668,7 @@
     },
     "kind": "talent",
     "searchText": "talent-636417 636417 春风化雨 天赋牌 talent 无阵营 3 回合开始时，获得1张【逐鹿】英雄牌；若上场战斗胜利，再获得1张场上【逐鹿】英雄的同名牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636417.webp",
+    "localImage": "/images/s1/talent/talent-636417.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636417",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5695,7 +5695,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636418 636418 水晶穹顶 天赋牌 talent 无阵营 3 战斗开始时，穹顶会将区域内英雄的护盾吸收变为自身的护盾，保护区域内的友军不受伤害。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636418.webp",
+    "localImage": "/images/s1/talent/talent-636418.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636418",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5742,7 +5742,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636501 636501 望梅止渴 天赋牌 talent 无阵营 3 获得1张望梅止渴。回合开始时，场上每有2名【大河】英雄，再获得1张。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第八轮拍卖 指定1名英雄临时等级+3，战斗开始时，每穿1件装备额外+1级。若战斗胜利，将永久获得此等级。",
-    "localImage": "/images/talent/talent-636501.webp",
+    "localImage": "/images/s1/talent/talent-636501.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636501",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5769,7 +5769,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636503 636503 四海来援 天赋牌 talent 无阵营 3 无阵营英雄获得牺牲：召唤1名与自身品阶和等级相同的英雄（无卡牌效果）参战。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636503.webp",
+    "localImage": "/images/s1/talent/talent-636503.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636503",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5796,7 +5796,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636504 636504 命运图腾 天赋牌 talent 无阵营 3 战斗开始时，若你至少有2名【大河】英雄，随机在其周围1格召唤命运图腾：消灭击败该图腾的敌人。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636504.webp",
+    "localImage": "/images/s1/talent/talent-636504.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636504",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5823,7 +5823,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636505 636505 神明庇佑 天赋牌 talent 无阵营 3 战斗开始时，图腾周围1格的己方单位提高10%生命值上限和20%攻速，可叠加。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636505.webp",
+    "localImage": "/images/s1/talent/talent-636505.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636505",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5850,7 +5850,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636211 636211 自我奉献 天赋牌 talent 无阵营 3 【河洛】英雄获得牺牲：所有友方单位+1临时等级，每次触发此牺牲效果时，临时等级额外+1。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636211.webp",
+    "localImage": "/images/s1/talent/talent-636211.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636211",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5897,7 +5897,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636507 636507 始祖熊灵 天赋牌 talent 无阵营 3 获得1张始祖熊灵，其被视为【大河】英雄且不占人口。战斗开始时，我方每比敌方多1个单位，始祖熊灵永久增加2级。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 每当你的单位触发开团效果时，始祖熊灵获得20%攻击速度。",
-    "localImage": "/images/talent/talent-636507.webp",
+    "localImage": "/images/s1/talent/talent-636507.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636507",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5924,7 +5924,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636508 636508 熊魂附甲 天赋牌 talent 无阵营 3 你至少穿戴2件装备的【大河】英雄阵亡获得牺牲：召唤1只与该英雄等级相同的熊灵。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636508.webp",
+    "localImage": "/images/s1/talent/talent-636508.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636508",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5951,7 +5951,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636205 636205 一起发财 天赋牌 talent 无阵营 3 使用古币时，其他每个阵营中各1名随机英雄等级+3。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖",
-    "localImage": "/images/talent/talent-636205.webp",
+    "localImage": "/images/s1/talent/talent-636205.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636205",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -5978,7 +5978,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636204 636204 古币机 天赋牌 talent 无阵营 3 召唤古币机，每对其使用4张古币牌（精致古币视为2次），依次获得：随机5张河洛英雄牌；1件贤者的庇护。之后随机获得：1张超速成长、1张普通装备牌或8能量。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖",
-    "localImage": "/images/talent/talent-636204.webp",
+    "localImage": "/images/s1/talent/talent-636204.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636204",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6005,7 +6005,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636511 636511 虚妄转生 天赋牌 talent 无阵营 3 召唤1个虚妄图腾：被摧毁时，变为场上存活的等级最高或品阶最高的【大河】英雄（无卡牌效果）。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖",
-    "localImage": "/images/talent/talent-636511.webp",
+    "localImage": "/images/s1/talent/talent-636511.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636511",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6032,7 +6032,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636203 636203 升值 天赋牌 talent 无阵营 3 获得2张古币。战斗胜利时，古币牌提供的等级永久+1。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636203.webp",
+    "localImage": "/images/s1/talent/talent-636203.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636203",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6059,7 +6059,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636513 636513 灵祭升华 天赋牌 talent 无阵营 3 场上的图腾被摧毁时，等级最高的【大河】英雄获得图腾一半等级的临时等级。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖",
-    "localImage": "/images/talent/talent-636513.webp",
+    "localImage": "/images/s1/talent/talent-636513.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636513",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6106,7 +6106,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636114 636114 核心裂痕 天赋牌 talent 无阵营 3 获得1张盗火。回合开始时，再获得1张（转瞬。指定1名英雄，至多偷取阿科米亚核心20级）。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第八轮拍卖 盗火 转瞬 指定1名英雄，至多偷取阿科米亚核心20级。",
-    "localImage": "/images/talent/talent-636114.webp",
+    "localImage": "/images/s1/talent/talent-636114.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636114",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6133,7 +6133,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636113 636113 能源置换 天赋牌 talent 无阵营 3 回合开始时，阿科米亚核心失去20级，获得10能量。每回合最多触发1次。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖",
-    "localImage": "/images/talent/talent-636113.webp",
+    "localImage": "/images/s1/talent/talent-636113.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636113",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6272,7 +6272,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636517 636517 神鹰锻匠 天赋牌 talent 无阵营 3 获得1张云中君，战斗开始时，云中君会为距离最近的1个【大河】英雄添加1件神兵装备。若云中君觉醒，神兵至多添加3件。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 流云之刺 唯一。攻击速度+30%。每对目标进行3次普通攻击，会召唤云中君灵体对其造成4%最大生命值的物理伤害并降低其5点护甲。 翼苍穹盾 唯一。物理和法术防御力+10。敌方每阵亡1个单位，再各提升10点，上限100点。 掠魂爪 唯一。物理和法术吸血+50%。普通攻击额外造成目标8%当前生命值的物理伤害。 永冻霜羽 唯一。法术攻击力+100 。对每个目标首次造成法术伤害时，将冻结目标2秒。 苍穹王权 唯一。受到致命伤害时，免疫此次伤害，持续1秒。并对全部敌人造成100+其已损失30%生命值的法术伤害。 唤鹰骨笛 战斗开始后每8秒，召唤一名等级为自身一半的云中君，迅速冲向最远处的敌人。",
-    "localImage": "/images/talent/talent-636517.webp",
+    "localImage": "/images/s1/talent/talent-636517.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636517",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6299,7 +6299,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636112 636112 全域共鸣 天赋牌 talent 无阵营 3 随机获得1件星源装备，且星源装备的【日落海】专属效果对穿戴它的任意英雄生效。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第八轮拍卖",
-    "localImage": "/images/talent/talent-636112.webp",
+    "localImage": "/images/s1/talent/talent-636112.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636112",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6384,7 +6384,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636602 636602 升格 天赋牌 talent 无阵营 3 战斗中入场的召唤物存活8秒后，变为其召唤者（无卡牌效果）并保留等级，每场战斗最多5次。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第八轮拍卖 蒙恬 牺牲：召唤2名与自身等级相同的玄雍士兵。 米莱狄 召唤单位获得 3临时等级。 整备：该临时等级及阿科米亚核心等级额外+3。 大司命 在场时，召唤往生图腾。 每当你触发牺牲效果时：往生图腾等级永久+2并获得50点法力值。",
-    "localImage": "/images/talent/talent-636602.webp",
+    "localImage": "/images/s1/talent/talent-636602.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636602",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6411,7 +6411,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636603 636603 千里相聚 天赋牌 talent 无阵营 3 每打出3张无阵营英雄牌时，全体英雄等级+4。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636603.webp",
+    "localImage": "/images/s1/talent/talent-636603.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636603",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6448,7 +6448,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636604 636604 身外身 天赋牌 talent 无阵营 3 获得1张孙悟空，孙悟空释放技能时，呼出2个猴毛化身进行1次攻击。战斗胜利时，化身永久+1。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖 孙悟空 闪现，夺取 整备：拥有闪现效果的英雄等级+2。",
-    "localImage": "/images/talent/talent-636604.webp",
+    "localImage": "/images/s1/talent/talent-636604.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636604",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6515,7 +6515,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-637001 637001 兄妹 天赋牌 talent 无阵营 3 获得1张铠和1张露娜。共战时，铠首次释放技能，露娜可以无限释放技能，持续7秒。露娜每次释放技能，铠提升40%攻速。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖 铠 复生 牺牲：你的【河洛】英雄获得5临时等级。 露娜 闪现 登场：阿科米亚核心等级+2，并且随机触发2名英雄的整备效果。",
-    "localImage": "/images/talent/talent-637001.webp",
+    "localImage": "/images/s1/talent/talent-637001.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-637001",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6582,7 +6582,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-637003 637003 兽觉 天赋牌 talent 无阵营 3 获得1张裴擒虎和1张云中君。共战时，每当敌人被击败，二人获得兽觉，普攻额外造成100%物理伤害，持续5秒。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第八轮拍卖 裴擒虎 闪现 整备：随机获得1名其他英雄等级数一半的临时等级，不可叠加。 云中君 闪现 开团：你的英雄每穿戴1件装备，该英雄等级永久+1。",
-    "localImage": "/images/talent/talent-637003.webp",
+    "localImage": "/images/s1/talent/talent-637003.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-637003",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6681,7 +6681,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-637004 637004 巨像 天赋牌 talent 无阵营 3 获得1张米莱狄和1张蒙恬。二人在场时，召唤与米莱狄等级相同的蔚蓝神兽。二人等级之和达到100时，召唤与蒙恬等级相同的猩红神兽。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 蒙恬 牺牲：召唤2名与自身等级相同的玄雍士兵。 米莱狄 召唤单位获得 3临时等级。 整备：该临时等级及阿科米亚核心等级额外+3。 猩红神兽 战斗中，我方召唤物入场时使之获得猩红神兽之力。 蔚蓝神兽 战斗中我方单位入场时，蔚蓝神兽永久增加5点生命值。",
-    "localImage": "/images/talent/talent-637004.webp",
+    "localImage": "/images/s1/talent/talent-637004.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-637004",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6708,7 +6708,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-637006 637006 舞力全开 天赋牌 talent 无阵营 3 貂蝉、婉儿共战时二人共享法力值（不会变更），技能变为融合技，可对目标造成伤害及负面效果。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-637006.webp",
+    "localImage": "/images/s1/talent/talent-637006.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-637006",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6775,7 +6775,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-63700601 63700601 起舞 天赋牌 talent 无阵营 3 获得1张貂蝉和1张上官婉儿。共战时，参与击败敌方英雄后，二人均+10点法术攻击力并+1级。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 貂蝉 登场：【三分】英雄等级+1。 上官婉儿 整备：随机对3名不同【河洛】英雄使用1张古币。",
-    "localImage": "/images/talent/talent-63700601.webp",
+    "localImage": "/images/s1/talent/talent-63700601.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-63700601",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6842,7 +6842,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-637007 637007 箭雨 天赋牌 talent 无阵营 3 获得1张虞姬和1张公孙离。共战时，每合计攻击10次，将往敌方人群最密集处释放箭雨，各造成3次自身等级x2的法术伤害。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖 公孙离 夺取 开团：场上每有1名已觉醒英雄，攻击速度+15%。 虞姬 开团：场上每有1个图腾，自身及随机2名不同己方英雄等级+1。",
-    "localImage": "/images/talent/talent-637007.webp",
+    "localImage": "/images/s1/talent/talent-637007.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-637007",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6869,7 +6869,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-637008 637008 双生突袭 天赋牌 talent 无阵营 3 马可波罗、百里守约共战，释放技能时创造分身朝敌人释放技能。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-637008.webp",
+    "localImage": "/images/s1/talent/talent-637008.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-637008",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6896,7 +6896,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636108 636108 双重分配 天赋牌 talent 无阵营 3 阿科米亚核心每分配1等级，还将随机分配1点属性：双攻/攻速/初始法力值中的随机1个（每场战斗随机）。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636108.webp",
+    "localImage": "/images/s1/talent/talent-636108.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636108",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -6967,7 +6967,7 @@
     },
     "kind": "talent",
     "searchText": "talent-637010 637010 毒奶 天赋牌 talent 无阵营 3 获得1张蔡文姬和1张扁鹊。共战时，扁鹊固定对蔡文姬释放技能，蔡文姬获得50%移速，持续在敌方附近游走并造成伤害（详见技能面板）。 毒奶·长歌行：基础技能为10+30%法术攻击力的生命值恢复和法术伤害；10级技能为10+45%法术攻击力的生命值恢复和法术伤害。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 蔡文姬 每当你使用【三分】英雄牌时，等级最低的其他3名【三分】英雄等级+1。 扁鹊 友方单位护盾被击破时，对周围敌人造成该英雄最大生命值10%的法术伤害（冷却1秒）。",
-    "localImage": "/images/talent/talent-637010.webp",
+    "localImage": "/images/s1/talent/talent-637010.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-637010",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7034,7 +7034,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-637011 637011 逐星 天赋牌 talent 无阵营 3 获得1张李白和1张曜。共战时，李白释放技能后，曜同步模仿李白，3次后曜将二人的技能融会贯通，领悟更强大的招式（详见技能面板）。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 曜 你的英雄合成提升的等级+1。 李白 闪现 古币牌会额外提供4临时等级。若目标为李白，该临时等级会额外+3。",
-    "localImage": "/images/talent/talent-637011.webp",
+    "localImage": "/images/s1/talent/talent-637011.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-637011",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7101,7 +7101,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-637012 637012 宝盒 天赋牌 talent 无阵营 3 获得1张露娜和1张孙悟空。共战时二者任意一方受到致死伤害时会暂时离场，持续6秒。在此期间另一方如未阵亡，则返回战场并恢复全部生命值及法力值。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 孙悟空 闪现，夺取 整备：拥有闪现效果的英雄等级+2。 露娜 闪现 登场：阿科米亚核心等级+2，并且随机触发2名英雄的整备效果。",
-    "localImage": "/images/talent/talent-637012.webp",
+    "localImage": "/images/s1/talent/talent-637012.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-637012",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7168,7 +7168,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-637016 637016 旋刃 天赋牌 talent 无阵营 3 获得1张李元芳和1张公孙离。共战时二人共享法力值（不会变更），技能变为融合技：旋刃（详见技能面板）。旋刃每造成2次伤害，李元芳等级永久+1。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第八轮拍卖 李元芳 整备：对距离最近的【河洛】英雄使用1张古币。 公孙离 夺取 开团：场上每有1名已觉醒英雄，攻击速度+15%。",
-    "localImage": "/images/talent/talent-637016.webp",
+    "localImage": "/images/s1/talent/talent-637016.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-637016",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7195,7 +7195,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-638001 638001 慕名而来 天赋牌 talent 无阵营 3 你的英雄每触发4次登场效果，随机获得1张英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-638001.webp",
+    "localImage": "/images/s1/talent/talent-638001.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-638001",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7222,7 +7222,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-638002 638002 狂野帷幕 天赋牌 talent 无阵营 3 战斗开始时，所有非牺牲单位进入隐形状态，持续10秒。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-638002.webp",
+    "localImage": "/images/s1/talent/talent-638002.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-638002",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7249,7 +7249,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636107 636107 积少成多 天赋牌 talent 无阵营 3 【日落海】英雄每提升10级，阿科米亚核心获得4等级。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636107.webp",
+    "localImage": "/images/s1/talent/talent-636107.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636107",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7276,7 +7276,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-638004 638004 超级蓄能 天赋牌 talent 无阵营 3 回合开始时，你的整备效果英雄会提升场上整备效果英雄数x2的等级。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-638004.webp",
+    "localImage": "/images/s1/talent/talent-638004.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-638004",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7303,7 +7303,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-638005 638005 镜像迷离 天赋牌 talent 无阵营 3 战斗开始时，你的英雄偷取敌方同名英雄33%的等级，每名英雄只会因此效果改变一次等级。若对手也拥有此天赋，则无法生效。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖",
-    "localImage": "/images/talent/talent-638005.webp",
+    "localImage": "/images/s1/talent/talent-638005.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-638005",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7356,7 +7356,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-638006 638006 摄人心魄 天赋牌 talent 无阵营 3 你的夺取效果英雄击败敌方英雄时，将永久夺取对方3级。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖 公孙离 夺取 开团：场上每有1名已觉醒英雄，攻击速度+15%。 猪八戒 夺取 每当3阶及以下英雄合成时，与其同阶的英雄等级+1。 孙悟空 闪现，夺取 整备：拥有闪现效果的英雄等级+2。",
-    "localImage": "/images/talent/talent-638006.webp",
+    "localImage": "/images/s1/talent/talent-638006.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-638006",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7441,7 +7441,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-638007 638007 控魂 天赋牌 talent 无阵营 3 夺取效果英雄击败敌方英雄时，将其灵魂复活（无卡牌效果），满法力值作战，持续5秒。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 公孙离 夺取 开团：场上每有1名已觉醒英雄，攻击速度+15%。 猪八戒 夺取 每当3阶及以下英雄合成时，与其同阶的英雄等级+1。 孙悟空 闪现，夺取 整备：拥有闪现效果的英雄等级+2。",
-    "localImage": "/images/talent/talent-638007.webp",
+    "localImage": "/images/s1/talent/talent-638007.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-638007",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7468,7 +7468,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636104 636104 能量汲取 天赋牌 talent 无阵营 3 出售场上英雄时，阿科米亚核心会获得其等级。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖",
-    "localImage": "/images/talent/talent-636104.webp",
+    "localImage": "/images/s1/talent/talent-636104.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636104",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7495,7 +7495,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-638009 638009 双生相 天赋牌 talent 无阵营 3 战斗开始时，第一排闪现英雄不再闪现，获得30%最大生命值上限以及10点双抗；后三排闪现英雄额外获得20%暴击率和40%暴击效果。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖",
-    "localImage": "/images/talent/talent-638009.webp",
+    "localImage": "/images/s1/talent/talent-638009.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-638009",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7538,7 +7538,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-638010 638010 生生不息 天赋牌 talent 无阵营 3 4/5阶的召唤单位获得完美复生。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 往生图腾（山鬼形态） 大司命灵体以外的1-3阶己方召唤物上场时，吸收该单位使往生图腾等级永久+1并获得15点法力值。 机关傀儡 获得等同于你场上【逐鹿】英雄或召唤单位中最高等级一半的临时等级。",
-    "localImage": "/images/talent/talent-638010.webp",
+    "localImage": "/images/s1/talent/talent-638010.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-638010",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7565,7 +7565,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-636102 636102 定向传输 天赋牌 talent 无阵营 3 阿科米亚核心的等级会优先分配给穿戴装备最多的【日落海】英雄，最多分配200级。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636102.webp",
+    "localImage": "/images/s1/talent/talent-636102.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636102",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7612,7 +7612,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-635046 635046 点兵点将 天赋牌 talent 无阵营 3 获得1张天赋牌点兵点将：获得场上英雄牌各1张。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖 获得场上所有英雄牌各1张。",
-    "localImage": "/images/talent/talent-635046.webp",
+    "localImage": "/images/s1/talent/talent-635046.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635046",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7639,7 +7639,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635045 635045 三分强援 天赋牌 talent 无阵营 3 获得5能量和随机3张4-5阶【三分】英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-635045.webp",
+    "localImage": "/images/s1/talent/talent-635045.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635045",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7674,7 +7674,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-reinforce 635043 三分增援 天赋牌 talent 无阵营 3 随机获得3张3-4阶【三分】英雄牌。 把天赋选择转换成三分中高费补件包。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第七轮拍卖 三分英雄牌 补件 获得天赋",
-    "localImage": "/images/talent/talent-reinforce.webp",
+    "localImage": "/images/s1/talent/talent-reinforce.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-reinforce",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7721,7 +7721,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-646005 646005 护命灵珠 天赋牌 talent 无阵营 3 获得护命灵珠：增加护盾，护盾存在期间造成伤害提升。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 唯一。每4秒获得基础生命值25%的护盾。拥有护盾时伤害提升25%，护盾被击破则移除。",
-    "localImage": "/images/talent/talent-646005.webp",
+    "localImage": "/images/s1/talent/talent-646005.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-646005",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7768,7 +7768,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-646006 646006 光辉圣铠 天赋牌 talent 无阵营 3 获得光辉圣铠：每秒获得生命恢复。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 唯一。每秒恢复50+4%最大生命值。",
-    "localImage": "/images/talent/talent-646006.webp",
+    "localImage": "/images/s1/talent/talent-646006.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-646006",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7815,7 +7815,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-646007 646007 魂祭绝刃 天赋牌 talent 无阵营 3 获得魂祭绝刃：增加攻速与吸血，但每次战斗以50%生命值开始。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 唯一。攻击速度+50%，物理和法术吸血+30%。战斗开始时，扣除50%最大生命值。",
-    "localImage": "/images/talent/talent-646007.webp",
+    "localImage": "/images/s1/talent/talent-646007.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-646007",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7862,7 +7862,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-646008 646008 根源之力 天赋牌 talent 无阵营 3 获得根源之力：对敌方血量最少的单位造成法术伤害。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 唯一。每4秒对生命值最低的敌方单位造成600%法术攻击力的法术伤害。",
-    "localImage": "/images/talent/talent-646008.webp",
+    "localImage": "/images/s1/talent/talent-646008.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-646008",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7909,7 +7909,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-646009 646009 灵泉项链 天赋牌 talent 无阵营 3 获得灵泉项链：法力值上限-10，自身及周围1格友军每秒获得法力值。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 唯一。战斗开始时，周围1格的单位每秒回复4点法力值。穿戴者法力值上限-10。",
-    "localImage": "/images/talent/talent-646009.webp",
+    "localImage": "/images/s1/talent/talent-646009.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-646009",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7956,7 +7956,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-646010 646010 魂灭灵冠 天赋牌 talent 无阵营 3 获得魂灭灵冠：穿戴者阵亡时基于敌人最大生命值造成真实伤害。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 唯一。阵亡时，对周围1格敌人造成目标35%最大生命值的真实伤害。",
-    "localImage": "/images/talent/talent-646010.webp",
+    "localImage": "/images/s1/talent/talent-646010.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-646010",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -7983,7 +7983,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635040 635040 日落海强援 天赋牌 talent 无阵营 3 获得5能量和随机3张4-5阶【日落海】英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第七轮拍卖",
-    "localImage": "/images/talent/talent-635040.webp",
+    "localImage": "/images/s1/talent/talent-635040.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635040",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8020,7 +8020,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-646012 646012 强敌克星 天赋牌 talent 无阵营 3 获得强敌克星：造成真实伤害，每普攻4次眩晕敌人。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 唯一。造成伤害的15%转化为真实伤害。对目标每普通攻击4次，会眩晕目标1秒。",
-    "localImage": "/images/talent/talent-646012.webp",
+    "localImage": "/images/s1/talent/talent-646012.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-646012",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8067,7 +8067,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-646013 646013 灵泉法杖 天赋牌 talent 无阵营 3 获得灵泉法杖：获得闪现，闪现后重击敌人。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 唯一。获得闪现，每次闪现后普攻附带一次重击：造成300%伤害并且眩晕敌方1秒，每次击败敌方单位再次触发闪现。",
-    "localImage": "/images/talent/talent-646013.webp",
+    "localImage": "/images/s1/talent/talent-646013.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-646013",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8114,7 +8114,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-646015 646015 鼓舞之戒 天赋牌 talent 无阵营 3 获得鼓舞之戒：与穿戴者同阵营的英雄提升最大生命值。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 唯一。战斗开始时，与穿戴者同阵营的英雄，提升30%最大生命值。",
-    "localImage": "/images/talent/talent-646015.webp",
+    "localImage": "/images/s1/talent/talent-646015.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-646015",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8161,7 +8161,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-646016 646016 梦魇之牙 天赋牌 talent 无阵营 3 获得梦魇之牙：魔法伤害击败敌方造成范围伤害。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 唯一。法术攻击力+35%。造成法术伤害时添加梦魇印记，持续5秒。带有印记的单位阵亡时，对周围1格敌方单位造成穿戴者法术攻击力×2的法术伤害。",
-    "localImage": "/images/talent/talent-646016.webp",
+    "localImage": "/images/s1/talent/talent-646016.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-646016",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8208,7 +8208,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-646017 646017 末世 天赋牌 talent 无阵营 3 获得末世：普通攻击偷取敌方生命值。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 唯一。普通攻击会减少目标2%最大生命值并恢复等量生命值。穿戴者为近战英雄时，效果翻倍。",
-    "localImage": "/images/talent/talent-646017.webp",
+    "localImage": "/images/s1/talent/talent-646017.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-646017",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8235,7 +8235,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635038 635038 日落海增援 天赋牌 talent 无阵营 3 随机获得3张3-4阶【日落海】英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第七轮拍卖",
-    "localImage": "/images/talent/talent-635038.webp",
+    "localImage": "/images/s1/talent/talent-635038.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635038",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8262,7 +8262,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635035 635035 大河强援 天赋牌 talent 无阵营 3 获得5能量和随机3张4-5阶【大河流域】英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第七轮拍卖",
-    "localImage": "/images/talent/talent-635035.webp",
+    "localImage": "/images/s1/talent/talent-635035.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635035",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8289,7 +8289,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635033 635033 大河增援 天赋牌 talent 无阵营 3 随机获得3张3-4阶【大河流域】英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第七轮拍卖",
-    "localImage": "/images/talent/talent-635033.webp",
+    "localImage": "/images/s1/talent/talent-635033.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635033",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8316,7 +8316,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635030 635030 逐鹿强援 天赋牌 talent 无阵营 3 获得5能量和随机3张4-5阶【逐鹿】英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第六轮拍卖",
-    "localImage": "/images/talent/talent-635030.webp",
+    "localImage": "/images/s1/talent/talent-635030.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635030",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8343,7 +8343,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635028 635028 逐鹿增援 天赋牌 talent 无阵营 3 随机获得3张3-4阶【逐鹿】英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第六轮拍卖",
-    "localImage": "/images/talent/talent-635028.webp",
+    "localImage": "/images/s1/talent/talent-635028.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635028",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8392,7 +8392,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-671008 671008 拾荒者 天赋牌 talent 无阵营 3 恢复10棋手生命值。之后每有1位棋手被淘汰，获得2张5阶英雄兑换券。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 5阶英雄兑换券 卡牌3选1（5阶英雄牌）。",
-    "localImage": "/images/talent/talent-671008.webp",
+    "localImage": "/images/s1/talent/talent-671008.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-671008",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8419,7 +8419,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635018 635018 河洛强援 天赋牌 talent 无阵营 3 获得5能量和3张随机4-5阶【河洛】英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第五轮拍卖",
-    "localImage": "/images/talent/talent-635018.webp",
+    "localImage": "/images/s1/talent/talent-635018.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635018",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8446,7 +8446,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635016 635016 河洛增援 天赋牌 talent 无阵营 3 随机获得3张3-4阶【河洛】英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第五轮拍卖",
-    "localImage": "/images/talent/talent-635016.webp",
+    "localImage": "/images/s1/talent/talent-635016.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635016",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8473,7 +8473,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635013 635013 天兵 天赋牌 talent 无阵营 3 获得1张5阶英雄牌。回合开始时，再获得1张。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第五轮拍卖",
-    "localImage": "/images/talent/talent-635013.webp",
+    "localImage": "/images/s1/talent/talent-635013.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635013",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8500,7 +8500,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635012 635012 守护灵 天赋牌 talent 无阵营 3 当你在战斗中仅剩1名英雄时，随机召唤1名满装备的5阶英雄（无卡牌效果）出战，并使之获得回合数x10的等级（至少为80级）。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第五轮拍卖",
-    "localImage": "/images/talent/talent-635012.webp",
+    "localImage": "/images/s1/talent/talent-635012.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635012",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8567,7 +8567,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-671013 671013 群星璀璨 天赋牌 talent 无阵营 3 获得2张4-5阶英雄兑换券。当你场上至少有5名4-5阶英雄时，所有4-5阶英雄获得20临时等级。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 4阶英雄兑换券 卡牌3选1（4阶英雄牌）。 5阶英雄兑换券 卡牌3选1（5阶英雄牌）。",
-    "localImage": "/images/talent/talent-671013.webp",
+    "localImage": "/images/s1/talent/talent-671013.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-671013",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8594,7 +8594,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635001 635001 特大电池包 天赋牌 talent 无阵营 3 获得12能量。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第五轮拍卖",
-    "localImage": "/images/talent/talent-635001.webp",
+    "localImage": "/images/s1/talent/talent-635001.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635001",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8621,7 +8621,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-634037 634037 强者恒强 天赋牌 talent 无阵营 3 战斗开始时，你的已觉醒英雄获得50点物理攻击力和50点法术攻击力。若所有己方英雄已觉醒，则再获得20%物理及法术吸血。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第四轮拍卖",
-    "localImage": "/images/talent/talent-634037.webp",
+    "localImage": "/images/s1/talent/talent-634037.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634037",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8648,7 +8648,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-634035 634035 随机强化 天赋牌 talent 无阵营 3 战斗开始时，你品阶最高的1名英雄等级永久+9。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第四轮拍卖",
-    "localImage": "/images/talent/talent-634035.webp",
+    "localImage": "/images/s1/talent/talent-634035.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634035",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8675,7 +8675,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-671018 671018 无影手 天赋牌 talent 无阵营 3 回合开始时，获得3次仅本回合可用的免费商店刷新。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-671018.webp",
+    "localImage": "/images/s1/talent/talent-671018.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-671018",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8730,7 +8730,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-671019 671019 学霸 天赋牌 talent 无阵营 3 获得5能量。若你是第1个到达5/6级的棋手，则5级获得2张5阶英雄兑换券，6级获得1件天赋装备。失败则获得留级证明。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 留级证明 保持在棋手等级1时，每回合获得1能量。 强敌克星",
-    "localImage": "/images/talent/talent-671019.webp",
+    "localImage": "/images/s1/talent/talent-671019.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-671019",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8757,7 +8757,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-634032 634032 破败神威 天赋牌 talent 无阵营 3 战斗开始时，你的英雄普攻附带敌人最大生命值3%的法术伤害。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第四轮拍卖",
-    "localImage": "/images/talent/talent-634032.webp",
+    "localImage": "/images/s1/talent/talent-634032.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634032",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8784,7 +8784,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-671021 671021 绝境逆袭 天赋牌 talent 无阵营 3 当你排名不是第1或第2名时，你的所有单位伤害+20%，最大生命值+25%。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖",
-    "localImage": "/images/talent/talent-671021.webp",
+    "localImage": "/images/s1/talent/talent-671021.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-671021",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8831,7 +8831,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-681001 681001 买橘子去 天赋牌 talent 无阵营 3 获得1张天赋牌站这别动：指定1个阵位，每过2回合，获得1张此格上的英雄牌。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 站这别动 指定1个阵位，每过2回合，获得1张此格上的英雄牌。",
-    "localImage": "/images/talent/talent-681001.webp",
+    "localImage": "/images/s1/talent/talent-681001.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681001",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8882,7 +8882,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-634030 634030 战略中枢 天赋牌 talent 无阵营 3 可上阵人数+1，同时获得2张有福同享。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第四轮拍卖 有福同享 指定1名英雄，场上和其品阶相同的英雄等级+4。",
-    "localImage": "/images/talent/talent-634030.webp",
+    "localImage": "/images/s1/talent/talent-634030.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634030",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8909,7 +8909,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-634028 634028 虚构武装 天赋牌 talent 无阵营 3 战斗开始时，随机3名己方英雄临时获得2件普通装备及300点生命上限。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第四轮拍卖",
-    "localImage": "/images/talent/talent-634028.webp",
+    "localImage": "/images/s1/talent/talent-634028.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634028",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8946,7 +8946,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-634014 634014 延迟满足 天赋牌 talent 无阵营 3 获得1张天赋牌延迟满足：指定1名英雄等级+10。3回合后，再+25。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第三轮拍卖 指定1名英雄等级+10。3回合后，再+25。",
-    "localImage": "/images/talent/talent-634014.webp",
+    "localImage": "/images/s1/talent/talent-634014.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-634014",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -8973,7 +8973,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-633020 633020 全副武装 天赋牌 talent 无阵营 3 获得1张基础装备牌。战斗开始时，你至少穿戴2件装备的英雄获得15%伤害加成和减免。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第三轮拍卖",
-    "localImage": "/images/talent/talent-633020.webp",
+    "localImage": "/images/s1/talent/talent-633020.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-633020",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9000,7 +9000,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-633014 633014 同心协力 天赋牌 talent 无阵营 3 战斗开始时，若你至少有6名同阵营英雄，其获得50点物攻和法攻以及50%攻速。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第二轮拍卖",
-    "localImage": "/images/talent/talent-633014.webp",
+    "localImage": "/images/s1/talent/talent-633014.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-633014",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9027,7 +9027,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-632012 632012 泉水 天赋牌 talent 无阵营 3 回合开始时，恢复3棋手生命值；若棋手生命值已满，改为获得4棋手经验。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第二轮拍卖",
-    "localImage": "/images/talent/talent-632012.webp",
+    "localImage": "/images/s1/talent/talent-632012.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-632012",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9062,7 +9062,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-tour 623001 三人游 天赋牌 talent 无阵营 3 随机获得3张4-5阶英雄牌。 用高阶随机供给扩大后期候选，但不保证命中当前路线。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第一轮拍卖 高阶英雄牌 随机供给 获得天赋",
-    "localImage": "/images/talent/talent-tour.webp",
+    "localImage": "/images/s1/talent/talent-tour.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-tour",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9089,7 +9089,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681011 681011 扩编高峰 天赋牌 talent 无阵营 3 获得1个可购买天赋：花费8能量，可上阵人数+1。可购买3次。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-681011.webp",
+    "localImage": "/images/s1/talent/talent-681011.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681011",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9116,7 +9116,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681012 681012 补给线：整备 天赋牌 talent 无阵营 3 获得1张整备效果英雄牌。回合开始时，再获得1张。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-681012.webp",
+    "localImage": "/images/s1/talent/talent-681012.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681012",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9143,7 +9143,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681013 681013 补给线：牺牲 天赋牌 talent 无阵营 3 获得1张牺牲效果英雄牌。回合开始时，再获得1张。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-681013.webp",
+    "localImage": "/images/s1/talent/talent-681013.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681013",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9170,7 +9170,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-622010 622010 中流砥柱 天赋牌 talent 无阵营 3 打出3阶英雄牌，额外+6级。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第一轮拍卖",
-    "localImage": "/images/talent/talent-622010.webp",
+    "localImage": "/images/s1/talent/talent-622010.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-622010",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9197,7 +9197,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681015 681015 补给线：登场 天赋牌 talent 无阵营 3 获得1张登场效果英雄牌。回合开始时，再获得1张。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-681015.webp",
+    "localImage": "/images/s1/talent/talent-681015.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681015",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9244,7 +9244,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-681016 681016 混沌次元 天赋牌 talent 无阵营 3 获得混沌裂隙：指定阵位召唤裂隙，开战前吞噬英雄，永久获得其双倍等级。开战时，召唤1名品阶≥商店等级的满装备英雄。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 混沌裂隙 指定阵位召唤裂隙，开战前吞噬该格的英雄，永久获得其双倍等级。开战时，召唤1名品阶≥商店等级的英雄（无卡牌效果），使之获得裂隙等级，并获得适配装备。",
-    "localImage": "/images/talent/talent-681016.webp",
+    "localImage": "/images/s1/talent/talent-681016.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681016",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9271,7 +9271,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-622008 622008 小咖秀 天赋牌 talent 无阵营 3 战斗开始时，若你只有1-3阶英雄，随机获得1张场上的英雄牌。 来源: 棋手升级时概率选择获取天赋。 天赋包一 第一轮拍卖",
-    "localImage": "/images/talent/talent-622008.webp",
+    "localImage": "/images/s1/talent/talent-622008.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-622008",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9334,7 +9334,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-622003 622003 永不独行 天赋牌 talent 无阵营 3 获得1张双人同行。回合开始时，若棋手不超过3级，再获得1张。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第一轮拍卖 双人同行·2阶 随机获得2张相同的2阶英雄牌。 双人同行·3阶 随机获得2张相同的3阶英雄牌。 双人同行2阶 双人同行3阶",
-    "localImage": "/images/talent/talent-622003.webp",
+    "localImage": "/images/s1/talent/talent-622003.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-622003",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9361,7 +9361,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-615006 615006 搏命 天赋牌 talent 无阵营 3 棋手生命值-20，获得25能量。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第一轮拍卖",
-    "localImage": "/images/talent/talent-615006.webp",
+    "localImage": "/images/s1/talent/talent-615006.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-615006",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9418,7 +9418,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-615002 615002 紧急救援 天赋牌 talent 无阵营 3 获得15棋手生命值、1张装备箱、1张5阶兑换券。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第一轮拍卖 5阶英雄兑换券 卡牌3选1（5阶英雄牌）。 装备箱",
-    "localImage": "/images/talent/talent-615002.webp",
+    "localImage": "/images/s1/talent/talent-615002.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-615002",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9445,7 +9445,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-681023 681023 危险数字 天赋牌 talent 无阵营 3 在商店每买3张牌，获得1能量；若其品阶相加等于10，随机再获得其中1张。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖",
-    "localImage": "/images/talent/talent-681023.webp",
+    "localImage": "/images/s1/talent/talent-681023.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681023",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9492,7 +9492,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-615001 615001 大明星 天赋牌 talent 无阵营 3 获得1张大明星：随机上阵1名不在场的等级为棋手等级x7的5阶英雄，其觉醒进度为1，此后每经过2回合则额外+1。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第一轮拍卖 随机上阵1名不在场的等级为棋手等级x7的5阶英雄，其觉醒进度为1，此后每经过2回合则额外+1。",
-    "localImage": "/images/talent/talent-615001.webp",
+    "localImage": "/images/s1/talent/talent-615001.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-615001",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9537,7 +9537,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-614007 614007 王牌部队 天赋牌 talent 无阵营 3 战斗开始时，若你至少有3名4-5阶英雄，获得1张4-5阶效果锦囊。 来源: 棋手升级时概率选择获取天赋。 天赋包二 初始阵容 4阶效果锦囊 5阶效果锦囊",
-    "localImage": "/images/talent/talent-614007.webp",
+    "localImage": "/images/s1/talent/talent-614007.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-614007",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9564,7 +9564,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-614006 614006 有舍有得 天赋牌 talent 无阵营 3 回合开始时，随机1名英雄觉醒进度+1，但英雄合成提升的等级-1。 来源: 棋手升级时概率选择获取天赋。 天赋包二 初始阵容",
-    "localImage": "/images/talent/talent-614006.webp",
+    "localImage": "/images/s1/talent/talent-614006.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-614006",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9611,7 +9611,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-614001 614001 资深猎头 天赋牌 talent 无阵营 3 棋手4级时，获得1张天赋牌资深猎头：4阶卡牌2选1，并将选中的卡牌一分为四。 来源: 棋手升级时概率选择获取天赋。 天赋包一 初始阵容 4阶卡牌2选1，并将选中的卡牌一分为四。",
-    "localImage": "/images/talent/talent-614001.webp",
+    "localImage": "/images/s1/talent/talent-614001.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-614001",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9638,7 +9638,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-613011 613011 无限进步 天赋牌 talent 无阵营 3 获得1张3阶兑换券。回合开始时，获得2棋手经验。满级后，改为获得2能量。 来源: 棋手升级时概率选择获取天赋。 初始天赋 初始阵容",
-    "localImage": "/images/talent/talent-613011.webp",
+    "localImage": "/images/s1/talent/talent-613011.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-613011",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9692,7 +9692,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-63611802 63611802 突破：亚瑟 天赋牌 talent 通用 3 获得一张亚瑟，为亚瑟在卡牌突破和技能突破中二选一。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 技能突破：亚瑟 卡牌突破：亚瑟 亚瑟",
-    "localImage": "/images/talent/talent-63611802.webp",
+    "localImage": "/images/s1/talent/talent-63611802.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-63611802",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9738,7 +9738,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-681030 681030 丢盔弃甲 天赋牌 talent 无阵营 2 获得1张天赋牌空手道：指定一名英雄，取消装备槽位。战斗开始时，该英雄获得等同于其真实等级的临时等级。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 空手道 指定一名英雄，取消装备槽位。战斗开始时，该英雄获得等同于其真实等级的临时等级。",
-    "localImage": "/images/talent/talent-681030.webp",
+    "localImage": "/images/s1/talent/talent-681030.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681030",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9765,7 +9765,7 @@
     "temporarilyOffShelf": true,
     "kind": "talent",
     "searchText": "talent-681029 681029 流动资产 天赋牌 talent 通用 2 装备卡可以售卖3能量，效果卡可以售卖1能量。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖",
-    "localImage": "/images/talent/talent-681029.webp",
+    "localImage": "/images/s1/talent/talent-681029.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-681029",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9803,7 +9803,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-636202 636202 以物易物 天赋牌 talent 通用 2 每出售3张古币牌，获得1张不屈意志。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖 不屈意志",
-    "localImage": "/images/talent/talent-636202.webp",
+    "localImage": "/images/s1/talent/talent-636202.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636202",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9855,7 +9855,7 @@
     },
     "kind": "talent",
     "searchText": "talent-636310 636310 勇冠三军 天赋牌 talent 无阵营 2 获得1张马超，战斗中，马超的暴击率始终会分享给友军。马超暴击率达到100%时，所有友军的法术伤害可以暴击。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 马超 己方施加控制效果时，马超获得15点法力值及5%暴击率。",
-    "localImage": "/images/talent/talent-636310.webp",
+    "localImage": "/images/s1/talent/talent-636310.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636310",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9882,7 +9882,7 @@
     "temporarilyOffShelf": true,
     "kind": "talent",
     "searchText": "talent-636419 636419 我们几个真强 天赋牌 talent 通用 2 孙膑、墨子、扁鹊、鲁班七号释放技能时，出现一个替身同步释放技能。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636419.webp",
+    "localImage": "/images/s1/talent/talent-636419.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636419",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9929,7 +9929,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-637013 637013 炮火 天赋牌 talent 通用 3 获得1张莱西奥和1张蒙犽。共战时二人共享法力值（不会变更），技能变为融合技（详见技能面板）。每次击败敌方英雄二人等级均+1。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖 莱西奥 蒙犽",
-    "localImage": "/images/talent/talent-637013.webp",
+    "localImage": "/images/s1/talent/talent-637013.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-637013",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -9992,7 +9992,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-637015 637015 霸王 天赋牌 talent 通用 3 获得1张吕布和1张项羽。共战时，二人共享生命值（二者生命值之和），并分别为自身装备【方天画戟】和【霸王戟】（详见天赋栏）。 来源: 棋手升级时概率选择获取天赋。 天赋包三 第八轮拍卖 霸王戟 方天画戟 吕布 项羽",
-    "localImage": "/images/talent/talent-637015.webp",
+    "localImage": "/images/s1/talent/talent-637015.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-637015",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10093,7 +10093,7 @@
     },
     "kind": "talent",
     "searchText": "talent-637018 637018 帝临 天赋牌 talent 无阵营 3 获得1张嬴政和1张武则天。备战开始时，若嬴政和武则天同时在场，二选一种统治方案，每种方案选择后会得到强化。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖 嬴政 开团：法术攻击力+ 7。每次使用战术牌会提升该加成。 武则天 古币牌提升的等级+1。 登场：获得1张精致古币。 大同 全体英雄+5级，下场战斗开始时，所有友军等级临时均分。（每次使用后+5级） 独断 立刻在嬴政和武则天中随机一人，下场战斗开始时使其吸收其他友军的等级和初始法力值。（使用后强化吸收能力）",
-    "localImage": "/images/talent/talent-637018.webp",
+    "localImage": "/images/s1/talent/talent-637018.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-637018",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10156,7 +10156,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-637019 637019 殊途 天赋牌 talent 通用 3 获得1张姜子牙和1张老夫子。同时在场时，每2次英雄合成获得1张【神谕】。每使用3张效果牌获得1张【诫律】。 来源: 棋手升级时概率选择获取天赋。 天赋包二 第八轮拍卖 姜子牙 戒律 老夫子 神谕",
-    "localImage": "/images/talent/talent-637019.webp",
+    "localImage": "/images/s1/talent/talent-637019.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-637019",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10183,7 +10183,7 @@
     "temporarilyOffShelf": true,
     "kind": "talent",
     "searchText": "talent-636210 636210 英雄再临 天赋牌 talent 通用 3 战斗中，你第4次触发英雄的牺牲效果时，所有已阵亡的牺牲英雄将会完美复生。 来源: 棋手升级时概率选择获取天赋。 初始天赋 第八轮拍卖",
-    "localImage": "/images/talent/talent-636210.webp",
+    "localImage": "/images/s1/talent/talent-636210.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636210",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10229,7 +10229,7 @@
     ],
     "kind": "talent",
     "searchText": "talent-derived-pengpeng derived-pengpeng 砰砰 天赋牌 talent 通用 3 获得1张沈梦溪和1张孙膑。共战时，二人法力值上限保持一致（取较低值），每次释放技能额外+1级。 来源: 衍生牌素材补录；实际出现阶段待确认。 素材补录 沈梦溪 孙膑",
-    "localImage": "/images/talent/talent-derived-pengpeng.webp",
+    "localImage": "/images/s1/talent/talent-derived-pengpeng.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-derived-pengpeng",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10266,7 +10266,7 @@
     },
     "kind": "talent",
     "searchText": "talent-635605 635605 孙尚香·强化 天赋牌 talent 无阵营 1 每回合开始时，触发1次孙尚香卡牌效果。 来源: 棋手升级时概率选择获取天赋。 孙尚香 登场：获得1次免费刷新。",
-    "localImage": "/images/talent/talent-635605.webp",
+    "localImage": "/images/s1/talent/talent-635605.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635605",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10299,7 +10299,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-635604 635604 干将·强化 天赋牌 talent 无阵营 1 战斗开始时，干将莫邪获得1件【法源之杯】。 来源: 棋手升级时概率选择获取天赋。 干将莫邪 干将莫邪在场时，获得普通装备双剑·雄。",
-    "localImage": "/images/talent/talent-635604.webp",
+    "localImage": "/images/s1/talent/talent-635604.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-635604",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10337,7 +10337,7 @@
     },
     "kind": "talent",
     "searchText": "talent-636118 636118 技能突破：亚瑟 天赋牌 talent 无阵营 3 获得1张亚瑟，战斗开始时，亚瑟周围一格的友方英雄变身为圣殿骑士。亚瑟的普攻变为为血量最低的圣殿骑士回复生命值；技能改为指挥全体圣殿骑士朝敌人冲锋。 骑士冲锋：冲锋时长1.2秒；冲锋时，对路径敌人造成50+5%最大生命值的物理伤害。 来源: 棋手升级时概率选择获取天赋。 亚瑟 每当你使用【日落海】英雄牌时，阿科米亚核心等级+3。",
-    "localImage": "/images/talent/talent-636118.webp",
+    "localImage": "/images/s1/talent/talent-636118.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-636118",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10361,7 +10361,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-662107 662107 镜花影 天赋牌 talent 无阵营 5 商店里的英雄牌在购买后会留下1个镜像复制（不计入秘技任务）。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-662107.webp",
+    "localImage": "/images/s1/talent/talent-662107.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-662107",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10385,7 +10385,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-665005 665005 火力全开 天赋牌 talent 无阵营 5 香香获得（己方英雄等级的总和×0.5）%的攻击力提升。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-665005.webp",
+    "localImage": "/images/s1/talent/talent-665005.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-665005",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10418,7 +10418,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-664005 664005 狂欢时刻 天赋牌 talent 无阵营 5 获得1张打成一片。 来源: 棋手升级时概率选择获取天赋。 打成一片 天赋3选1（技能选择阵营相关的天赋）。",
-    "localImage": "/images/talent/talent-664005.webp",
+    "localImage": "/images/s1/talent/talent-664005.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-664005",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10442,7 +10442,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-663905 663905 飞龙在天 天赋牌 talent 无阵营 5 强化明先生的卦象。 卦象·节：每回合额外获得4能量。 卦象·丰：每回合获得8次临时刷新。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-663905.webp",
+    "localImage": "/images/s1/talent/talent-663905.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-663905",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10475,7 +10475,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-663805 663805 时光宝藏 天赋牌 talent 无阵营 5 获得1张更强力的永恒时之回环，可以记录12张英雄牌或效果牌。 来源: 棋手升级时概率选择获取天赋。 永恒时之回环 使用后，记录你从现在开始使用的所有非觉醒英雄牌和效果牌（最多12张），并在下回合开始时，再次触发这些卡牌。",
-    "localImage": "/images/talent/talent-663805.webp",
+    "localImage": "/images/s1/talent/talent-663805.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-663805",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10499,7 +10499,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-663607 663607 神之一手 天赋牌 talent 无阵营 5 战斗开始时，将敌方等级最高的英雄复制，临时加入我方战场。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-663607.webp",
+    "localImage": "/images/s1/talent/talent-663607.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-663607",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10546,7 +10546,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-663405 663405 冰雪秘藏 天赋牌 talent 无阵营 5 从3个增益效果中选择1个。 来源: 棋手升级时概率选择获取天赋。 寒潮之势 战斗开始时，你等级最高的英雄获得1200点生命值、120点物理和法术攻击力。 不朽坚冰 战斗开始时，你的全体英雄获得500点最大生命值、60点物理和法术攻击力。 雪暴时刻 冻结的英雄，解冻后等级永久+20。",
-    "localImage": "/images/talent/talent-663405.webp",
+    "localImage": "/images/s1/talent/talent-663405.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-663405",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10570,7 +10570,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-663404 663404 雪暴时刻 天赋牌 talent 无阵营 5 冻结的英雄，解冻后等级永久+20。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-663404.webp",
+    "localImage": "/images/s1/talent/talent-663404.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-663404",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10594,7 +10594,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-663403 663403 不朽坚冰 天赋牌 talent 无阵营 5 战斗开始时，你的全体英雄获得500点最大生命值、60点物理和法术攻击力。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-663403.webp",
+    "localImage": "/images/s1/talent/talent-663403.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-663403",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10618,7 +10618,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-665104 665104 顿悟时刻 天赋牌 talent 无阵营 5 选择1个获取神秘力量的天赋。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-665104.webp",
+    "localImage": "/images/s1/talent/talent-665104.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-665104",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10670,7 +10670,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-610006 610006 特权决策 天赋牌 talent 无阵营 5 选择1个特权决策颁布，对所有玩家生效，并且自己额外享受特权效果。 来源: 棋手升级时概率选择获取天赋。 绝对压制 战斗开始时，你等级最高的英雄变成猪猪，持续3秒，并在本局对战中获得30%伤害减免。决策颁布者额外特权：你的该英雄额外获得20%伤害提升。 贷款协议 能量可用至-15。回合结束时若能量为负，则下回合获得的能量-2。决策颁布者额外特权：不受到惩罚，回合结束时每有1名其他玩家能量为负，则下回合获得2能量。 资源再分配 有棋手被淘汰时，获得5能量以及1张基础装备牌。决策颁布者额外特权：改为获得特殊装备牌且额外恢复5棋手生命值。",
-    "localImage": "/images/talent/talent-610006.webp",
+    "localImage": "/images/s1/talent/talent-610006.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-610006",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10694,7 +10694,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-664108 664108 完美演出 天赋牌 talent 无阵营 5 封神一瞬指定的英雄在战斗开始时获得30%物理和法术吸血，并在15秒内免疫控制效果（压制除外）。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-664108.webp",
+    "localImage": "/images/s1/talent/talent-664108.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-664108",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10718,7 +10718,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-664009 664009 打成一片 天赋牌 talent 无阵营 5 天赋3选1（技能选择阵营相关的天赋）。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-664009.webp",
+    "localImage": "/images/s1/talent/talent-664009.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-664009",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10742,7 +10742,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-665105 665105 超级连接 天赋牌 talent 无阵营 5 获得一张灵异探测大改装。战斗开始时，飞行器连接的英雄会随机获得自身10%-30%等级数的临时等级。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-665105.webp",
+    "localImage": "/images/s1/talent/talent-665105.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-665105",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10789,7 +10789,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-610010 610010 即刻起舞 天赋牌 talent 无阵营 5 从3个枫叶舞强化中选择1项。 来源: 棋手升级时概率选择获取天赋。 落英汲取 枫叶舞英雄转移后，对1格内每个敌人造成自身最大生命值20%的法术伤害，并恢复自身（3%×敌人数量）最大生命值。 枫之洪流 枫叶舞英雄在首次转移后的3秒内，可以无限释放技能。 翩跹馈赠 转移后，枫叶舞英雄累积普攻15次时也会获得1次转移次数。",
-    "localImage": "/images/talent/talent-610010.webp",
+    "localImage": "/images/s1/talent/talent-610010.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-610010",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10822,7 +10822,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-663307 663307 惊才绝艳 天赋牌 talent 无阵营 5 获得1张奇才：指定1名英雄，获得4张该英雄牌。 来源: 棋手升级时概率选择获取天赋。 奇才 指定1名英雄，获得4张该英雄牌。",
-    "localImage": "/images/talent/talent-663307.webp",
+    "localImage": "/images/s1/talent/talent-663307.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-663307",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10846,7 +10846,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-663208 663208 重点照顾 天赋牌 talent 无阵营 5 战斗开始时，你的人数最多的同品阶英雄获得1%×已打出宝藏牌数量的伤害提升。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-663208.webp",
+    "localImage": "/images/s1/talent/talent-663208.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-663208",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10870,7 +10870,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-663207 663207 阳光普照 天赋牌 talent 无阵营 5 战斗开始时，你的全体英雄获得0.7%×已打出宝藏牌数量的伤害提升。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-663207.webp",
+    "localImage": "/images/s1/talent/talent-663207.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-663207",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10903,7 +10903,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-663108 663108 引擎升级 天赋牌 talent 无阵营 5 获得1张梦幻引擎：将商店替换为梦幻商店。若在棋手生命值≤30时战斗失败，则重复获得。 来源: 棋手升级时概率选择获取天赋。 梦幻引擎 根据场上的阵容，将商店替换为梦幻商店。",
-    "localImage": "/images/talent/talent-663108.webp",
+    "localImage": "/images/s1/talent/talent-663108.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-663108",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10943,7 +10943,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-610013 610013 瓜分宝藏 天赋牌 talent 无阵营 5 从2种英雄强化效果中选择1个。 来源: 棋手升级时概率选择获取天赋。 阳光普照 战斗开始时，你的全体英雄获得0.7%×已打出宝藏牌数量的伤害提升。 重点照顾 战斗开始时，你的人数最多的同品阶英雄获得1%×已打出宝藏牌数量的伤害提升。",
-    "localImage": "/images/talent/talent-610013.webp",
+    "localImage": "/images/s1/talent/talent-610013.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-610013",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10967,7 +10967,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-662502 662502 余音绕梁 天赋牌 talent 无阵营 5 获得3次惊鸿调演奏次数。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-662502.webp",
+    "localImage": "/images/s1/talent/talent-662502.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-662502",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -10991,7 +10991,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-662407 662407 月之特调 天赋牌 talent 无阵营 5 小菟提供等级时，每5级使其额外获得1项随机属性：15%攻速/2%物理和法术吸血/2点物理和法术防御力。且每通过小菟助力提供65级时，获得1张小菟送福。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-662407.webp",
+    "localImage": "/images/s1/talent/talent-662407.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-662407",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -11020,7 +11020,7 @@
     },
     "kind": "talent",
     "searchText": "talent-662206 662206 潮起潮落 天赋牌 talent 无阵营 5 战斗开始时，随机传送1个4-5阶临时等级为回合数×12的英雄进入战场（不含卡牌效果），并携带3件适配装备。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-662206.webp",
+    "localImage": "/images/s1/talent/talent-662206.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-662206",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -11044,7 +11044,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-663402 663402 寒潮之势 天赋牌 talent 无阵营 5 战斗开始时，你等级最高的英雄获得1200点生命值、120点物理和法术攻击力。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-663402.webp",
+    "localImage": "/images/s1/talent/talent-663402.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-663402",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -11077,7 +11077,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-661106 661106 巨型玩偶 天赋牌 talent 无阵营 5 小鹿等级+30，并获得1件小鹿的庇护。 来源: 棋手升级时概率选择获取天赋。 小鹿的庇护 唯一。穿戴者所受伤害的30%将转移到小鹿身上。",
-    "localImage": "/images/talent/talent-661106.webp",
+    "localImage": "/images/s1/talent/talent-661106.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-661106",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -11101,7 +11101,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-661009 661009 魅力无限 天赋牌 talent 无阵营 5 每回合打出的第1张效果牌会触发2次。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-661009.webp",
+    "localImage": "/images/s1/talent/talent-661009.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-661009",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   },
@@ -11125,7 +11125,7 @@
     "temporarilyOffShelf": false,
     "kind": "talent",
     "searchText": "talent-610005 610005 万鸟朝凤 天赋牌 talent 无阵营 5 随机从3个棋手的秘技卡中选1张。 来源: 棋手升级时概率选择获取天赋。",
-    "localImage": "/images/talent/talent-610005.webp",
+    "localImage": "/images/s1/talent/talent-610005.webp",
     "sourceUrl": "https://wzwxq.com/explore/talent-610005",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4"
   }

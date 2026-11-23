@@ -1,4 +1,11 @@
 {
+  "id": "s1",
+  "label": "S1 正式服",
+  "shortLabel": "S1",
+  "status": "live",
+  "order": 1,
+  "isDefault": true,
+  "datasetId": "s1-live",
   "currentPatch": "v1.11.1",
   "patchDate": "2026-11-19",
   "verifiedAt": "2026-11-21",
@@ -53,5 +60,24 @@
   "officialUrl": "https://wxq.qq.com/",
   "officialGuideUrl": "https://wxq.qq.com/cp/a202609xszy/",
   "sourceUrl": "https://wzwxq.com/",
-  "knowledgeSiteUrl": "https://wzwxq.com/"
+  "knowledgeSiteUrl": "https://wzwxq.com/",
+  "latestPatch": {
+    "version": "v1.11.1",
+    "date": "2026-11-19",
+    "sourceUpdate": {
+      "id": "18956191",
+      "date": "2026-11-19"
+    },
+    "playerName": "嬴律",
+    "cardId": 94352,
+    "cardName": "并购红利",
+    "title": "嬴律 · 并购红利",
+    "before": "合成英雄时，获得1能量，每回合限3次。达到上限时随机获得1张场上英雄的复制。",
+    "changes": [
+      {
+        "label": "调整后",
+        "description": "合成英雄时，获得1能量，每回合限3次。单回合内合成第4次时随机获得1张场上英雄的复制。"
+      }
+    ]
+  }
 }

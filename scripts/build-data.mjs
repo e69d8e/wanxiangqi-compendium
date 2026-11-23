@@ -173,30 +173,30 @@ function makeSearchText(item) {
   return [...new Set(parts)].join(" ").toLocaleLowerCase("zh-CN");
 }
 
-function withCommonFields(item, kind) {
+function withCommonFields(item, kind, season) {
   if (!item.id) throw new Error(`${kind} 条目缺少 id：${item.name ?? "未知"}`);
   const sourceUrl =
     kind === "player"
-      ? `${KNOWLEDGE_SITE_URL}/players`
-      : `${KNOWLEDGE_SITE_URL}/explore/${encodeURIComponent(item.id)}`;
+      ? `${season.sourceUrl}players`
+      : `${season.sourceUrl}explore/${encodeURIComponent(item.id)}`;
 
   return {
     ...item,
     kind,
     searchText: makeSearchText(item),
-    localImage: `/images/${kind}/${item.id}.webp`,
+    localImage: `/images/${season.id}/${kind}/${item.id}.webp`,
     sourceUrl,
     officialUrl: `${OFFICIAL_CARD_URL}#${kind === "player" ? "page3" : "page4"}`,
   };
 }
 
-function normalizeCatalog(catalog, kind) {
+function normalizeCatalog(catalog, kind, season) {
   return catalog.items.map((sourceItem) => {
     const merged = withoutOmittedMetadata({
       ...(catalog.itemDefaults ?? {}),
       ...sourceItem,
     });
-    return withCommonFields(merged, kind);
+    return withCommonFields(merged, kind, season);
   });
 }
 
@@ -212,7 +212,7 @@ const PLAYER_CARD_KEYS = [
   "sourceCardIDs",
 ];
 
-function normalizePlayer(sourcePlayer) {
+function normalizePlayer(sourcePlayer, season, overrides) {
   const player = withoutOmittedMetadata(sourcePlayer);
   const id = player.id ?? `player-${player.lordId}`;
   if (!player.lordId && !player.id) {
@@ -236,7 +236,7 @@ function normalizePlayer(sourcePlayer) {
           sourceCard[key],
         ]),
       );
-      const override = CARD_OVERRIDES.find(
+      const override = overrides.find(
         (entry) =>
           entry.player === player.name && entry.cardId === Number(card.id),
       );
@@ -252,7 +252,7 @@ function normalizePlayer(sourcePlayer) {
 
   if (Array.isArray(normalized.skillSections)) {
     normalized.skillSections = normalized.skillSections.map((section) => {
-      const override = CARD_OVERRIDES.find(
+      const override = overrides.find(
         (entry) =>
           entry.player === player.name &&
           entry.cardId === Number(section.cardId),
@@ -267,7 +267,7 @@ function normalizePlayer(sourcePlayer) {
     });
   }
 
-  if (player.name === "乔汐" && Array.isArray(normalized.skillSections)) {
+  if (overrides.length > 0 && player.name === "乔汐" && Array.isArray(normalized.skillSections)) {
     if (!normalized.skillSections.some((section) => section.name === "潮汐的交响")) {
       normalized.skillSections = [
         ...normalized.skillSections,
@@ -283,7 +283,7 @@ function normalizePlayer(sourcePlayer) {
     }
   }
 
-  return withCommonFields(normalized, "player");
+  return withCommonFields(normalized, "player", season);
 }
 
 function countCurrent(items) {
@@ -298,8 +298,8 @@ function assertUniqueIds(items, label) {
   }
 }
 
-async function writeJson(filename, value) {
-  await writeFile(path.join(outputDir, filename), `${JSON.stringify(value, null, 2)}\n`);
+async function writeJson(targetDir, filename, value) {
+  await writeFile(path.join(targetDir, filename), `${JSON.stringify(value, null, 2)}\n`);
 }
 
 const ITEM_CAVEATS = {
@@ -314,99 +314,153 @@ const catalogDefinitions = [
   { kind: "effect", input: "effect.json", output: "effects.json" },
 ];
 
-const datasets = {};
-for (const definition of catalogDefinitions) {
-  const catalog = await readJson(`.research/catalogs/${definition.input}`);
-  const items = normalizeCatalog(catalog, definition.kind);
-  for (const item of items) {
-    if (ITEM_CAVEATS[item.id]) item.caveat = ITEM_CAVEATS[item.id];
-  }
-  assertUniqueIds(items, definition.kind);
-  datasets[definition.kind] = items;
-  await writeJson(definition.output, items);
+const seasonsConfig = await readJson("seasons.config.json");
+const seasons = [...seasonsConfig.seasons].sort((a, b) => a.order - b.order);
+if (!seasons.some((season) => season.id === seasonsConfig.defaultSeason)) {
+  throw new Error(`默认赛季 ${seasonsConfig.defaultSeason} 不在 seasons 列表中`);
 }
 
-const playerArray = await readJson(".research/player-array-1.json");
-const wufeng = await readJson(".research/player-wufeng.json");
-const players = [...playerArray, wufeng].map(normalizePlayer);
-assertUniqueIds(players, "player");
-datasets.player = players;
-await writeJson("players.json", players);
+async function readPlayerSource(relativePath) {
+  const value = await readJson(relativePath);
+  if (Array.isArray(value)) return value;
+  if (Array.isArray(value.items)) return value.items;
+  throw new Error(`${relativePath} 不是棋手数组或 { items: [] } 数据集`);
+}
 
-for (const override of CARD_OVERRIDES) {
-  const player = players.find((entry) => entry.name === override.player);
-  const card = player?.cards?.find(
-    (entry) => Number(entry.id) === override.cardId,
-  );
-  if (card?.description !== override.text || card?.rawDescription !== override.text) {
-    throw new Error(
-      `${override.player} 关联卡 ${override.cardId} 的公告修订文案未正确写入`,
-    );
+for (const season of seasons) {
+  if (season.status === "test") {
+    throw new Error(`体验服赛季 ${season.id} 不允许进入站点数据`);
   }
+  const seasonOutputDir = path.join(outputDir, "seasons", season.id);
+  await mkdir(seasonOutputDir, { recursive: true });
+  const overrides = season.research.announcementOverrides ? CARD_OVERRIDES : [];
+  const datasets = {};
+
+  for (const definition of catalogDefinitions) {
+    const catalog = await readJson(
+      `${season.research.catalogs}/${definition.input}`,
+    );
+    const items = normalizeCatalog(catalog, definition.kind, season);
+    for (const item of items) {
+      if (ITEM_CAVEATS[item.id]) item.caveat = ITEM_CAVEATS[item.id];
+    }
+    assertUniqueIds(items, `${season.id}/${definition.kind}`);
+    datasets[definition.kind] = items;
+    await writeJson(seasonOutputDir, definition.output, items);
+  }
+
+  const playerSources = Array.isArray(season.research.players)
+    ? season.research.players
+    : [season.research.players];
+  const playerInputs = [];
+  for (const source of playerSources) {
+    playerInputs.push(...(await readPlayerSource(source)));
+  }
+  const players = playerInputs.map((player) =>
+    normalizePlayer(player, season, overrides),
+  );
+  assertUniqueIds(players, `${season.id}/player`);
+  datasets.player = players;
+  await writeJson(seasonOutputDir, "players.json", players);
+
+  for (const override of overrides) {
+    const player = players.find((entry) => entry.name === override.player);
+    const card = player?.cards?.find(
+      (entry) => Number(entry.id) === override.cardId,
+    );
+    if (
+      card?.description !== override.text ||
+      card?.rawDescription !== override.text
+    ) {
+      throw new Error(
+        `${override.player} 关联卡 ${override.cardId} 的公告修订文案未正确写入`,
+      );
+    }
+    if (
+      card?.sourceUpdate?.id !== override.source.id ||
+      card?.sourceUpdate?.date !== override.source.date
+    ) {
+      throw new Error(
+        `${override.player} 关联卡 ${override.cardId} 的公告来源未正确写入`,
+      );
+    }
+    const section = player?.skillSections?.find(
+      (entry) => Number(entry.cardId) === override.cardId,
+    );
+    if (section && section.text !== override.text) {
+      throw new Error(
+        `${override.player} 技能段 ${override.cardId} 的公告修订文案未同步`,
+      );
+    }
+  }
+
+  const categories = Object.fromEntries(
+    ["hero", "equipment", "talent", "effect", "player"].map((kind) => [
+      kind,
+      {
+        totalCount: datasets[kind].length,
+        currentCount: countCurrent(datasets[kind]),
+      },
+    ]),
+  );
+  const allItems = Object.values(datasets).flat();
+  const counts = Object.fromEntries(
+    Object.entries(categories).map(([kind, count]) => [
+      kind,
+      { total: count.totalCount, current: count.currentCount },
+    ]),
+  );
+  const meta = {
+    id: season.id,
+    label: season.label,
+    shortLabel: season.shortLabel,
+    status: season.status,
+    order: season.order,
+    isDefault: season.id === seasonsConfig.defaultSeason,
+    datasetId: season.datasetId,
+    currentPatch: season.meta.currentPatch,
+    patchDate: season.meta.patchDate,
+    verifiedAt: season.meta.verifiedAt,
+    season: season.label,
+    totalCount: allItems.length,
+    currentCount: countCurrent(allItems),
+    currentDefinition: "versionStatus !== 'historical_pending'",
+    categories,
+    // Keep the compact aliases used by the existing CatalogMeta type as well.
+    counts,
+    officialUrl: season.meta.officialUrl ?? "https://wxq.qq.com/",
+    officialGuideUrl:
+      season.meta.officialGuideUrl ?? "https://wxq.qq.com/cp/a202609xszy/",
+    sourceUrl: season.sourceUrl,
+    knowledgeSiteUrl: season.sourceUrl,
+    ...(season.meta.latestPatch
+      ? { latestPatch: season.meta.latestPatch }
+      : {}),
+  };
+  await writeJson(seasonOutputDir, "meta.json", meta);
+
+  console.log(
+    `数据构建完成 [${season.id}]：总计 ${meta.totalCount}，当前 ${meta.currentCount}\n` +
+      Object.entries(categories)
+        .map(
+          ([kind, count]) =>
+            `${kind}: total=${count.totalCount}, current=${count.currentCount}`,
+        )
+        .join("\n"),
+  );
+
+  const caveated = [...datasets.hero, ...datasets.player].filter(
+    (item) => item.caveat,
+  );
   if (
-    card?.sourceUpdate?.id !== override.source.id ||
-    card?.sourceUpdate?.date !== override.source.date
+    overrides.length > 0 &&
+    caveated.length !== Object.keys(ITEM_CAVEATS).length
   ) {
-    throw new Error(
-      `${override.player} 关联卡 ${override.cardId} 的公告来源未正确写入`,
-    );
+    throw new Error(`${season.id} 的 ITEM_CAVEATS 未被完整写入条目`);
   }
-  const section = player?.skillSections?.find(
-    (entry) => Number(entry.cardId) === override.cardId,
-  );
-  if (section && section.text !== override.text) {
-    throw new Error(
-      `${override.player} 技能段 ${override.cardId} 的公告修订文案未同步`,
+  if (caveated.length > 0) {
+    console.log(
+      `数值分歧提示 [${season.id}]：${caveated.map((item) => item.name).join("、")}`,
     );
   }
 }
-
-const categories = Object.fromEntries(
-  ["hero", "equipment", "talent", "effect", "player"].map((kind) => [
-    kind,
-    {
-      totalCount: datasets[kind].length,
-      currentCount: countCurrent(datasets[kind]),
-    },
-  ]),
-);
-const allItems = Object.values(datasets).flat();
-const counts = Object.fromEntries(
-  Object.entries(categories).map(([kind, count]) => [
-    kind,
-    { total: count.totalCount, current: count.currentCount },
-  ]),
-);
-const meta = {
-  currentPatch: "v1.11.1",
-  patchDate: "2026-11-19",
-  verifiedAt: "2026-11-21",
-  season: "S1 正式服",
-  totalCount: allItems.length,
-  currentCount: countCurrent(allItems),
-  currentDefinition: "versionStatus !== 'historical_pending'",
-  categories,
-  // Keep the compact aliases used by the existing CatalogMeta type as well.
-  counts,
-  officialUrl: "https://wxq.qq.com/",
-  officialGuideUrl: OFFICIAL_GUIDE_URL,
-  sourceUrl: `${KNOWLEDGE_SITE_URL}/`,
-  knowledgeSiteUrl: `${KNOWLEDGE_SITE_URL}/`,
-};
-await writeJson("meta.json", meta);
-
-console.log(
-  `数据构建完成：总计 ${meta.totalCount}，当前 ${meta.currentCount}\n` +
-    Object.entries(categories)
-      .map(
-        ([kind, count]) =>
-          `${kind}: total=${count.totalCount}, current=${count.currentCount}`,
-      )
-      .join("\n"),
-);
-
-const caveated = [...datasets.hero, ...datasets.player].filter((item) => item.caveat);
-if (caveated.length !== Object.keys(ITEM_CAVEATS).length) {
-  throw new Error("ITEM_CAVEATS 未被完整写入条目");
-}
-console.log(`数值分歧提示：${caveated.map((item) => item.name).join("、")}`);

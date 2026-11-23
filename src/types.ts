@@ -99,6 +99,23 @@ export interface CatalogItem {
   skillEvidence?: string;
 }
 
+export interface LatestPatchChange {
+  label: string;
+  description: string;
+}
+
+export interface LatestPatch {
+  version: string;
+  date: string;
+  sourceUpdate: SourceUpdate;
+  playerName?: string;
+  cardId?: number;
+  cardName?: string;
+  title: string;
+  before?: string;
+  changes: LatestPatchChange[];
+}
+
 export interface CatalogMeta {
   currentPatch: string;
   patchDate: string;
@@ -113,4 +130,27 @@ export interface CatalogMeta {
   officialGuideUrl?: string;
   sourceUrl: string;
   knowledgeSiteUrl?: string;
+}
+
+export interface SeasonMeta extends CatalogMeta {
+  id: string;
+  label: string;
+  shortLabel: string;
+  status: 'live' | 'archive' | 'test';
+  order: number;
+  isDefault: boolean;
+  datasetId?: string;
+  latestPatch?: LatestPatch;
+}
+
+export interface SeasonDataset {
+  meta: SeasonMeta;
+  heroes: CatalogItem[];
+  players: CatalogItem[];
+  talents: CatalogItem[];
+  equipment: CatalogItem[];
+  effects: CatalogItem[];
+  dataByKind: Record<Kind, CatalogItem[]>;
+  allItems: CatalogItem[];
+  itemById: Map<string, CatalogItem>;
 }

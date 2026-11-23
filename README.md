@@ -1,18 +1,19 @@
 # 万象棋谱 · 王者万象棋资料库
 
 > **在线访问**：<https://wanxiangqi-compendium.netlify.app> · **源码仓库**：<https://github.com/e69d8e/wanxiangqi-compendium>
-> 正式服 S1 · v1.11.1 · 资料核验至 2026-11-21 · 603 条结构化条目
+> 正式服多赛季资料库 · 当前 S1 v1.11.1 · 资料核验至 2026-11-21 · 603 条结构化条目
 > [![Deploy to Netlify](https://github.com/e69d8e/wanxiangqi-compendium/actions/workflows/deploy.yml/badge.svg)](https://github.com/e69d8e/wanxiangqi-compendium/actions/workflows/deploy.yml)
 
 一个可离线部署、可全文检索的《王者万象棋》资料站：英雄、棋手、天赋、装备、效果牌、玩法机制与版本公告修订，全部结构化整理，并逐条标注来源与核验状态。
 
-![风格](https://img.shields.io/badge/风格-棋盘档案馆-0D211C) ![数据](https://img.shields.io/badge/收录-603_条-brightgreen) ![版本](https://img.shields.io/badge/正式服_S1-v1.11.1-D6B878)
+![风格](https://img.shields.io/badge/风格-棋盘档案馆-0D211C) ![数据](https://img.shields.io/badge/收录-603_条-brightgreen) ![赛季](https://img.shields.io/badge/正式服-S1_v1.11.1-D6B878)
 
 ## 内容
 
-- **603 条资料**：英雄 86 · 装备 95（当前 77）· 天赋 300（当前 299）· 效果牌 101（当前 98）· 棋手 21。
+- **603 条 S1 资料**：英雄 86 · 装备 95（当前 77）· 天赋 300（当前 299）· 效果牌 101（当前 98）· 棋手 21。后续正式赛季会以独立数据和独立页面加入。
+- **多赛季独立归档**：顶栏切换 S1 与后续正式赛季；每个赛季有自己的数量、版本、公告修订、图片与搜索索引，旧赛季不会被覆盖。
 - **详情抽屉**：卡牌效果 / 觉醒效果 / 英雄技能与 10·40·100 级强化 / 基础属性 / 等级成长 / 棋手技能·秘技·专属 / 关联卡 / 获取方式 / 来源链接。
-- **全站搜索**（⌘K / Ctrl K，↑↓ 选择 / ↵ 打开 / ESC 关闭）、分类维度筛选、卡片与紧凑列表双视图、URL 同步、分页。
+- **全站搜索**（⌘K / Ctrl K，↑↓ 选择 / ↵ 打开 / ESC 关闭）、分类维度筛选、卡片与紧凑列表双视图、URL 同步（含 `season`）、分页。
 - **玩法机制页**：9 条核心规则、18 条关键词释义、棋手升级能量阶梯与计算器、最新版本公告对照。
 - **来源与核验页**：证据分层、数据边界、各分类实际收录数。
 - **公告修订层**：官方公告“调整后”原文直接覆盖卡面滞后文本，抽屉内可看到「修订公告 / 相关公告」标识。
@@ -24,7 +25,7 @@
 | | |
 | --- | --- |
 | ![首页](docs/screenshots/home-desktop.jpg) | ![英雄棋谱](docs/screenshots/heroes-grid.jpg) |
-| 首页：棋阵、603 条统计、阵营分布、v1.11.1 校勘 | 英雄棋谱：搜索 + 阵营/品阶/状态筛选 + 双视图 |
+| 首页：棋阵、603 条统计、阵营分布、赛季校勘 | 英雄棋谱：搜索 + 阵营/品阶/状态筛选 + 双视图 |
 | ![英雄详情](docs/screenshots/hero-detail.jpg) | ![数值分歧提示](docs/screenshots/numeric-dispute.jpg) |
 | 详情抽屉：卡牌效果/觉醒/技能节点/属性/成长 | 无法裁定的数值分歧会显式提示，而不是装作确定 |
 | ![玩法机制](docs/screenshots/mechanics.jpg) | ![来源与核验](docs/screenshots/sources.jpg) |
@@ -46,7 +47,8 @@ npm run dev      # http://localhost:5173
 ## 构建
 
 ```bash
-npm run build    # 产物输出到 dist/
+npm run build:data # 由 .research/seasons/<id> 重建 src/data/seasons/<id>
+npm run build      # 产物输出到 dist/
 npm run preview  # 本地预览构建产物
 ```
 
@@ -59,7 +61,7 @@ npm run preview  # 本地预览构建产物
 
 ## 持续部署（push 即上线）
 
-仓库已通过 **GitHub Actions** 与 Netlify 站点连通：推送到 `main` 或手动触发 `.github/workflows/deploy.yml` 时，CI 依次执行 `npm ci` → `npm test`（13 条断言）→ `npm run validate:data` → `npm run build`，再用 Netlify CLI 做生产部署；任何一步失败都不会覆盖线上版本。
+仓库已通过 **GitHub Actions** 与 Netlify 站点连通：推送到 `main` 或手动触发 `.github/workflows/deploy.yml` 时，CI 依次执行 `npm ci` → `npm test`（19 条断言）→ `npm run validate:data` → `npm run build`，再用 Netlify CLI 做生产部署；任何一步失败都不会覆盖线上版本。
 
 需要两个仓库机密（已配置）：
 
@@ -75,8 +77,10 @@ npm run preview  # 本地预览构建产物
 每周六 10:00（Asia/Shanghai），一个 DSH 定时任务会新建会话执行完整周更：抓取官网目录/棋手与官方公告 → 对比本地基线 → 有新内容时重建数据、跑测试与校验 → 推送 `main` → 等待 GitHub Actions 部署 → 轮询线上资源哈希确认 Netlify 已更新。没有内容变化时不产生空提交。
 
 ```bash
-npm run sync:live          # 抓取并对比，只读
-npm run sync:live:write    # 有变化时写入 .research
+npm run sync:live          # 发现正式赛季并抓取对比，只读
+npm run sync:live:write    # 有变化时写入 .research 与赛季配置
+npm run build:data         # 重建赛季数据
+npm run images             # 补齐赛季图片
 npm run check:netlify      # 对比本地 dist 与线上 /assets，默认最多等 300 秒
 ```
 
@@ -108,8 +112,8 @@ netlify deploy --prod --dir=dist --message "..."   # 生产部署
 ## 测试
 
 ```bash
-npm test              # 13 条断言：数据完整性、公告修订层、数值分歧提示、机制数据、hash 路由
-npm run validate:data # 管线侧校验：数量口径、id 唯一、603 张图片、7 条公告修订、禁用词
+npm test              # 19 条断言：数据完整性、多赛季隔离、公告修订层、数值分歧提示、机制数据、hash 路由
+npm run validate:data # 管线侧校验：数量口径、id 唯一、603 张图片、赛季隔离、7 条公告修订、禁用词
 ```
 
 两层校验互补：`npm test` 面向仓库内已生成的数据与纯函数，`validate:data` 面向原始抓取与构建过程。
@@ -117,9 +121,9 @@ npm run validate:data # 管线侧校验：数量口径、id 唯一、603 张图�
 ## 数据更新
 
 ```bash
-node scripts/build-data.mjs      # 由 .research 原始资料重建 src/data/*.json（含公告修订覆盖与断言）
-npm run validate:data            # 校验数量口径、id 唯一、图片齐全、公告修订文案与禁用词
-node scripts/download-images.mjs # 同步本地图片到 public/images/
+npm run build:data      # 由 .research/seasons/<id> 重建 src/data/seasons/<id>/*.json
+npm run validate:data   # 校验数量口径、id 唯一、图片齐全、赛季隔离、公告修订文案与禁用词
+npm run images          # 同步本地图片到 public/images/<id>/
 ```
 
 ## 目录结构
@@ -127,13 +131,15 @@ node scripts/download-images.mjs # 同步本地图片到 public/images/
 ```
 src/
   components/   首页、目录、详情抽屉、全站搜索、机制页、来源页等
-  data/         构建产出的 JSON 与 mechanics.ts
+  data/         构建产出的分赛季 JSON 与 mechanics.ts
+  data/seasons/<id>/  单个赛季的 heroes/players/talents/equipment/effects/meta
   lib/          hash 路由与目录筛选工具
   styles.css    全部样式
 scripts/        build-data / download-images / validate-data / sync-live / check-netlify
-public/images/  本地化图片（按 kind/id 命名）
+public/images/<id>/<kind>/  按赛季隔离的本地图片
+seasons.config.json         赛季清单与版本元数据
 ```
 
 ## 免责声明
 
-本项目为非官方粉丝向资料整理，与腾讯及《王者万象棋》官方无关；卡面与技能原文版权归原权利方所有。站内数据以正式服 S1、v1.11.1 为基线，公告修订优先于静态卡面；社区来源的升级能量等数值已明确标注「待端内复核」。发现错漏欢迎对照 [VERIFICATION.md](./VERIFICATION.md) 的复现方式提交修正。
+本项目为非官方粉丝向资料整理，与腾讯及《王者万象棋》官方无关；卡面与技能原文版权归原权利方所有。站内数据以正式服正式赛季为基线（当前 S1、v1.11.1），公告修订优先于静态卡面；体验服测试集不进入正式页面；社区来源的升级能量等数值已明确标注「待端内复核」。发现错漏欢迎对照 [VERIFICATION.md](./VERIFICATION.md) 的复现方式提交修正。

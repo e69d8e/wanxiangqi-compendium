@@ -1,15 +1,17 @@
 import { useMemo, useState } from 'react';
 import { AlertTriangle, ArrowRight, Calculator, ExternalLink, ScrollText } from 'lucide-react';
-import { coreRules, glossary, latestPatch, officialGuideUrl, upgradeCosts } from '../data/mechanics';
+import { coreRules, glossary, officialGuideUrl, upgradeCosts } from '../data/mechanics';
+import type { SeasonDataset } from '../types';
 
-export function Mechanics() {
+export function Mechanics({ season }: { season: SeasonDataset }) {
+  const latestPatch = season.meta.latestPatch;
   const [from, setFrom] = useState(1);
   const [target, setTarget] = useState(6);
   const needed = useMemo(() => upgradeCosts.filter((step) => step.from >= from && step.to <= target).reduce((sum, step) => sum + step.cost, 0), [from, target]);
   const total = upgradeCosts.reduce((sum, step) => sum + step.cost, 0);
 
   return <main className="mechanics-page page-shell">
-    <header className="catalog-heading"><div><span className="chapter-number">06</span><div><span className="eyebrow">RULEBOOK / ENERGY</span><h1>玩法机制</h1></div></div><p>从第一位棋手入场，到最后一次出价。<br />基础规则依据官方指引，社区数值单独标记。</p></header>
+    <header className="catalog-heading"><div><span className="chapter-number">06</span><div><span className="eyebrow">RULEBOOK / ENERGY · {season.meta.shortLabel}</span><h1>玩法机制</h1></div></div><p>从第一位棋手入场，到最后一次出价。<br />基础规则依据官方指引，社区数值单独标记。</p></header>
 
     <section className="rules-layout">
       <div className="rules-intro"><span className="eyebrow">OFFICIAL BASICS</span><h2>开局之前，<br />先读懂棋盘。</h2><p>以下规则整理自官方「万象启航」新手指引。官网未标注统一更新日期，若与当前端内规则不同，请以正式服端内说明和最新公告为准。</p><a href={officialGuideUrl} target="_blank" rel="noreferrer">打开官方新手指引 <ExternalLink size={15} /></a></div>
@@ -25,7 +27,7 @@ export function Mechanics() {
       <div className="energy-disclaimer"><AlertTriangle size={19} /><p><strong>为什么标记“待复核”？</strong>官方指引只明确“升级按钮处即为当前升级所需能量”，未公开完整逐级数值表。上述费用来自内容相近的二手攻略，不能视为独立官方证明；实际对局请以端内按钮为准。</p><div><a href="https://shouyou.3dmgame.com/gl/639843.html" target="_blank" rel="noreferrer">社区来源 A <ExternalLink size={12} /></a><a href="https://www.wandoujia.com/strategy/18193987052139386997.html" target="_blank" rel="noreferrer">社区来源 B <ExternalLink size={12} /></a></div></div>
     </section>
 
-    <section className="patch-mechanics"><div><span className="eyebrow">LATEST OFFICIAL PATCH / {latestPatch.date}</span><h2>{latestPatch.version} · 嬴律「并购红利」</h2><p>最新正式服公告中与图鉴直接相关的修订：</p></div><div className="before-after"><article><span>调整前</span><p>合成英雄时，获得1能量，每回合限3次。达到上限时随机获得1张场上英雄的复制。</p></article><ArrowRight size={22} /><article><span>调整后</span><p>{latestPatch.changes[0].description}</p></article></div><a href={`https://wxq.qq.com/cp/a20260707sfgw/newsdetail.html?newsid=${latestPatch.sourceUpdate.id}`} target="_blank" rel="noreferrer">查看官方公告 {latestPatch.sourceUpdate.id} <ExternalLink size={14} /></a></section>
+    {latestPatch && <section className="patch-mechanics"><div><span className="eyebrow">LATEST OFFICIAL PATCH / {latestPatch.date}</span><h2>{latestPatch.version} · {latestPatch.title}</h2><p>最新正式服公告中与图鉴直接相关的修订：</p></div><div className="before-after"><article><span>调整前</span><p>{latestPatch.before ?? '公告未提供调整前原文'}</p></article><ArrowRight size={22} /><article><span>{latestPatch.changes[0]?.label ?? '调整后'}</span><p>{latestPatch.changes[0]?.description ?? '公告未提供调整后文本'}</p></article></div><a href={`https://wxq.qq.com/cp/a20260707sfgw/newsdetail.html?newsid=${latestPatch.sourceUpdate.id}`} target="_blank" rel="noreferrer">查看官方公告 {latestPatch.sourceUpdate.id} <ExternalLink size={14} /></a></section>}
 
     <section className="glossary-section"><div className="section-heading"><div><span className="eyebrow">KEYWORD DICTIONARY</span><h2>关键词词典</h2></div><p>只收录能从官方规则或卡牌原文明确解释的术语，<br />不把推测写成机制。</p></div><div className="glossary-grid">{glossary.map((entry, index) => <article key={entry.term}><span>{String(index + 1).padStart(2, '0')}</span><ScrollText size={18} /><h3>{entry.term}</h3><p>{entry.definition}</p></article>)}</div></section>
   </main>;
