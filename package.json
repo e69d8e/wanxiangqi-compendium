@@ -8,7 +8,10 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "test": "vitest run",
-    "validate:data": "node scripts/validate-data.mjs"
+    "validate:data": "node scripts/validate-data.mjs",
+    "sync:live": "node scripts/sync-live.mjs",
+    "sync:live:write": "node scripts/sync-live.mjs --write",
+    "check:netlify": "node scripts/check-netlify.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

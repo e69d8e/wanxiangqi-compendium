@@ -70,6 +70,18 @@ npm run preview  # 本地预览构建产物
 
 > 说明：Netlify 开放 API 没有“绑定 Git 仓库”的方法（只有 `unlinkSiteRepo`），原生 Git 集成必须走 GitHub App 的 OAuth 授权流程；因此这里用 CLI + Actions 完成等效的持续部署，效果是推送即上线，Netlify 后台的 Deploys 列表会显示由 API/CLI 触发的生产部署。
 
+## 每周自动更新
+
+每周六 10:00（Asia/Shanghai），一个 DSH 定时任务会新建会话执行完整周更：抓取官网目录/棋手与官方公告 → 对比本地基线 → 有新内容时重建数据、跑测试与校验 → 推送 `main` → 等待 GitHub Actions 部署 → 轮询线上资源哈希确认 Netlify 已更新。没有内容变化时不产生空提交。
+
+```bash
+npm run sync:live          # 抓取并对比，只读
+npm run sync:live:write    # 有变化时写入 .research
+npm run check:netlify      # 对比本地 dist 与线上 /assets，默认最多等 300 秒
+```
+
+完整流程、需要同步的硬编码口径、公告核对规则与失败处理见 [docs/AUTOMATION.md](./docs/AUTOMATION.md)。
+
 ## 部署到 Netlify
 
 线上站点：<https://wanxiangqi-compendium.netlify.app>（Netlify 项目 `wanxiangqi-compendium`，站点 ID `20d9a79f-37e0-4ac1-a58d-e511d7486c7f`），当前部署由 Netlify CLI 完成：
@@ -118,7 +130,7 @@ src/
   data/         构建产出的 JSON 与 mechanics.ts
   lib/          hash 路由与目录筛选工具
   styles.css    全部样式
-scripts/        build-data / download-images / validate-data
+scripts/        build-data / download-images / validate-data / sync-live / check-netlify
 public/images/  本地化图片（按 kind/id 命名）
 ```
 
