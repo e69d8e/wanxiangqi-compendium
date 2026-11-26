@@ -4,6 +4,8 @@
 
 站点支持多个**正式服**赛季独立归档：每个赛季有自己的数据、图片目录与页面入口，通过顶栏切换器查看，互不混数据。体验服（`environment=test`）数据集永远不进入站点。
 
+每次更新前先读根目录 [WANXIANGQI.md](../WANXIANGQI.md)；只要赛季数量、版本、核验日、公告或流程发生变化，就必须同步更新该文件。`tests/knowledge.test.ts` 会比对知识库状态表与构建后的 meta，数据变了而知识库没改会导致测试失败。
+
 ## 定时任务
 
 | 项 | 值 |
@@ -13,7 +15,7 @@
 | 工作目录 | `/Users/li/Code/Other/wanxiangqi-compendium` |
 | 流程说明 | 本文件 |
 
-任务提示词要求 agent 先读本文件，再按下方「标准流程」执行。任务失败不会自动重试；下一次周六会重新检查，因此失败后只需保证仓库可继续运行，不要在未验证的情况下推送。
+任务提示词要求 agent 先读本文件与 `WANXIANGQI.md`，再按下方「标准流程」执行。任务失败不会自动重试；下一次周六会重新检查，因此失败后只需保证仓库可继续运行，不要在未验证的情况下推送。
 
 ## 赛季数据模型
 
@@ -38,6 +40,15 @@ public/images/<id>/<kind>/*.webp     # 本地图片（tracked）
 S1 继续使用官网 legacy 数据源（`/explorer-catalogs/*.json` 与棋手 chunk）。**后续正式赛季必须走源站 dataset manifest**：`https://wzwxq.com/datasets/<datasetId>/manifest.json`，且 `environment` 必须是 `live`。
 
 当前默认赛季是 S1，页面 URL 形如 `#/heroes?season=s1&filter=河洛`。切换赛季不会丢失当前视图，详情抽屉与筛选也会保留赛季。
+
+## 知识库
+
+根目录 `WANXIANGQI.md` 是长期知识底稿，至少包含：当前赛季状态表、最新正式服公告、数据源、玩法口径、自动化流程、更新约定与变更记录。
+
+- 更新前：读它，确认默认赛季、基线版本、上次核验日期和数据边界。
+- 更新后：同步状态表、最新公告、数据源、变更记录；状态表必须与 `src/data/seasons/<id>/meta.json` 一致。
+- 机器校验：`tests/knowledge.test.ts`。
+- 该文件是叙事文档，不是构建产物，不要手改 `meta.json` 去迁就它。
 
 ## 脚本
 
@@ -71,6 +82,7 @@ npm run check:netlify      # 对比本地 dist 与线上 /assets 哈希，默认
 
 ```bash
 cd /Users/li/Code/Other/wanxiangqi-compendium
+# 先读 WANXIANGQI.md 与 docs/AUTOMATION.md
 git status --porcelain          # 必须为空；有未提交改动先停下并报告
 git pull --ff-only origin main
 npm ci                          # 首次或 lockfile 变化时
@@ -128,6 +140,7 @@ npm run dev
 | `README.md` | 顶部版本/核验日期/603、分类数量、徽章、赛季说明 |
 | `index.html` | `description`、`og:description` 与 `<noscript>` 的数量/赛季文案 |
 | `seasons.config.json` | 新赛季的 label/shortLabel/order/meta/公告；由 `sync:live:write` 自动写入的部分需复核 |
+| `WANXIANGQI.md` | 当前赛季状态表、版本、核验日、最新公告、数据源与变更记录 |
 | `scripts/build-data.mjs` | S1 的 `CARD_OVERRIDES`、`PATCH_*`、`SOURCE_*` 与 caveat |
 | `src/data/mechanics.ts` | 只放全局规则/词典/升级表；赛季公告已移到 `seasons.config.json` 的 `meta.latestPatch` |
 
@@ -161,7 +174,7 @@ npm run verify
 git status --short
 ```
 
-`verify` = `validate:data` + `test` + `build`。任何一步失败都不提交、不推送。全部通过后：
+`verify` = `validate:data` + `test` + `build`。其中 `tests/knowledge.test.ts` 会检查 `WANXIANGQI.md` 状态表是否与赛季 meta 一致；任何一步失败都不提交、不推送。确认知识库已同步后再提交：
 
 ```bash
 git add -A

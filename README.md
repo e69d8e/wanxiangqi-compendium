@@ -18,7 +18,7 @@
 - **来源与核验页**：证据分层、数据边界、各分类实际收录数。
 - **公告修订层**：官方公告“调整后”原文直接覆盖卡面滞后文本，抽屉内可看到「修订公告 / 相关公告」标识。
 
-数据口径、逐条公告比对与未决项见 [VERIFICATION.md](./VERIFICATION.md)；字段与管线细节见 [DATA_NOTES.md](./DATA_NOTES.md)；视觉设计见 [DESIGN.md](./DESIGN.md)。
+数据口径、逐条公告比对与未决项见 [VERIFICATION.md](./VERIFICATION.md)；字段与管线细节见 [DATA_NOTES.md](./DATA_NOTES.md)；视觉设计见 [DESIGN.md](./DESIGN.md)；赛季状态、数据源与更新历史见 [WANXIANGQI.md](./WANXIANGQI.md)。
 
 ## 界面一览
 
@@ -61,7 +61,7 @@ npm run preview  # 本地预览构建产物
 
 ## 持续部署（push 即上线）
 
-仓库已通过 **GitHub Actions** 与 Netlify 站点连通：推送到 `main` 或手动触发 `.github/workflows/deploy.yml` 时，CI 依次执行 `npm ci` → `npm test`（19 条断言）→ `npm run validate:data` → `npm run build`，再用 Netlify CLI 做生产部署；任何一步失败都不会覆盖线上版本。
+仓库已通过 **GitHub Actions** 与 Netlify 站点连通：推送到 `main` 或手动触发 `.github/workflows/deploy.yml` 时，CI 依次执行 `npm ci` → `npm test`（21 条断言）→ `npm run validate:data` → `npm run build`，再用 Netlify CLI 做生产部署；任何一步失败都不会覆盖线上版本。
 
 需要两个仓库机密（已配置）：
 
@@ -112,7 +112,7 @@ netlify deploy --prod --dir=dist --message "..."   # 生产部署
 ## 测试
 
 ```bash
-npm test              # 19 条断言：数据完整性、多赛季隔离、公告修订层、数值分歧提示、机制数据、hash 路由
+npm test              # 21 条断言：数据完整性、多赛季隔离、知识库同步、公告修订层、数值分歧提示、机制数据、hash 路由
 npm run validate:data # 管线侧校验：数量口径、id 唯一、603 张图片、赛季隔离、7 条公告修订、禁用词
 ```
 
@@ -138,6 +138,7 @@ src/
 scripts/        build-data / download-images / validate-data / sync-live / check-netlify
 public/images/<id>/<kind>/  按赛季隔离的本地图片
 seasons.config.json         赛季清单与版本元数据
+WANXIANGQI.md               赛季状态、数据源、公告与更新历史知识库
 ```
 
 ## 免责声明
