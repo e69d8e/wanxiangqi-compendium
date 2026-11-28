@@ -16,7 +16,7 @@ async function readJson(relativePath) {
 }
 
 const config = await readJson("seasons.config.json");
-const seasons = [...config.seasons].sort((a, b) => a.order - b.order);
+const seasons = config.seasons.toSorted((a, b) => a.order - b.order);
 check(
   seasons.some((season) => season.id === config.defaultSeason),
   `默认赛季 ${config.defaultSeason} 不在 seasons 列表中`,

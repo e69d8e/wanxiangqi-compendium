@@ -691,7 +691,7 @@ if (discovery.added.length > 0) {
 }
 
 const seasonResults = [];
-for (const season of [...config.seasons].sort((left, right) => left.order - right.order)) {
+for (const season of config.seasons.toSorted((left, right) => left.order - right.order)) {
   const manifest = await fetchManifest(season.datasetId);
   if (manifest) {
     if (manifest.environment !== "live") {

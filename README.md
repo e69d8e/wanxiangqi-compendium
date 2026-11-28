@@ -1,12 +1,12 @@
 # 万象棋谱 · 王者万象棋资料库
 
 > **在线访问**：<https://wanxiangqi-compendium.netlify.app> · **源码仓库**：<https://github.com/e69d8e/wanxiangqi-compendium>
-> 正式服多赛季资料库 · 当前 S1 v1.11.1 · 资料核验至 2026-11-21 · 603 条结构化条目
+> 正式服多赛季资料库 · 当前 S1 v1.12.1 · 资料核验至 2026-11-28 · 603 条结构化条目
 > [![Deploy to Netlify](https://github.com/e69d8e/wanxiangqi-compendium/actions/workflows/deploy.yml/badge.svg)](https://github.com/e69d8e/wanxiangqi-compendium/actions/workflows/deploy.yml)
 
 一个可离线部署、可全文检索的《王者万象棋》资料站：英雄、棋手、天赋、装备、效果牌、玩法机制与版本公告修订，全部结构化整理，并逐条标注来源与核验状态。
 
-![风格](https://img.shields.io/badge/风格-棋盘档案馆-0D211C) ![数据](https://img.shields.io/badge/收录-603_条-brightgreen) ![赛季](https://img.shields.io/badge/正式服-S1_v1.11.1-D6B878)
+![风格](https://img.shields.io/badge/风格-棋盘档案馆-0D211C) ![数据](https://img.shields.io/badge/收录-603_条-brightgreen) ![赛季](https://img.shields.io/badge/正式服-S1_v1.12.1-D6B878)
 
 ## 内容
 
@@ -14,7 +14,7 @@
 - **多赛季独立归档**：顶栏切换 S1 与后续正式赛季；每个赛季有自己的数量、版本、公告修订、图片与搜索索引，旧赛季不会被覆盖。
 - **详情抽屉**：卡牌效果 / 觉醒效果 / 英雄技能与 10·40·100 级强化 / 基础属性 / 等级成长 / 棋手技能·秘技·专属 / 关联卡 / 获取方式 / 来源链接。
 - **全站搜索**（⌘K / Ctrl K，↑↓ 选择 / ↵ 打开 / ESC 关闭）、分类维度筛选、卡片与紧凑列表双视图、URL 同步（含 `season`）、分页。
-- **玩法机制页**：9 条核心规则、36 条术语释义（18 条基础 + 11 条触发关键词 + 7 条相关机制）、棋手升级能量阶梯与计算器、最新版本公告对照。
+- **玩法机制页**：11 条核心规则、36 条术语释义（18 条基础 + 11 条触发关键词 + 7 条相关机制）、棋手升级能量阶梯与计算器、最新版本公告对照。
 - **来源与核验页**：证据分层、数据边界、各分类实际收录数。
 - **公告修订层**：官方公告“调整后”原文直接覆盖卡面滞后文本，抽屉内可看到「修订公告 / 相关公告」标识。
 
@@ -35,7 +35,7 @@
 
 ## 技术栈
 
-Vite 6 + React 19 + TypeScript，hash 路由，无后端、无运行时网络请求，全部数据与图片随构建产物发布。样式为手写 CSS（深墨绿 / 青玉 / 鎏金），含响应式断点、`prefers-reduced-motion`、键盘焦点与打印样式。
+Vite 6 + React 19 + TypeScript（ES2023），hash 路由与按赛季/路由动态拆包，无后端、无运行时网络请求，全部数据与图片随构建产物发布。样式按 CSS `@layer` 模块化拆分至 `src/styles/`（深墨绿 / 青玉 / 鎏金），全面采用 `rem` 与 OS 字号缩放、`color-scheme: dark`、`forced-colors`、原生 `<dialog>` 模态与顶层动画、容器查询卡片、可键盘滚动的粘性数据表、IME 安全回车与 `prefers-reduced-motion`。
 
 ## 本地开发
 
@@ -134,7 +134,7 @@ src/
   data/         构建产出的分赛季 JSON 与 mechanics.ts
   data/seasons/<id>/  单个赛季的 heroes/players/talents/equipment/effects/meta
   lib/          hash 路由与目录筛选工具
-  styles.css    全部样式
+  styles/       按 @layer 拆分的模块化样式（layers / tokens / base / layout / components / pages）
 scripts/        build-data / download-images / validate-data / sync-live / check-netlify
 public/images/<id>/<kind>/  按赛季隔离的本地图片
 seasons.config.json         赛季清单与版本元数据
@@ -143,4 +143,4 @@ WANXIANGQI.md               赛季状态、数据源、公告与更新历史知�
 
 ## 免责声明
 
-本项目为非官方粉丝向资料整理，与腾讯及《王者万象棋》官方无关；卡面与技能原文版权归原权利方所有。站内数据以正式服正式赛季为基线（当前 S1、v1.11.1），公告修订优先于静态卡面；体验服测试集不进入正式页面；社区来源的升级能量等数值已明确标注「待端内复核」。发现错漏欢迎对照 [VERIFICATION.md](./VERIFICATION.md) 的复现方式提交修正。
+本项目为非官方粉丝向资料整理，与腾讯及《王者万象棋》官方无关；卡面与技能原文版权归原权利方所有。站内数据以正式服正式赛季为基线（当前 S1、v1.12.1），公告修订优先于静态卡面；体验服测试集不进入正式页面；社区来源的升级能量等数值已明确标注「待端内复核」。发现错漏欢迎对照 [VERIFICATION.md](./VERIFICATION.md) 的复现方式提交修正。

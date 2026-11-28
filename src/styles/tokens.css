@@ -1,0 +1,159 @@
+/* ==========================================================================
+   万象棋谱 · WANXIANG ARCHIVE — Design Tokens & Browser UI Theming
+   棋盘档案馆：深墨绿纸面、青玉交互、鎏金刻度、朱砂校勘。
+   ========================================================================== */
+
+@layer base {
+  :root {
+    /* Tier 1–2: Surface & Ink Palette (WCAG 2.2 AA/AAA verified on dark surfaces) */
+    --ink: #071512;
+    --ink-1: #0a1c18;
+    --ink-2: #0d211c;
+    --ink-3: #132e27;
+    --ink-overlay: rgb(3 11 9 / 0.78);
+    --ink-header: rgb(7 21 18 / 0.92);
+    --ink-on-accent: #04120f;
+
+    /* Text Tokens — all real text tokens >= 6:1 on --ink-2 (#0d211c) */
+    --paper: #eae5d8;
+    --paper-strong: #f4efe3;
+    --paper-dim: #c6cbbe;
+    --muted: #9eb3aa;
+    --subtle: #8ca49a;
+
+    /* Accent Tokens — >= 7:1 on --ink-2 */
+    --jade: #69d6b5;
+    --jade-bright: #98ecd3;
+    --jade-dim: #5cc3a5;
+    --jade-tint: rgb(105 214 181 / 0.1);
+    --jade-glow: rgb(105 214 181 / 0.24);
+
+    --gold: #dfbe78;
+    --gold-dim: #caa862;
+    --gold-tint: rgb(223 190 120 / 0.09);
+
+    --cinnabar: #f29680;
+    --cinnabar-tint: rgb(242 150 128 / 0.09);
+
+    /* Borders & Dividers */
+    --line: rgb(255 255 255 / 0.13);
+    --line-subtle: rgb(255 255 255 / 0.08);
+    /* Interactive control borders >= 3:1 contrast against --ink-1 / --ink-2 (WCAG 1.4.11) */
+    --line-control: #5d786e;
+    --line-strong: #988253;
+
+    /* Decorative ghost marks (always paired with aria-hidden="true") */
+    --ghost-gold: rgb(223 190 120 / 0.26);
+    --ghost-paper: rgb(255 255 255 / 0.24);
+
+    /* Typography */
+    --font-serif: "Songti SC", "STSong", "Noto Serif CJK SC", "Source Han Serif SC", serif;
+    --font-sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+    --font-num: "DIN Alternate", "Arial Narrow", "Oswald", ui-monospace, monospace;
+
+    /* Type Scale (rem only — honors <meta name="text-scale" content="scale"> and user zoom) */
+    --text-xs: 0.75rem;      /* 12px minimum for labels/badges/metadata */
+    --text-sm: 0.8125rem;    /* 13px compact secondary copy */
+    --text-base: 0.9375rem;  /* 15px primary body */
+    --text-md: 1rem;         /* 16px emphasized prose */
+    --text-lg: 1.1875rem;    /* 19px card/section subheadings */
+    --text-xl: 1.5rem;       /* 24px block headings */
+
+    /* Layout & Rhythm */
+    --shell: 77.5rem;        /* 1240px */
+    --header-height: 4.3125rem; /* 69px sticky header height */
+    --target-size: 24px;     /* WCAG 2.5.8 minimum target */
+    --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+
+    /* Safe Area Insets (merges CSS env() with Bilibili Toy SDK safeArea CSS vars) */
+    --safe-top: max(env(safe-area-inset-top, 0px), var(--toy-safe-top, 0px));
+    --safe-right: max(env(safe-area-inset-right, 0px), var(--toy-safe-right, 0px));
+    --safe-bottom: max(env(safe-area-inset-bottom, 0px), var(--toy-safe-bottom, 0px));
+    --safe-left: max(env(safe-area-inset-left, 0px), var(--toy-safe-left, 0px));
+
+    /* Scrollbar Tokens (>= 3:1 thumb vs track & surface) */
+    --scrollbar-track: #091915;
+    --scrollbar-thumb: #597c70;
+
+    /* Native Browser UI Theming */
+    color-scheme: dark;
+    accent-color: var(--jade);
+    scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+    interpolate-size: allow-keywords;
+  }
+
+  @media (pointer: coarse) {
+    :root {
+      --target-size: 44px;
+    }
+  }
+
+  @media (prefers-contrast: more) {
+    :root {
+      --line: rgb(255 255 255 / 0.28);
+      --line-subtle: rgb(255 255 255 / 0.18);
+      --line-control: #84a89b;
+      --line-strong: #d4b572;
+      --muted: #b6cbc2;
+      --subtle: #a7bdb3;
+      --paper-dim: #dadfd2;
+    }
+  }
+
+  @media (forced-colors: active) {
+    :root {
+      --ink: Canvas;
+      --ink-1: Canvas;
+      --ink-2: Canvas;
+      --ink-3: Canvas;
+      --ink-header: Canvas;
+      --paper: CanvasText;
+      --paper-strong: CanvasText;
+      --paper-dim: CanvasText;
+      --muted: CanvasText;
+      --subtle: CanvasText;
+      --jade: Highlight;
+      --jade-bright: Highlight;
+      --jade-dim: Highlight;
+      --gold: CanvasText;
+      --gold-dim: CanvasText;
+      --cinnabar: CanvasText;
+      --line: CanvasText;
+      --line-subtle: CanvasText;
+      --line-control: ButtonBorder;
+      --line-strong: CanvasText;
+    }
+  }
+}
+
+/* Legacy scrollbar fallback for browsers without standard scrollbar-color */
+@supports not (scrollbar-color: auto) {
+  :root,
+  .detail-drawer,
+  .search-results,
+  .table-scroll {
+    scrollbar-width: auto;
+  }
+
+  :root::-webkit-scrollbar,
+  .detail-drawer::-webkit-scrollbar,
+  .search-results::-webkit-scrollbar,
+  .table-scroll::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+
+  :root::-webkit-scrollbar-thumb,
+  .detail-drawer::-webkit-scrollbar-thumb,
+  .search-results::-webkit-scrollbar-thumb,
+  .table-scroll::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+  }
+
+  :root::-webkit-scrollbar-track,
+  .detail-drawer::-webkit-scrollbar-track,
+  .search-results::-webkit-scrollbar-track,
+  .table-scroll::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+  }
+}

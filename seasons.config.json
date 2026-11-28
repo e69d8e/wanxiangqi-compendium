@@ -18,27 +18,27 @@
         "announcementOverrides": true
       },
       "meta": {
-        "currentPatch": "v1.11.1",
-        "patchDate": "2026-11-19",
-        "verifiedAt": "2026-11-21",
+        "currentPatch": "v1.12.1",
+        "patchDate": "2026-11-25",
+        "verifiedAt": "2026-11-28",
         "officialUrl": "https://wxq.qq.com/",
         "officialGuideUrl": "https://wxq.qq.com/cp/a202609xszy/",
         "latestPatch": {
-          "version": "v1.11.1",
-          "date": "2026-11-19",
+          "version": "v1.12.1",
+          "date": "2026-11-25",
           "sourceUpdate": {
-            "id": "18956191",
-            "date": "2026-11-19"
+            "id": "18960194",
+            "date": "2026-11-25"
           },
-          "playerName": "嬴律",
-          "cardId": 94352,
-          "cardName": "并购红利",
-          "title": "嬴律 · 并购红利",
-          "before": "合成英雄时，获得1能量，每回合限3次。达到上限时随机获得1张场上英雄的复制。",
+          "title": "天赋「帝临」文案勘误与 S1 冲刺更新",
           "changes": [
             {
-              "label": "调整后",
-              "description": "合成英雄时，获得1能量，每回合限3次。单回合内合成第4次时随机获得1张场上英雄的复制。"
+              "label": "玩法勘误",
+              "description": "修复天赋【帝临】中错误地将「双防」描述为「双抗」的问题；卡面数值与 v1.11.1（嬴律「并购红利」改单回合第 4 次合成复制、帝临取消 4 级天赋商店投放）保持一致。"
+            },
+            {
+              "label": "系统与赛季",
+              "description": "优化对局内卡牌详情位置并新增 S1 荣耀殿堂说明；S1 赛季冲刺特权（全棋手限免、每日首局排位失败不掉分）持续至 12 月 9 日，S2 仍在体验服测试。"
             }
           ]
         }

@@ -10,11 +10,11 @@
 | --- | --- |
 | 站点 | <https://wanxiangqi-compendium.netlify.app> |
 | 仓库 | <https://github.com/e69d8e/wanxiangqi-compendium> |
-| 文档更新时间 | 2026-11-26 |
+| 文档更新时间 | 2026-11-28 |
 | 默认赛季 | S1 正式服 |
-| 当前版本 | v1.11.1 |
-| 版本日期 | 2026-11-19 |
-| 数据核验日 | 2026-11-21 |
+| 当前版本 | v1.12.1 |
+| 版本日期 | 2026-11-25 |
+| 数据核验日 | 2026-11-28 |
 | 结构化条目 | 603 条（当前 581） |
 | 自动化节奏 | 每周六 10:00（Asia/Shanghai） |
 
@@ -25,7 +25,7 @@
 <!-- AUTO:SEASONS:START -->
 | 赛季 | 状态 | 版本 | 版本日期 | 核验日期 | 总 / 当前 | 英雄 | 棋手 | 天赋 | 装备 | 效果牌 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1 | 正式服 | v1.11.1 | 2026-11-19 | 2026-11-21 | 603 / 581 | 86 / 86 | 21 / 21 | 300 / 299 | 95 / 77 | 101 / 98 |
+| S1 | 正式服 | v1.12.1 | 2026-11-25 | 2026-11-28 | 603 / 581 | 86 / 86 | 21 / 21 | 300 / 299 | 95 / 77 | 101 / 98 |
 <!-- AUTO:SEASONS:END -->
 
 表格口径：
@@ -36,24 +36,28 @@
 
 ## 最新正式服公告
 
-- 版本：**v1.11.1**
-- 公告：`18956191`，2026-11-19 版本更新公告
-- 详情：<https://wxq.qq.com/cp/a20260707sfgw/newsdetail.html?newsid=18956191&tab=2>
-- 已确认修订：嬴律「并购红利」（卡 94352）——合成英雄时获得 1 能量，每回合限 3 次；单回合内合成第 4 次时，随机获得 1 张场上英雄的复制。
-- 更早的公告修订（v1.9.1 / v1.9.4）见 `DATA_NOTES.md` 与 `VERIFICATION.md`。
+- 版本：**v1.12.1**
+- 公告：`18960194`，2026-11-25 版本更新公告（2026-11-24 19:33 发布）
+- 详情：<https://wxq.qq.com/cp/a20260707sfgw/newsdetail.html?newsid=18960194&tab=2>
+- 玩法勘误：修复天赋【帝临】中错误地将「双防」描述为「双抗」的问题。本版本无其他卡牌数值或棋手技能改动；S1 赛季冲刺特权持续至 2026-12-09，S2 仍在体验服测试（S2 前瞻直播定档 2026-11-29 17:00）。
+- 前序正式服公告已逐条核对：
+  - **v1.11.1**（`18956191`，2026-11-19）：嬴律「并购红利」（卡 94352）改为单回合内合成第 4 次复制；天赋「帝临」取消棋手 4 级天赋商店投放。
+  - **v1.10.2**（`18951324`，2026-11-12）：修复偶现双方英雄不对战问题。
+  - **v1.10.1**（`18950617`，2026-11-12）：新增天赋「以物易物」（已收录为 `talent-636202`）；帝临「独断·三」增加双防吸收上限 100 点（当时误写为“双抗”，已在 v1.12.1 修复）。
+  - 更早的公告修订（v1.9.1 / v1.9.4）见 `DATA_NOTES.md` 与 `VERIFICATION.md`。
 
 公告只按原文明确写出的「调整后」文本覆盖卡面。找不到明确原文时保留原卡面并记录 pending，不猜、不补写。
 
 ## 玩法速览
 
-以下是站点机制页采用的稳定口径，详细文本与来源见 `src/data/mechanics.ts`：
+以下是站点机制页采用的稳定口径，详细文本与来源见 `src/data/mechanics.ts`（2026-11-28 已对照官方新手指引实机复核）：
 
 - 对局为 6 名棋手参与，初始生命值 60。
-- 天赋三选一；棋手有 6 级专属能力。
+- 天赋三选一，6 名玩家同级获得的天赋品阶相同，白银段位起每局有 1 次天赋刷新；棋手有 6 级专属能力。
 - 英雄等级范围为 1–999，升级消耗能量。
-- 购牌、出售、合成、刷新与竞拍围绕能量运转；能量可累积。
+- 购牌、出售、合成、刷新与竞拍围绕能量运转；能量可累积；竞拍等待期间地面随机掉落互动道具、1 点能量或 1–2 阶英雄牌。
 - 升级能量阶梯为 7 / 13 / 17 / 23 / 27（社区汇总，待端内复核）。
-- 核心关键词包括登场、夺取、牺牲、整备、开团、闪现、复生、退场、凯旋、败阵、图腾、觉醒、临时等级、永久等级、阿科米亚核心、转瞬、古币等。
+- 官网卡牌筛选列出的 12 个官方关键词为：登场、夺取、牺牲、整备、开团、闪现、复生、退场、凯旋、败阵、图腾、合成；另补充常见相关机制术语（完美复生、觉醒、临时等级、永久等级、阿科米亚核心、转瞬、古币）。
 
 机制页的「升级能量」明确标注为社区数据，不能当作官方公告结论。
 
@@ -63,12 +67,19 @@
 
 - `datasetId`：`s1-live`
 - 数据方式：legacy（源站没有 S1 的 dataset manifest）
-- 图鉴目录：
+- 腾讯官网原生图鉴接口（2026-11-28 通过 `ego-browser` 实机核对）：
+  - 英雄（85）：`https://game.gtimg.cn/images/amside/ide_timer/589094_oscard_new_1.js`
+  - 效果牌（98）：`https://game.gtimg.cn/images/amside/ide_timer/589094_oscard_new_2.js`
+  - 装备（77）：`https://game.gtimg.cn/images/amside/ide_timer/589094_oscard_new_4.js`
+  - 天赋（292）：`https://game.gtimg.cn/images/amside/ide_timer/589094_oscard_new_8.js`
+  - 棋手与技能（21）：`https://game.gtimg.cn/images/amside/ide_timer/589094_oscard_new_16.js`
+  - 棋手 CMS 档案（21）：`https://vasd-cms.qq.com/cms/osgamewsq/prod/api/v1/osgamewsqwsq_info_article_3019.json`
+- 知识站图鉴目录：
   - <https://wzwxq.com/explorer-catalogs/hero.json>
   - <https://wzwxq.com/explorer-catalogs/equipment.json>
   - <https://wzwxq.com/explorer-catalogs/talent.json>
   - <https://wzwxq.com/explorer-catalogs/effect.json>
-- 棋手：官网 `assets.wanxiangqiwiki.com/assets/site-*.js` 引用的 `chessplayerFacts-*.js`
+- 棋手：知识站 `assets.wanxiangqiwiki.com/assets/site-*.js` 引用的 `chessplayerFacts-*.js`
 - 公告接口：`https://apps.game.qq.com/cmc/cross`（`serviceId=389`、`chanid=7061`，签名密钥只保存在脚本/环境侧，不写入文档或仓库）
 - 公告详情：<https://wxq.qq.com/cp/a20260707sfgw/newsdetail.html?newsid=&lt;id&gt;&tab=2>
 - 原始资料：`.research/seasons/s1/explorer-catalogs/`、`.research/seasons/s1/players.json`、`.research/seasons/s1/players-wufeng.json`
@@ -89,12 +100,14 @@
 seasons.config.json                 赛季清单与元数据
 .research/seasons/<id>/              原始资料（gitignore）
 src/data/seasons/<id>/*.json         构建后的赛季数据（tracked）
+src/data/loader.ts                   按赛季动态加载与轻量 meta 入口
+src/styles/                          按 @layer 拆分的模块化现代 CSS
 public/images/<id>/<kind>/*.webp     赛季隔离图片（tracked）
-src/components/                      页面与赛季切换器
+src/components/                      页面、原生 <dialog> 抽屉/搜索与赛季切换器
 scripts/                             build-data / download-images / validate-data / sync-live / check-netlify
 docs/AUTOMATION.md                   每周自动更新流程
 DATA_NOTES.md                        字段、证据层与公告覆盖细节
-VERIFICATION.md                      公告逐条比对与未决项
+VERIFICATION.md                      公告逐条比对、官网接口核对与未决项
 ```
 
 ## 自动化
@@ -120,6 +133,12 @@ VERIFICATION.md                      公告逐条比对与未决项
 6. **变更记录只追加**：每次实质性更新追加一条，写清日期、赛季、版本、变化与提交号（如有）。
 
 ## 变更记录
+
+### 2026-11-28
+
+- **官网全量实机核对与版本推进**：通过 `ego-browser` 直接核对 `wxq.qq.com` 公告页、`a202609xszy` 新手指引及 5 套腾讯官网原生图鉴接口（`589094_oscard_new_{1,2,4,8,16}.js`）；正式服 S1 版本更新至 **v1.12.1**（2026-11-25，`newsid=18960194`），核验日更新至 **2026-11-28**。
+- **数据精细修正**：补全乔汐「潮汐的交响」（`92210`）官网原件括号说明`（优先随机温柔呼唤的英雄）`；确认孙膑「时空爆弹」在腾讯官网原件亦为 `100+100%` 并更新 caveat 说明；机制页补充 2 条官方新手指引规则（同级天赋品阶与白银刷新、竞拍等待地面掉落）；记录官网 `heroCards` 85 名（不含镜像中的王维 `#1381`）等比对差异至 `VERIFICATION.md`。
+- **现代 Web 全面重构**：按 `modern-web-guidance` 重构前端架构——拆分 6 层 CSS `@layer`、全面改用 `rem` 与 WCAG 2.2 AA/AAA 对比度令牌、将搜索/详情/移动端导航与移动端筛选全部迁移至原生 `<dialog>` + `showModal()` + `closedby="any"` 及跨浏览器回退、补齐 IME 安全回车、`<search>` / 语义 `<table>` / stretched-link 卡片、View Transitions 焦点路由、滚动与历史栈修复、以及按赛季与路由拆包（首屏入口 JS 由 1,792 kB 降至 260 kB）。
 
 ### 2026-11-26
 

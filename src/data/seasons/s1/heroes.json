@@ -599,7 +599,7 @@
     "localImage": "/images/s1/hero/hero-sunbin.webp",
     "sourceUrl": "https://wzwxq.com/explore/hero-sunbin",
     "officialUrl": "https://wxq.qq.com/cp/a20260707sfgw/index.html#page4",
-    "caveat": "技能基础数值存在来源分歧：镜像图鉴写作“100+100% 法术攻击力”，多家第三方攻略写作“50+100% 法术攻击力（总伤害 90）”。本站按镜像数据展示并保留此提示，实战以端内技能说明为准。"
+    "caveat": "2026-11-28 直接核对腾讯官网原生图鉴接口（589094_oscard_new_1.js）与镜像图鉴，均写作“100+100% 法术攻击力”；多家早期第三方攻略写作“50+100% 法术攻击力（总伤害 90）”。本站按官网图鉴展示，实战以端内技能说明为准。"
   },
   {
     "type": "英雄牌",

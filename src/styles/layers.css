@@ -1,0 +1,2 @@
+/* Explicit cascade layer order — declared first so later stylesheets follow predictable precedence */
+@layer reset, base, layout, components, pages, utilities;

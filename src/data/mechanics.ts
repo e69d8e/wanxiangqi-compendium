@@ -70,6 +70,18 @@ export const coreRules = [
     text: "竞拍时每位玩家的有效出价会进入分红池；竞拍结束后分配给所有玩家，生命值越低的玩家获得的分红比例越大。",
     source: officialGuideUrl,
   },
+  {
+    id: "talent-tier-parity",
+    title: "同级天赋品阶与刷新",
+    text: "每场对局的 6 名玩家在相同等级时获得的天赋品阶相同；达到白银段位后，每场对局可获得 1 次天赋刷新次数。",
+    source: officialGuideUrl,
+  },
+  {
+    id: "auction-wait-drops",
+    title: "竞拍等待地面掉落",
+    text: "等待竞拍期间地面会间隔掉落随机道具（等待人数越多掉落越多），含互动道具、固定 1 点能量或 1–2 阶英雄牌。",
+    source: officialGuideUrl,
+  },
 ] as const;
 
 export const glossary = [

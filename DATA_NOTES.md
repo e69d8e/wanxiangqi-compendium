@@ -2,7 +2,7 @@
 
 ## 数据边界
 
-- 当前数据集定位为 **S1 正式服**，版本基线为 `v1.11.1`（2026-11-19），人工核验日期为 2026-11-21。
+- 当前数据集定位为 **S1 正式服**，版本基线为 `v1.12.1`（2026-11-25），人工与官网原生图鉴接口核验日期为 2026-11-28。
 - 结构化卡牌来自 `.research/catalogs/{hero,equipment,talent,effect}.json`；棋手来自 `.research/player-array-1.json` 的 20 条记录与 `.research/player-wufeng.json`，合计 21 人。
 - 输出保留 `historical_pending` 记录用于追溯，但“当前数”只统计 `versionStatus !== "historical_pending"` 的条目。`supplementary` 因不属于 `historical_pending`，按此口径计入当前数；因此分类当前数不一定等于原始 catalog 的 `currentCount`。
 - **S2、建木、太乙不得混入本数据集。** 后续赛季或未核验角色应单独存放、单独标注，不能借更新 S1 文件的方式加入，也不能用新赛季文本覆盖当前正式服记录。

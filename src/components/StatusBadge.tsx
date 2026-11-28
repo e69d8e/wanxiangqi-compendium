@@ -6,5 +6,9 @@ export function StatusBadge({ item }: { item: CatalogItem }) {
   const tone = item.versionStatus === 'historical_pending' || item.temporarilyOffShelf
     ? 'warning'
     : item.sourceUpdate ? 'revised' : 'current';
-  return <span className={`status-badge ${tone}`} title={statusHint(item)}>{status}</span>;
+  return (
+    <span className={`status-badge ${tone}`} title={statusHint(item)}>
+      {status}
+    </span>
+  );
 }

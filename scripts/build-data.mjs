@@ -15,10 +15,11 @@ const SOURCE_V1111 = { id: "18956191", date: "2026-11-19" };
 const PATCH_DESCRIPTION =
   "合成英雄时，获得1能量，每回合限3次。单回合内合成第4次时随机获得1张场上英雄的复制。";
 const PATCH_SOURCE = SOURCE_V1111;
-// v1.9.4（18943094）将乔汐秘技牌“潮汐的交响”由触发 3 次 / 额外 +5 改为 2 次 / 额外 +3。
+// v1.9.4（18943094）将乔汐秘技牌“潮汐的交响”由触发 3 次 / 额外 +5 改为 2 次 / 额外 +3；
+// 2026-11-28 核对官网原生图鉴（589094_oscard_new_16.js）补全末尾括号说明。
 const QIAOXI_TIDE_CARD_ID = 92210;
 const QIAOXI_TIDE_DESCRIPTION =
-  "场上随机英雄等级+5，触发2次，若对象为温柔呼唤的英雄则额外等级+3，每次使用后，触发次数+2。";
+  "场上随机英雄等级+5，触发2次，若对象为温柔呼唤的英雄则额外等级+3，每次使用后，触发次数+2（优先随机温柔呼唤的英雄）。";
 const QIAOXI_TIDE_SOURCE = SOURCE_V194;
 
 const CARD_OVERRIDES = [
@@ -304,7 +305,7 @@ async function writeJson(targetDir, filename, value) {
 
 const ITEM_CAVEATS = {
   "hero-sunbin":
-    "技能基础数值存在来源分歧：镜像图鉴写作“100+100% 法术攻击力”，多家第三方攻略写作“50+100% 法术攻击力（总伤害 90）”。本站按镜像数据展示并保留此提示，实战以端内技能说明为准。",
+    "2026-11-28 直接核对腾讯官网原生图鉴接口（589094_oscard_new_1.js）与镜像图鉴，均写作“100+100% 法术攻击力”；多家早期第三方攻略写作“50+100% 法术攻击力（总伤害 90）”。本站按官网图鉴展示，实战以端内技能说明为准。",
 };
 
 const catalogDefinitions = [
@@ -315,7 +316,7 @@ const catalogDefinitions = [
 ];
 
 const seasonsConfig = await readJson("seasons.config.json");
-const seasons = [...seasonsConfig.seasons].sort((a, b) => a.order - b.order);
+const seasons = seasonsConfig.seasons.toSorted((a, b) => a.order - b.order);
 if (!seasons.some((season) => season.id === seasonsConfig.defaultSeason)) {
   throw new Error(`默认赛季 ${seasonsConfig.defaultSeason} 不在 seasons 列表中`);
 }
